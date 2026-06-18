@@ -95,11 +95,10 @@ local function visible_matches(win, pattern)
     for _, segment in ipairs(searchable_segments(line)) do
       for _, char_index in ipairs(match_positions(segment.text, normalized)) do
         local start_byte = vim.str_byteindex(line, segment.start_index + char_index - 1)
-        local end_byte = math.max(start_byte, vim.str_byteindex(line, segment.end_index) - 1)
         matches[#matches + 1] = {
           win = win,
           pos = { lnum, start_byte },
-          end_pos = { lnum, end_byte },
+          end_pos = { lnum, start_byte },
         }
       end
     end

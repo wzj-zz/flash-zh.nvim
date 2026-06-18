@@ -28,7 +28,7 @@ return {
     keys = {
       {
         "gh",
-        mode = "n",
+        mode = { "n", "x" },
         function() require("flash_zh").jump() end,
         desc = "Flash Pinyin Jump",
       },
