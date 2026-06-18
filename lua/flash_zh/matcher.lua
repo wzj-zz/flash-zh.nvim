@@ -37,7 +37,6 @@ local function searchable_segments(line)
     elseif start_index then
       segments[#segments + 1] = {
         start_index = start_index,
-        end_index = index,
         text = vim.fn.strcharpart(line, start_index, index - start_index),
       }
       start_index = nil
@@ -47,7 +46,6 @@ local function searchable_segments(line)
   if start_index then
     segments[#segments + 1] = {
       start_index = start_index,
-      end_index = count,
       text = vim.fn.strcharpart(line, start_index, count - start_index),
     }
   end
@@ -110,13 +108,18 @@ end
 function M.opts(config)
   return {
     jump = { autojump = false },
+    highlight = { matches = false },
     labels = (config and config.labels) or "1234567890",
     search = {
       multi_window = false,
       mode = "exact",
       trigger = "",
     },
-    label = { uppercase = false },
+    label = {
+      uppercase = false,
+      before = { 0, 0 },
+      after = false,
+    },
     matcher = function(win, state)
       return visible_matches(win, state.pattern())
     end,

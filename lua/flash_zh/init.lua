@@ -22,17 +22,38 @@ end
 
 local function visual_action(anchor, mode, user_action)
   local jump = require "flash.jump"
+  local is_block = mode:sub(1, 1) == string.char(22)
 
   return function(match, state)
-    vim.api.nvim_set_current_win(match.win)
-    vim.api.nvim_win_set_cursor(match.win, { anchor[2], math.max(anchor[3] - 1, 0) })
-    enter_visual(mode)
+    vim.schedule(function()
+      vim.api.nvim_set_current_win(match.win)
 
-    if user_action then
-      return user_action(match, state)
-    end
+      local anchor_row = anchor[2]
+      local anchor_col = math.max(anchor[3] - 1, 0)
 
-    return jump.jump(match, state)
+      if user_action then
+        user_action(match, state)
+        return
+      end
+
+      jump.open_folds(match)
+
+      if is_block then
+        vim.api.nvim_win_set_cursor(match.win, { anchor_row, anchor_col })
+        enter_visual(mode)
+        vim.api.nvim_win_set_cursor(match.win, match.pos)
+      else
+        vim.api.nvim_buf_set_mark(0, "<", anchor_row, anchor_col, {})
+        vim.api.nvim_buf_set_mark(0, ">", match.pos[1], match.pos[2], {})
+        vim.api.nvim_win_set_cursor(match.win, { match.pos[1], match.pos[2] })
+        enter_visual(mode)
+        vim.cmd "normal! gv"
+      end
+
+      jump.on_jump(state)
+    end)
+
+    return match
   end
 end
 
