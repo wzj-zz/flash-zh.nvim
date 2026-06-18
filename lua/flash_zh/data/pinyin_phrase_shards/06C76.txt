@@ -1,0 +1,12 @@
+汶川	wenchuan,wc
+汶川大地震	wenchuandadizhen,wcddz
+汶川地震	wenchuandizhen,wcdz
+汶川县	wenchuanxian,wcx
+汶莱	wenlai,wl
+汶上	wenshang,ws
+汶上县	wenshangxian,wsx
+汶汶	men,m
+汶阳川	wenyangchuan,wyc
+汶阳田	wenyangtian,wyt
+汶阳田反	wenyangtianfan,wytf
+汶浊	menzhuo,mz

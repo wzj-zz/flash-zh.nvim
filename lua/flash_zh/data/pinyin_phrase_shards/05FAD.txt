@@ -1,0 +1,10 @@
+徭编	yaobian,yb
+徭差	yaocha,yc
+徭夫	yaofu,yf
+徭赋	yaofu,yf
+徭力	yaoli,yl
+徭人	yaoren,yr
+徭使	yaoshi,ys
+徭戍	yaoshu,ys
+徭税	yaoshui,ys
+徭役	yaoyi,yy

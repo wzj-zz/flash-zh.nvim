@@ -1,0 +1,4 @@
+醛固酮	quangutong,qgt
+醛基	quanji,qj
+醛类	quanlei,ql
+醛糖	quantang,qt

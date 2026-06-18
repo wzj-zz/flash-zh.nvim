@@ -1,0 +1,11 @@
+蝮虿	fuchai,fc
+蝮虫	fuchong,fc
+蝮毒	fudu,fd
+蝮虵	fushe,fs
+蝮蛇	fushe,fs
+蝮蛇螫手	fusheshishou,fsss
+蝮螫解腕	fushijiewan,fsjw
+蝮蜪	futao,ft
+蝮蝎	fuxie,fx
+蝮蜟	fuyu,fy
+蝮鸷	fuzhi,fz

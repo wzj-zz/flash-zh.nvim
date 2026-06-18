@@ -1,0 +1,17 @@
+牒桉	diean,da
+牒报	diebao,db
+牒呈	diecheng,dc
+牒牒	die,d
+牒牍	diedu,dd
+牒籍	dieji,dj
+牒举	dieju,dj
+牒目	diemu,dm
+牒辟	diepi,dp
+牒谱	diepu,dp
+牒启	dieqi,dq
+牒书	dieshu,ds
+牒诉	diesu,ds
+牒文	diewen,dw
+牒用	dieyong,dy
+牒云	dieyun,dy
+牒状	diezhuang,dz

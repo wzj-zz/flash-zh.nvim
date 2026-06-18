@@ -1,0 +1,4 @@
+茉莉	moli,ml
+茉莉花	molihua,mlh
+茉莉花茶	molihuacha,mlhc
+茉莉菊酯	molijuzhi,mljz

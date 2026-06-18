@@ -1,0 +1,8 @@
+笏板	huban,hb
+笏床	huchuang,hc
+笏带	hudai,hd
+笏架	hujia,hj
+笏囊	hunang,hn
+笏头	hutou,ht
+笏头带	hutoudai,htd
+笏头履	hutoulu,htl

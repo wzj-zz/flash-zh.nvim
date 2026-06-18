@@ -1,0 +1,11 @@
+捆绑	kunbang,kb
+捆儿	kuner,ke
+捆翻	kunfan,kf
+捆风	kunfeng,kf
+捆复	kunfu,kf
+捆缚	kunfu,kf
+捆内	kunnei,kn
+捆闼	kunta,kt
+捆心	kunxin,kx
+捆扎	kunza,kz
+捆住手脚	kunzhushoujiao,kzsj

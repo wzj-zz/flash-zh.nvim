@@ -1,0 +1,8 @@
+龋病	qubing,qb
+龋齿	quchi,qc
+龋齿笑	quchixiao,qcx
+龋齿性	quchixing,qcx
+龋洞	qudong,qd
+龋蠹	qudu,qd
+龋挛	quluan,ql
+龋痛	qutong,qt

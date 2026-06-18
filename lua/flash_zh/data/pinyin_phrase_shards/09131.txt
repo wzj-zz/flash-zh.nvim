@@ -1,0 +1,6 @@
+鄱桂	pogui,pg
+鄱湖	pohu,ph
+鄱阳	poyang,py
+鄱阳白	poyangbai,pyb
+鄱阳湖	poyanghu,pyh
+鄱阳县	poyangxian,pyx

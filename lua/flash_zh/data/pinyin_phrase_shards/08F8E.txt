@@ -1,0 +1,12 @@
+辎车	ziche,zc
+辎乘	zicheng,zc
+辎驾	zijia,zj
+辎囊	zinang,zn
+辎辇	zinian,zn
+辎軿	ziping,zp
+辎軿车	zipengche,zpc
+辎骑	ziqi,zq
+辎械	zixie,zx
+辎重	zizhong,zz
+辎铢	zizhu,zz
+辎装	zizhuang,zz

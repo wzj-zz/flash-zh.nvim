@@ -1,0 +1,4 @@
+溧水	lishui,ls
+溧水县	lishuixian,lsx
+溧阳	liyang,ly
+溧阳市	liyangshi,lys

@@ -1,0 +1,5 @@
+馅饼	xianbing,xb
+馅草	xiancao,xc
+馅儿	xianer,xe
+馅儿饼	xianerbing,xeb
+馅子	xianzi,xz

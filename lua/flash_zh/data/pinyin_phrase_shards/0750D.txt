@@ -1,0 +1,4 @@
+甍标	mengbiao,mb
+甍栋	mengdong,md
+甍甍	meng,m
+甍宇	mengyu,my

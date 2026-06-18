@@ -1,0 +1,16 @@
+谜打	mida,md
+谜灯	mideng,md
+谜底	midi,md
+谜儿	meier,me
+谜氛	mifen,mf
+谜面	mimian,mm
+谜题	miti,mt
+谜头	mitou,mt
+谜团	mituan,mt
+谜言谜语	miyanyu,myy
+谜样	miyang,my
+谜一般地	miyibande,mybd
+谜一样	miyiyang,myy
+谜语	miyu,my
+谜子	mizi,mz
+谜字	mizi,mz

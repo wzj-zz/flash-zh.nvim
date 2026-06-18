@@ -1,0 +1,10 @@
+桶底脱	tongdituo,tdt
+桶勾子	tonggouzi,tgz
+桶孔	tongkong,tk
+桶口	tongkou,tk
+桶盘	tongpan,tp
+桶裙	tongqun,tq
+桶檧	tongsong,ts
+桶子	tongzi,tz
+桶子花	tongzihua,tzh
+桶子帽	tongzimao,tzm

@@ -1,0 +1,10 @@
+趟地	tangdi,td
+趟浑水	tanghunshui,ths
+趟将	tangjiang,tj
+趟趭	tangjiao,tj
+趟马	tangma,tm
+趟水	tangshui,ts
+趟土马	tangtuma,ttm
+趟土牛	tangtuniu,ttn
+趟主	tangzhu,tz
+趟子	tangzi,tz

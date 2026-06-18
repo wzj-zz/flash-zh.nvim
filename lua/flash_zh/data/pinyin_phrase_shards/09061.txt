@@ -1,0 +1,10 @@
+遡波	subo,sb
+遡风	sufeng,sf
+遡回	suhui,sh
+遡洄	suhui,sh
+遡流	suliu,sl
+遡流徂源	suliucuyuan,slcy
+遡流穷源	suliuqiongyuan,slqy
+遡流求源	suliuqiuyuan,slqy
+遡游	suyou,sy
+遡源穷流	suyuanqiongliu,syql

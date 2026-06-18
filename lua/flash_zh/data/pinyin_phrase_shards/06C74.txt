@@ -1,0 +1,4 @@
+汴宫	biangong,bg
+汴京	bianjing,bj
+汴梁	bianliang,bl
+汴州	bianzhou,bz

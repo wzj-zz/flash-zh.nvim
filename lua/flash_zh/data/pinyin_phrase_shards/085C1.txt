@@ -1,0 +1,5 @@
+藁本	gaoben,gb
+藁草	gaocao,gc
+藁城	gaocheng,gc
+藁城区	gaochengqu,gcq
+藁城市	gaochengshi,gcs

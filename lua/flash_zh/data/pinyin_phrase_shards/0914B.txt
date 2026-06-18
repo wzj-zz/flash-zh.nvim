@@ -1,0 +1,17 @@
+酋党	qiudang,qd
+酋耳	qiuer,qe
+酋豪	qiuhao,qh
+酋健	qiujian,qj
+酋魁	qiukui,qk
+酋腊	qiula,ql
+酋领	qiuling,ql
+酋矛	qiumao,qm
+酋酋	qiu,q
+酋渠	qiuqu,qq
+酋首	qiushou,qs
+酋帅	qiushuai,qs
+酋望	qiuwang,qw
+酋醳	qiuyi,qy
+酋长	qiuzhang,qz
+酋长国	qiuzhangguo,qzg
+酋种	qiuzhong,qz

@@ -1,0 +1,5 @@
+糙粮	caoliang,cl
+糙米	caomi,cm
+糙面内质网	caomianneizhiwang,cmnzw
+糙皮病	caopibing,cpb
+糙漆	caoqi,cq

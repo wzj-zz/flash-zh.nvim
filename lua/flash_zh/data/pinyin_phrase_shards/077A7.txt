@@ -1,0 +1,12 @@
+瞧白	qiaobai,qb
+瞧扁	qiaobian,qb
+瞧病	qiaobing,qb
+瞧不起	qiaobuqi,qbq
+瞧不起地	qiaobuqide,qbqd
+瞧得起	qiaodeqi,qdq
+瞧见	qiaojian,qj
+瞧看	qiaokan,qk
+瞧科	qiaoke,qk
+瞧破	qiaopo,qp
+瞧香的	qiaoxiangde,qxd
+瞧着办	qiaozheban,qzb

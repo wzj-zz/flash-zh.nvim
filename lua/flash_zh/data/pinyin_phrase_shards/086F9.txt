@@ -1,0 +1,4 @@
+蛹化	yonghua,yh
+蛹壳	yongke,yk
+蛹期	yongqi,yq
+蛹卧	yongwo,yw

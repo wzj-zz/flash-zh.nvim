@@ -1,0 +1,17 @@
+蹬鼻子上脸	dengbizishanglian,dbzsl
+蹬蹭	dengceng,dc
+蹬跶	dengda,dd
+蹬弹	dengdan,dd
+蹬道	dengdao,dd
+蹬地	dengde,dd
+蹬技	dengji,dj
+蹬脚	dengjiao,dj
+蹬空	dengkong,dk
+蹬踏	dengta,dt
+蹬梯	dengti,dt
+蹬腿	dengtui,dt
+蹬脱	dengtuo,dt
+蹬心拳	dengxinquan,dxq
+蹬心拳头	dengxinquantou,dxqt
+蹬子	dengzi,dz
+蹬足	dengzu,dz

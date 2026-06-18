@@ -1,0 +1,13 @@
+娉币	pingbi,pb
+娉财	pingcai,pc
+娉会	pinghui,ph
+娉姈	pingling,pl
+娉命	pingming,pm
+娉纳	pingna,pn
+娉内	pingnei,pn
+娉娉	ping,p
+娉娉袅袅	pingniao,pn
+娉娉褭褭	pingniao,pn
+娉婷	pingting,pt
+娉婷婀娜	pingtingenuo,pten
+娉婷袅娜	pingtingniaonuo,ptnn

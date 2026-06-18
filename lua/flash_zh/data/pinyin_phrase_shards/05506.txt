@@ -1,0 +1,16 @@
+唆摆	suobai,sb
+唆拨	suobo,sb
+唆调	suodiao,sd
+唆毒	suodu,sd
+唆犯	suofan,sf
+唆哄	suohong,sh
+唆激	suoji,sj
+唆教	suojiao,sj
+唆令	suoling,sl
+唆弄	suonong,sn
+唆使	suoshi,ss
+唆说	suoshuo,ss
+唆讼	suosong,ss
+唆诱	suoyou,sy
+唆诈	suozha,sz
+唆嘴	suozui,sz

@@ -1,0 +1,8 @@
+酵解作用	jiaojiezuoyong,jjzy
+酵母	jiaomu,jm
+酵母醇	jiaomuchun,jmc
+酵母菌	jiaomujun,jmj
+酵素	jiaosu,js
+酵头	jiaotou,jt
+酵粥	jiaozhou,jz
+酵子	jiaozi,jz

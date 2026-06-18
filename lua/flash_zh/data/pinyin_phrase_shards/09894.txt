@@ -1,0 +1,13 @@
+颔车	hanche,hc
+颔词	hanci,hc
+颔颏	hanke,hk
+颔联	hanlian,hl
+颔命	hanming,hm
+颔首	hanshou,hs
+颔首微笑	hanshouweixiao,hswx
+颔首之交	hanshouzhijiao,hszj
+颔头	hantou,ht
+颔下	hanxia,hx
+颔下腺	hanxiaxian,hxx
+颔雪	hanxue,hx
+颔颐	hanyi,hy

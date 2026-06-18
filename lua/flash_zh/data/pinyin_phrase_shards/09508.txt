@@ -1,0 +1,17 @@
+锈斑	xiuban,xb
+锈病	xiubing,xb
+锈彩	xiucai,xc
+锈额斑翅鹛	xiuebanchimei,xebcm
+锈腹短翅鸫	xiufuduanchidong,xfdcd
+锈红腹旋木雀	xiuhongfuxuanmuque,xhfxmq
+锈迹	xiuji,xj
+锈菌	xiujun,xj
+锈脸钩嘴鹛	xiuliangouzuimei,xlgzm
+锈然	xiuran,xr
+锈涩	xiuse,xs
+锈澁	xiuse,xs
+锈蚀	xiushi,xs
+锈蚀地	xiushide,xsd
+锈水	xiushui,xs
+锈铁	xiutie,xt
+锈胸蓝姬鹟	xiuxionglanjiweng,xxljw

@@ -1,0 +1,4 @@
+楷模	kaimo,km
+楷书	kaishu,ks
+楷体	kaiti,kt
+楷字	kaizi,kz

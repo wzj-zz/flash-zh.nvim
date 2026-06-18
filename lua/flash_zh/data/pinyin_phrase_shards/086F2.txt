@@ -1,0 +1,5 @@
+蛲虫	naochong,nc
+蛲虫病	naochongbing,ncb
+蛲动	naodong,nd
+蛲蛔	naohui,nh
+蛲瘕	naojia,nj

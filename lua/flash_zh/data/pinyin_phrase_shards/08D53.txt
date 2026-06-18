@@ -1,0 +1,15 @@
+赓本	gengben,gb
+赓唱	gengchang,gc
+赓酬	gengchou,gc
+赓歌	gengge,gg
+赓和	genghe,gh
+赓即	gengji,gj
+赓诗	gengshi,gs
+赓响	gengxiang,gx
+赓续	gengxu,gx
+赓衍	gengyan,gy
+赓扬	gengyang,gy
+赓飏	gengyang,gy
+赓咏	gengyong,gy
+赓韵	gengyun,gy
+赓载	gengzai,gz

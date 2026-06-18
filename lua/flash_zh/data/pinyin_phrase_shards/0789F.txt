@@ -1,0 +1,4 @@
+碟片	diepian,dp
+碟仙	diexian,dx
+碟酌	diezhuo,dz
+碟子	diezi,dz

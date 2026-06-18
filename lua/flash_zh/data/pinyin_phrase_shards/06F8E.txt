@@ -1,0 +1,6 @@
+澎湖	penghu,ph
+澎湖岛	penghudao,phd
+澎湖列岛	penghuliedao,phld
+澎湖群岛	penghuqundao,phqd
+澎湖县	penghuxian,phx
+澎湃	pengpai,pp

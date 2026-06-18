@@ -1,0 +1,2 @@
+孢子	baozi,bz
+孢子植物	baozizhiwu,bzzw

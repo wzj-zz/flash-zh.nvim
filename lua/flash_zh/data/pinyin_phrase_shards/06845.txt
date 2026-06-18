@@ -1,0 +1,8 @@
+桅灯	weideng,wd
+桅顶	weiding,wd
+桅杆	weigan,wg
+桅竿	weigan,wg
+桅楼	weilou,wl
+桅木	weimu,wm
+桅樯	weiqiang,wq
+桅索	weisuo,ws

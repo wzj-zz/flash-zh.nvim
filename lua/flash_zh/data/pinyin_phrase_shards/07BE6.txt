@@ -1,0 +1,10 @@
+篦刀	bidao,bd
+篦箕	biji,bj
+篦篱	bili,bl
+篦帘	bilian,bl
+篦簵	bilu,bl
+篦梳	bishu,bs
+篦头	bitou,bt
+篦头待诏	bitoudaizhao,btdz
+篦头铺	bitoupu,btp
+篦子	bizi,bz

@@ -1,0 +1,14 @@
+饲槽	sicao,sc
+饲草	sicao,sc
+饲料	siliao,sl
+饲料地	siliaode,sld
+饲秣	simo,sm
+饲雀	sique,sq
+饲食	sishi,ss
+饲喂	siwei,sw
+饲养	siyang,sy
+饲养场	siyangchang,syc
+饲养业	siyangye,syy
+饲养员	siyangyuan,syy
+饲养者	siyangzhe,syz
+饲育	siyu,sy

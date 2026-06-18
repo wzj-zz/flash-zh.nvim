@@ -1,0 +1,13 @@
+薪酬	xinchou,xc
+薪传	xinchuan,xc
+薪俸	xinfeng,xf
+薪给	xingei,xg
+薪桂米珠	xinguimizhu,xgmz
+薪火相传	xinhuoxiangchuan,xhxc
+薪金	xinjin,xj
+薪尽火传	xinjinhuochuan,xjhc
+薪尽火灭	xinjinhuomie,xjhm
+薪水	xinshui,xs
+薪炭林	xintanlin,xtl
+薪饷	xinxiang,xx
+薪资	xinzi,xz

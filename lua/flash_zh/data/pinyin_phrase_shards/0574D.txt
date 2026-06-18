@@ -1,0 +1,7 @@
+坍方	tanfang,tf
+坍江	tanjiang,tj
+坍圮	tanpi,tp
+坍缩星	tansuoxing,tsx
+坍塌	tanta,tt
+坍台	tantai,tt
+坍陷	tanxian,tx

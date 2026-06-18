@@ -1,0 +1,5 @@
+噬菌体	shijunti,sjt
+噬脐何及	shiqiheji,sqhj
+噬脐莫及	shiqimoji,sqmj
+噬脐无及	shiqiwuji,sqwj
+噬咬	shiyao,sy

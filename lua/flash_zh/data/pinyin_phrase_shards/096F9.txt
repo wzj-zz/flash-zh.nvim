@@ -1,0 +1,12 @@
+雹暴	bao,b
+雹布	baobu,bb
+雹车	baoche,bc
+雹块	baokuai,bk
+雹散	baosan,bs
+雹神	baoshen,bs
+雹凸	baotu,bt
+雹突	baotu,bt
+雹葖	baotu,bt
+雹霰	baoxian,bx
+雹灾	baozai,bz
+雹子	baozi,bz

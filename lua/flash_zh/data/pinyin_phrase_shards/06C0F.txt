@@ -1,0 +1,7 @@
+氏号	shihao,sh
+氏谱	shipu,sp
+氏姓	shixing,sx
+氏胄	shizhou,sz
+氏族	shizu,sz
+氏族地	shizude,szd
+氏族志	shizuzhi,szz

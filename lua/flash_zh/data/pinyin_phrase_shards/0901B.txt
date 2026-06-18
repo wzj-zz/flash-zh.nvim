@@ -1,0 +1,16 @@
+逛膀子	guangbangzi,gbz
+逛厂	guangchang,gc
+逛荡	guangdang,gd
+逛道儿	guangdaoer,gde
+逛灯	guangdeng,gd
+逛逛	guang,g
+逛会	guanghui,gh
+逛街	guangjie,gj
+逛景	guangjing,gj
+逛来逛去	guanglaiqu,glq
+逛庙	guangmiao,gm
+逛青	guangqing,gq
+逛窑子	guangyaozi,gyz
+逛逸	guangyi,gy
+逛悠	guangyou,gy
+逛游	guangyou,gy

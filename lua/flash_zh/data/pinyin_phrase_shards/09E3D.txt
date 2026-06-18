@@ -1,0 +1,8 @@
+鸽房	gefang,gf
+鸽竿	gegan,gg
+鸽笼	gelong,gl
+鸽派	gepai,gp
+鸽哨	geshao,gs
+鸽炭	getan,gt
+鸽子	gezi,gz
+鸽子笼	gezilong,gzl

@@ -1,0 +1,5 @@
+樵村渔浦	qiaocunyupu,qcyp
+樵夫	qiaofu,qf
+樵苏不爨	qiaosubucuan,qsbc
+樵苏失爨	qiaosushicuan,qssc
+樵子	qiaozi,qz

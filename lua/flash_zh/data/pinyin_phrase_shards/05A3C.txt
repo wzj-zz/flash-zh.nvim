@@ -1,0 +1,10 @@
+娼夫	changfu,cf
+娼妇	changfu,cf
+娼根	changgen,cg
+娼馆	changguan,cg
+娼妓	changji,cj
+娼家	changjia,cj
+娼寮	changliao,cl
+娼楼	changlou,cl
+娼女	changnu,cn
+娼优	changyou,cy

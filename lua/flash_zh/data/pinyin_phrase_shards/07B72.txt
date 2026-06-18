@@ -1,0 +1,7 @@
+筲袋	shaodai,sd
+筲斗	shaodou,sd
+筲箍	shaogu,sg
+筲箕	shaoji,sj
+筲箩	shaoluo,sl
+筲桶	shaotong,st
+筲子	shaozi,sz

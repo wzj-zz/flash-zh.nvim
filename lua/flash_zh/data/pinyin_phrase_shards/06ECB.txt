@@ -1,0 +1,16 @@
+滋补	zibu,zb
+滋补品	zibupin,zbp
+滋贺	zihe,zh
+滋贺县	zihexian,zhx
+滋蔓	ziman,zm
+滋蔓难图	zimannantu,zmnt
+滋扰	zirao,zr
+滋润	zirun,zr
+滋生	zisheng,zs
+滋事	zishi,zs
+滋味	ziwei,zw
+滋芽	ziya,zy
+滋养	ziyang,zy
+滋养层	ziyangceng,zyc
+滋阴	ziyin,zy
+滋长	zizhang,zz

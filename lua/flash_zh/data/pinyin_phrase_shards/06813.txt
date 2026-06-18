@@ -1,0 +1,5 @@
+栓剂	shuanji,sj
+栓皮	shuanpi,sp
+栓皮栎	shuanpili,spl
+栓塞	shuanse,ss
+栓子	shuanzi,sz

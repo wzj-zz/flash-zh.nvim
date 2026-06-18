@@ -1,0 +1,16 @@
+券给	quangei,qg
+券剂	quanji,qj
+券马	quanma,qm
+券门	xuanmen,xm
+券内	quannei,qn
+券契	quanqi,qq
+券商	quanshang,qs
+券食	quanshi,qs
+券书	quanshu,qs
+券台	quantai,qt
+券帖	quantie,qt
+券外	quanwai,qw
+券要	quanyao,qy
+券约	quanyue,qy
+券证	quanzheng,qz
+券直	quanzhi,qz

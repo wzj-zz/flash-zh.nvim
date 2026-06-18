@@ -1,0 +1,4 @@
+褥疮	ruchuang,rc
+褥单	rudan,rd
+褥套	rutao,rt
+褥子	ruzi,rz

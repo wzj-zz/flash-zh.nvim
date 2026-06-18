@@ -1,0 +1,4 @@
+姥姥	lao,l
+姥娘	laoniang,ln
+姥鲨	laosha,ls
+姥爷	laoye,ly

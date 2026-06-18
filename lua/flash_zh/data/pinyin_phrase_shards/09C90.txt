@@ -1,0 +1,9 @@
+鲐背	taibei,tb
+鲐腹	taifu,tf
+鲐黄	taihuang,th
+鲐皮	taipi,tp
+鲐叟	taisou,ts
+鲐文	taiwen,tw
+鲐颜	taiyan,ty
+鲐鯣鱼	taiyiyu,tyy
+鲐稚	taizhi,tz

@@ -1,0 +1,3 @@
+阀门	famen,fm
+阀芯	faxin,fx
+阀阅	fayue,fy

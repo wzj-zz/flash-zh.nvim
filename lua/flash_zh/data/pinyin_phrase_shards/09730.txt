@@ -1,0 +1,6 @@
+霰弹	xiandan,xd
+霰弹枪	xiandanqiang,xdq
+霰彈槍	xiandanqiang,xdq
+霰粒肿	xianlizhong,xlz
+霰雪	xianxue,xx
+霰子	xianzi,xz

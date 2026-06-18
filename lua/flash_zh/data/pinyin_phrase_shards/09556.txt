@@ -1,0 +1,7 @@
+镖局	biaoju,bj
+镖客	biaoke,bk
+镖枪	biaoqiang,bq
+镖师	biaoshi,bs
+镖司务	biaosiwu,bsw
+镖头	biaotou,bt
+镖行	biaoxing,bx

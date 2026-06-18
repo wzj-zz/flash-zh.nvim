@@ -1,0 +1,10 @@
+柠檬	ningmeng,nm
+柠檬草	ningmengcao,nmc
+柠檬茶	ningmengcha,nmc
+柠檬鸡	ningmengji,nmj
+柠檬片	ningmengpian,nmp
+柠檬水	ningmengshui,nms
+柠檬酸	ningmengsuan,nms
+柠檬酸循环	ningmengsuanxunhuan,nmsxh
+柠檬汁	ningmengzhi,nmz
+柠条	ningtiao,nt

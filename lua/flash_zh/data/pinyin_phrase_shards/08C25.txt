@@ -1,0 +1,13 @@
+谥宝	shibao,sb
+谥寳	shibao,sb
+谥碑	shibei,sb
+谥笔	shibi,sb
+谥册	shice,sc
+谥策	shice,sc
+谥典	shidian,sd
+谥法	shifa,sf
+谥告	shigao,sg
+谥号	shihao,sh
+谥名	shiming,sm
+谥谱	shipu,sp
+谥议	shiyi,sy

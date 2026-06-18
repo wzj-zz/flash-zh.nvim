@@ -1,0 +1,8 @@
+晌饭	shangfan,sf
+晌觉	shangjue,sj
+晌晴	shangqing,sq
+晌睡	shangshui,ss
+晌午	shangwu,sw
+晌午大错	shangwudacuo,swdc
+晌午饭	shangwufan,swf
+晌午歪	shangwuwai,sww

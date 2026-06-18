@@ -1,0 +1,11 @@
+酴酒	tujiu,tj
+酴縻酒	tumijiu,tmj
+酴醾	tumi,tm
+酴醾酒	tumijiu,tmj
+酴醿	tumi,tm
+酴醿酒	tumijiu,tmj
+酴釄	tumi,tm
+酴米	tumi,tm
+酴清	tuqing,tq
+酴苏	tusu,ts
+酴酥	tusu,ts

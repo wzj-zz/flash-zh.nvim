@@ -1,0 +1,14 @@
+龈病	yinbing,yb
+龈擦音	yinca,yc
+龈齿弹舌	yinchidanshe,ycds
+龈腭	yine,ye
+龈腭音	yine,ye
+龈颚音	yine,ye
+龈辅音	yinfu,yf
+龈割	yinge,yg
+龈脓肿	yinnongzhong,ynz
+龈炎	yinyan,yy
+龈齴	yinyan,yy
+龈音	yin,y
+龈龈	yin,y
+龈龈计较	yinjijiao,yjj

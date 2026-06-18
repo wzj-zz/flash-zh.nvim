@@ -1,0 +1,5 @@
+榫头	suntou,st
+榫销	sunxiao,sx
+榫眼	sunyan,sy
+榫凿	sunzao,sz
+榫子	sunzi,sz

@@ -1,0 +1,4 @@
+潼关	tongguan,tg
+潼关县	tongguanxian,tgx
+潼南	tongnan,tn
+潼南县	tongnanxian,tnx

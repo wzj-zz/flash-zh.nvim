@@ -1,0 +1,8 @@
+钥钩	yuegou,yg
+钥口	yuekou,yk
+钥牡	yuemu,ym
+钥匙	yaoshi,ys
+钥匙洞孔	yaoshidongkong,ysdk
+钥匙夹套	yaoshijiatao,ysjt
+钥匙卡	yaoshika,ysk
+钥匙链	yaoshilian,ysl

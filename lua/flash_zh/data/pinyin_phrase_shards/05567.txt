@@ -1,0 +1,10 @@
+啧巴	zeba,zb
+啧口	zekou,zk
+啧声	zesheng,zs
+啧室	zeshi,zs
+啧言	zeyan,zy
+啧有烦言	zeyoufanyan,zyfy
+啧啧	ze,z
+啧啧称奇	zechengqi,zcq
+啧啧称羡	zechengxian,zcx
+啧啧称赞	zechengzan,zcz

@@ -1,0 +1,4 @@
+迾宫	liegong,lg
+迾禁	liejin,lj
+迾置	liezhi,lz
+迾卒	liezu,lz

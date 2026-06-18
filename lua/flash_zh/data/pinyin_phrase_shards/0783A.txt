@@ -1,0 +1,13 @@
+砺兵	libing,lb
+砺齿	lichi,lc
+砺淬	licui,lc
+砺带	lidai,ld
+砺带河山	lidaiheshan,ldhs
+砺砥	lidi,ld
+砺戈秣马	ligemoma,lgmm
+砺山带河	lishandaihe,lsdh
+砺石	lishi,ls
+砺世摩钝	lishimodun,lsmd
+砺世磨钝	lishimodun,lsmd
+砺岳盟河	liyuemenghe,lymh
+砺志	lizhi,lz

@@ -1,0 +1,5 @@
+軄方	zhifang,zf
+軄贡	zhigong,zg
+軄守	zhishou,zs
+軄司	zhisi,zs
+軄位	zhiwei,zw

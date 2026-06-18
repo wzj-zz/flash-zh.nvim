@@ -1,0 +1,17 @@
+裤衩	kucha,kc
+裤带	kudai,kd
+裤裆	kudang,kd
+裤兜	kudou,kd
+裤缝	kufeng,kf
+裤管	kuguan,kg
+裤脚	kujiao,kj
+裤口	kukou,kk
+裤裙	kuqun,kq
+裤头	kutou,kt
+裤腿	kutui,kt
+裤袜	kuwa,kw
+裤线	kuxian,kx
+裤腰	kuyao,ky
+裤腰带	kuyaodai,kyd
+裤装	kuzhuang,kz
+裤子	kuzi,kz

@@ -1,0 +1,13 @@
+霆策	tingce,tc
+霆船	tingchuan,tc
+霆电	tingdian,td
+霆奋	tingfen,tf
+霆骇	tinghai,th
+霆击	tingji,tj
+霆激	tingji,tj
+霆雷	tinglei,tl
+霆乱	tingluan,tl
+霆霓	tingni,tn
+霆威	tingwei,tw
+霆曦	tingxi,tx
+霆震	tingzhen,tz

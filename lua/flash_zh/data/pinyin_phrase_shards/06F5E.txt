@@ -1,0 +1,4 @@
+潞城	lucheng,lc
+潞城市	luchengshi,lcs
+潞西	luxi,lx
+潞西市	luxishi,lxs

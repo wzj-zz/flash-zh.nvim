@@ -1,0 +1,17 @@
+伞兵	sanbing,sb
+伞盖	sangai,sg
+伞簳	sangan,sg
+伞骨	sangu,sg
+伞降	sanjiang,sj
+伞菌	sanjun,sj
+伞橑	sanlao,sl
+伞扇	sanshan,ss
+伞头	santou,st
+伞幄	sanwo,sw
+伞下	sanxia,sx
+伞形	sanxing,sx
+伞形花序	sanxinghuaxu,sxhx
+伞形科	sanxingke,sxk
+伞檐	sanyan,sy
+伞子	sanzi,sz
+伞子盐	sanziyan,szy

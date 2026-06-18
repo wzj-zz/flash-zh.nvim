@@ -1,0 +1,14 @@
+摛笔	chibi,cb
+摛布	chibu,cb
+摛词	chici,cc
+摛辞	chici,cc
+摛光	chiguang,cg
+摛翰	chihan,ch
+摛毫	chihao,ch
+摛华	chihua,ch
+摛锦	chijin,cj
+摛文	chiwen,cw
+摛艳	chiyan,cy
+摛掞	chiyan,cy
+摛藻	chizao,cz
+摛章	chizhang,cz

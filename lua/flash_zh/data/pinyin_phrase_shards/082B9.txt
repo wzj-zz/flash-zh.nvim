@@ -1,0 +1,12 @@
+芹菜	qincai,qc
+芹诚	qincheng,qc
+芹宫	qingong,qg
+芹馆	qinguan,qg
+芹敬	qinjing,qj
+芹茆	qinmao,qm
+芹泥	qinni,qn
+芹曝	qinpu,qp
+芹舍	qinshe,qs
+芹献	qinxian,qx
+芹意	qinyi,qy
+芹藻	qinzao,qz

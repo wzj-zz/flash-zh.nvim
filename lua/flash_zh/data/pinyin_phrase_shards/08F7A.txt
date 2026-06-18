@@ -1,0 +1,10 @@
+轺车	yaoche,yc
+轺传	yaochuan,yc
+轺毂	yaogu,yg
+轺驾	yaojia,yj
+轺辂	yaolu,yl
+轺轮	yaolun,yl
+轺马	yaoma,ym
+轺辇	yaonian,yn
+轺旆	yaopei,yp
+轺轩	yaoxuan,yx

@@ -1,0 +1,4 @@
+焗饭	jufan,jf
+焗烤	jukao,jk
+焗油	juyou,jy
+焗油机	juyouji,jyj

@@ -1,0 +1,3 @@
+蘑菇	mogu,mg
+蘑菇汤	mogutang,mgt
+蘑菇云	moguyun,mgy

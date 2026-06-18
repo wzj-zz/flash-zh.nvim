@@ -1,0 +1,8 @@
+甥馆	shengguan,sg
+甥舅	shengjiu,sj
+甥女	shengnu,sn
+甥孙	shengsun,ss
+甥徒	shengtu,st
+甥壻	shengxu,sx
+甥侄	shengzhi,sz
+甥妷	shengzhi,sz

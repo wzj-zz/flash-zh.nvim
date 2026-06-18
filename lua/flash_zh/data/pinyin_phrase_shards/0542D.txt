@@ -1,0 +1,15 @@
+吭嗌	hangai,ha
+吭吃	kengchi,kc
+吭哧	kengchi,kc
+吭嗤	kengchi,kc
+吭唧	kengji,kj
+吭吭	keng,k
+吭吭吃吃	kengchi,kc
+吭啷	kenglang,kl
+吭气	kengqi,kq
+吭嗓	kengsang,ks
+吭声	kengsheng,ks
+吭首	hangshou,hs
+吭咽	hangyan,hy
+吭臆	kengyi,ky
+吭唷	kengyo,ky

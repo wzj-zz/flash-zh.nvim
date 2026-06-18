@@ -1,0 +1,5 @@
+钨钢	wugang,wg
+钨砂	wusha,ws
+钨丝	wusi,ws
+钨丝灯	wusideng,wsd
+钨錥	wuyu,wy

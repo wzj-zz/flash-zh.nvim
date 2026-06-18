@@ -1,0 +1,9 @@
+奁币	lianbi,lb
+奁房	lianfang,lf
+奁具	lianju,lj
+奁体	lianti,lt
+奁田	liantian,lt
+奁匣	lianxia,lx
+奁箱	lianxiang,lx
+奁赠	lianzeng,lz
+奁资	lianzi,lz

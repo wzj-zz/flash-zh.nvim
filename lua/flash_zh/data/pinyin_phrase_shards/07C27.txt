@@ -1,0 +1,12 @@
+簧风琴	huangfengqin,hfq
+簧蛊	huanggu,hg
+簧鼓	huanggu,hg
+簧管	huangguan,hg
+簧惑	huanghuo,hh
+簧口	huangkou,hk
+簧口利舌	huangkoulishe,hkls
+簧片	huangpian,hp
+簧舌	huangshe,hs
+簧言	huangyan,hy
+簧诱	huangyou,hy
+簧谮	huangzen,hz

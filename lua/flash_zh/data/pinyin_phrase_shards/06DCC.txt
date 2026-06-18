@@ -1,0 +1,11 @@
+淌白	tangbai,tb
+淌板船	tangbanchuan,tbc
+淌汗	tanghan,th
+淌口水	tangkoushui,tks
+淌泪	tanglei,tl
+淌牌	tangpai,tp
+淌下	tangxia,tx
+淌湘	tangxiang,tx
+淌眼泪	tangyanlei,tyl
+淌眼抹泪	tangyanmolei,tyml
+淌游	tangyou,ty

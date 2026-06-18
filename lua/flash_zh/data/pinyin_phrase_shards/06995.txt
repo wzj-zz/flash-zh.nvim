@@ -1,0 +1,4 @@
+榕城区	rongchengqu,rcq
+榕江	rongjiang,rj
+榕江县	rongjiangxian,rjx
+榕树	rongshu,rs

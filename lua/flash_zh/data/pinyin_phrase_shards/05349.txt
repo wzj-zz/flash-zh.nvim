@@ -1,0 +1,15 @@
+卉布	huibu,hb
+卉服	huifu,hf
+卉汩	huigu,hg
+卉醴	huili,hl
+卉汨	huimi,hm
+卉木	huimu,hm
+卉裘	huiqiu,hq
+卉犬	huiquan,hq
+卉裳	huichang,hc
+卉歙	huixi,hx
+卉炜	huiwei,hw
+卉物	huiwu,hw
+卉翕	huixi,hx
+卉衣	huiyi,hy
+卉茵	huiyin,hy

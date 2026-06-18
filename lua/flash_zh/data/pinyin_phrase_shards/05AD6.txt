@@ -1,0 +1,8 @@
+嫖娼	piaochang,pc
+嫖赌	piaodu,pd
+嫖妓	piaoji,pj
+嫖经	piaojing,pj
+嫖客	piaoke,pk
+嫖宿	piaosu,ps
+嫖姚	piaoyao,py
+嫖资	piaozi,pz

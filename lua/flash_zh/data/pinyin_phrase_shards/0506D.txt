@@ -1,0 +1,5 @@
+偭背	mianbei,mb
+偭规	miangui,mg
+偭规错矩	mianguicuoju,mgcj
+偭规越矩	mianguiyueju,mgyj
+偭越	mianyue,my

@@ -1,0 +1,5 @@
+鞣革	rouge,rg
+鞣料	rouliao,rl
+鞣酸	rousuan,rs
+鞣制	rouzhi,rz
+鞣质	rouzhi,rz

@@ -1,0 +1,10 @@
+椭圜	tuohuan,th
+椭球	tuoqiu,tq
+椭圆	tuoyuan,ty
+椭圆函数	tuoyuanhanshu,tyhs
+椭圆机	tuoyuanji,tyj
+椭圆积分	tuoyuanjifen,tyjf
+椭圆曲线	tuoyuanquxian,tyqx
+椭圆形	tuoyuanxing,tyx
+椭圆形办公室	tuoyuanxingbangongshi,tyxbgs
+椭圆形地	tuoyuanxingde,tyxd

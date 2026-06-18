@@ -1,0 +1,8 @@
+撰稿	zhuangao,zg
+撰稿人	zhuangaoren,zgr
+撰录	zhuanlu,zl
+撰拟	zhuanni,zn
+撰述	zhuanshu,zs
+撰文	zhuanwen,zw
+撰写	zhuanxie,zx
+撰著	zhuanzhu,zz

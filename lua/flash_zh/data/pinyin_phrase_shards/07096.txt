@@ -1,0 +1,5 @@
+炖饭	dunfan,df
+炖锅	dunguo,dg
+炖煌	dunhuang,dh
+炖牛肉	dunniurou,dnr
+炖肉	dunrou,dr

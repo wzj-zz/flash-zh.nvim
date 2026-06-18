@@ -1,0 +1,17 @@
+烫斗	tangdou,td
+烫发	tangfa,tf
+烫花	tanghua,th
+烫剪	tangjian,tj
+烫金	tangjin,tj
+烫面	tangmian,tm
+烫平	tangping,tp
+烫热	tangre,tr
+烫伤	tangshang,ts
+烫手	tangshou,ts
+烫手山芋	tangshoushanyu,tssy
+烫头	tangtou,tt
+烫头发	tangtoufa,ttf
+烫洗	tangxi,tx
+烫衣	tangyi,ty
+烫衣板	tangyiban,tyb
+烫印	tangyin,ty

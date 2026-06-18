@@ -1,0 +1,6 @@
+谚诞	yandan,yd
+谚号	yanhao,yh
+谚文	yanwen,yw
+谚言	yan,y
+谚议	yanyi,yy
+谚语	yanyu,yy

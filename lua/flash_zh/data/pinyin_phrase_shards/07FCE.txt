@@ -1,0 +1,9 @@
+翎顶	lingding,ld
+翎管	lingguan,lg
+翎花	linghua,lh
+翎鬣	linglie,ll
+翎毛	lingmao,lm
+翎扇	lingshan,ls
+翎羽	lingyu,ly
+翎枝	lingzhi,lz
+翎子	lingzi,lz

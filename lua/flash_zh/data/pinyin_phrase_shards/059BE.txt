@@ -1,0 +1,9 @@
+妾妃	qiefei,qf
+妾妇	qiefu,qf
+妾人	qieren,qr
+妾身	qieshen,qs
+妾侍	qieshi,qs
+妾势	qieshi,qs
+妾媵	qieying,qy
+妾鱼	qieyu,qy
+妾御	qieyu,qy

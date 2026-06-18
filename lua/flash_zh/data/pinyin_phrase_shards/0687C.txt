@@ -1,0 +1,3 @@
+桼雕	qidiao,qd
+桼书	qishu,qs
+桼政	qizheng,qz

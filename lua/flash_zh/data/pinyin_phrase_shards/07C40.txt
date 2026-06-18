@@ -1,0 +1,8 @@
+籀读	zhoudu,zd
+籀书	zhoushu,zs
+籀斯	zhousi,zs
+籀诵	zhousong,zs
+籀文	zhouwen,zw
+籀演	zhouyan,zy
+籀绎	zhouyi,zy
+籀篆	zhouzhuan,zz

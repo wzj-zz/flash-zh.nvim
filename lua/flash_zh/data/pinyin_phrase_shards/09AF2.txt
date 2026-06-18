@@ -1,0 +1,4 @@
+髲髢	bidi,bd
+髲鬄	bidi,bd
+髲鬀	biti,bt
+髲子	bizi,bz

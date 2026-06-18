@@ -1,0 +1,4 @@
+缲车	qiaoche,qc
+缲藉	qiaojie,qj
+缲盆	qiaopen,qp
+缲丝	qiaosi,qs

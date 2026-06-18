@@ -1,0 +1,5 @@
+痈病	yongbing,yb
+痈疮	yongchuang,yc
+痈疽	yongju,yj
+痈囊	yongnang,yn
+痈肿	yongzhong,yz

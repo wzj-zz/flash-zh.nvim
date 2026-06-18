@@ -1,0 +1,12 @@
+蒜瓣儿	suanbaner,sbe
+蒜黄	suanhuang,sh
+蒜苗	suanmiao,sm
+蒜苗炒肉片	suanmiaochaoroupian,smcrp
+蒜泥	suanni,sn
+蒜茸	suanrong,sr
+蒜茸钳	suanrongqian,srq
+蒜蓉	suanrong,sr
+蒜苔	suantai,st
+蒜薹	suantai,st
+蒜头	suantou,st
+蒜味	suanwei,sw

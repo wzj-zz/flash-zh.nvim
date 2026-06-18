@@ -1,0 +1,6 @@
+嚎叫	haojiao,hj
+嚎哭	haoku,hk
+嚎啕	haotao,ht
+嚎啕大哭	haotaodaku,htdk
+嚎天动地	haotiandongdi,htdd
+嚎天喊地	haotianhandi,hthd

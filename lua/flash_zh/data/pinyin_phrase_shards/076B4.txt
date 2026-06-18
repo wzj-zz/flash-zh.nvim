@@ -1,0 +1,13 @@
+皴剥	cunbao,cb
+皴法	cunfa,cf
+皴渴	cunke,ck
+皴厘	cunli,cl
+皴理	cunli,cl
+皴裂	cunlie,cl
+皴疱	cunpao,cp
+皴劈	cunpi,cp
+皴皮	cunpi,cp
+皴皵	cunque,cq
+皴染	cunran,cr
+皴皱	cunzhou,cz
+皴瘃	cunzhu,cz

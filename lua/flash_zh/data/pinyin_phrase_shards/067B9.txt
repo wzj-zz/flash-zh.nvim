@@ -1,0 +1,4 @@
+枹端	baoduan,bd
+枹鼓	baogu,bg
+枹蓟	baoji,bj
+枹木履	baomulu,bml

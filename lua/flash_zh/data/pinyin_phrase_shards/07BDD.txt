@@ -1,0 +1,9 @@
+篝车	gouche,gc
+篝灯	goudeng,gd
+篝灯呵冻	goudenghedong,gdhd
+篝火	gouhuo,gh
+篝火狐鸣	gouhuohuming,ghhm
+篝篓	goulou,gl
+篝炉	goulu,gl
+篝石	goushi,gs
+篝衣	gouyi,gy

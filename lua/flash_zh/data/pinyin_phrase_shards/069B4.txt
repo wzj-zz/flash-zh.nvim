@@ -1,0 +1,9 @@
+榴弹	liudan,ld
+榴弹发射器	liudanfasheqi,ldfsq
+榴弹炮	liudanpao,ldp
+榴莲	liulian,ll
+榴莲果	liulianguo,llg
+榴莲族	liulianzu,llz
+榴梿	liulian,ll
+榴梿果	liulianguo,llg
+榴霰弹	liuxiandan,lxd

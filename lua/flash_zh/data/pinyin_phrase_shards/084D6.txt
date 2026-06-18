@@ -1,0 +1,5 @@
+蓖麻	bima,bm
+蓖麻蚕	bimacan,bmc
+蓖麻毒蛋白	bimadudanbai,bmddb
+蓖麻毒素	bimadusu,bmds
+蓖麻籽	bimazi,bmz

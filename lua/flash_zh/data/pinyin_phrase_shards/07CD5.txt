@@ -1,0 +1,3 @@
+糕饼	gaobing,gb
+糕点	gaodian,gd
+糕干	gaogan,gg

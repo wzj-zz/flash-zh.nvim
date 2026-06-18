@@ -1,0 +1,8 @@
+峄城	yicheng,yc
+峄城区	yichengqu,ycq
+峄山	yishan,ys
+峄山碑	yishanbei,ysb
+峄阳	yiyang,yy
+峄阳孤桐	yiyanggutong,yygt
+峄阳琴	yiyangqin,yyq
+峄阳桐	yiyangtong,yyt

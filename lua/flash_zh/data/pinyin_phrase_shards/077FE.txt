@@ -1,0 +1,13 @@
+矾法	fanfa,ff
+矾粉	fanfen,ff
+矾红	fanhong,fh
+矾课	fanke,fk
+矾楼	fanlou,fl
+矾山	fanshan,fs
+矾山水	fanshanshui,fss
+矾石	fanshi,fs
+矾书	fanshu,fs
+矾水	fanshui,fs
+矾头	fantou,ft
+矾土	fantu,ft
+矾仔	fanzai,fz

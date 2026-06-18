@@ -1,0 +1,6 @@
+届候	jiehou,jh
+届路	jielu,jl
+届满	jieman,jm
+届期	jieqi,jq
+届时	jieshi,js
+届止	jiezhi,jz

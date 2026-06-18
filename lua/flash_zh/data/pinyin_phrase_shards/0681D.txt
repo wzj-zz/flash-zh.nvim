@@ -1,0 +1,4 @@
+栝蒌	gualou,gl
+栝楼	gualou,gl
+栝松	guasong,gs
+栝子松	guazisong,gzs

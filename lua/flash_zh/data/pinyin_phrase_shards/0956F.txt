@@ -1,0 +1,3 @@
+镯镂	zhuolou,zl
+镯头	zhuotou,zt
+镯子	zhuozi,zz

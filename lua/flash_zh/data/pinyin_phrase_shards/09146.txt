@@ -1,0 +1,12 @@
+酆城剑	fengchengjian,fcj
+酆城龙剑	fengchenglongjian,fclj
+酆城气	fengchengqi,fcq
+酆城狱	fengchengyu,fcy
+酆都	fengdu,fd
+酆都城	fengducheng,fdc
+酆宫	fenggong,fg
+酆广	fengguang,fg
+酆剑	fengjian,fj
+酆琅	fenglang,fl
+酆匣	fengxia,fx
+酆狱	fengyu,fy

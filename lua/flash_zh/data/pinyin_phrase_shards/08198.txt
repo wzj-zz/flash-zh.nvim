@@ -1,0 +1,8 @@
+膘肥	biaofei,bf
+膘肥体壮	biaofeitizhuang,bftz
+膘浇	biaojiao,bj
+膘胶	biaojiao,bj
+膘满	biaoman,bm
+膘情	biaoqing,bq
+膘息	biaoxi,bx
+膘壮	biaozhuang,bz

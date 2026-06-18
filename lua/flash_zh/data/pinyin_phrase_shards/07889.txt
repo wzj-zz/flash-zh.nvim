@@ -1,0 +1,5 @@
+碉堡	diaobao,db
+碉房	diaofang,df
+碉卡	diaoka,dk
+碉磡	diaokan,dk
+碉楼	diaolou,dl

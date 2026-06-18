@@ -1,0 +1,6 @@
+唁电	yandian,yd
+唁奠	yandian,yd
+唁函	yanhan,yh
+唁劳	yanlao,yl
+唁慰	yanwei,yw
+唁信	yanxin,yx

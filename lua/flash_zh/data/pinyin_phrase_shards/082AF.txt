@@ -1,0 +1,5 @@
+芯片	xinpian,xp
+芯片组	xinpianzu,xpz
+芯铁	xintie,xt
+芯线	xinxian,xx
+芯子	xinzi,xz

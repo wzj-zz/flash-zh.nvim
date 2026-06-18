@@ -1,0 +1,15 @@
+绅带	shendai,sd
+绅董	shendong,sd
+绅笏	shenhu,sh
+绅衿	shenjin,sj
+绅粮	shenliang,sl
+绅冕	shenmian,sm
+绅民	shenmin,sm
+绅耆	shenqi,sq
+绅緌	shenrui,sr
+绅商	shenshang,ss
+绅士	shenshi,ss
+绅士风度	shenshifengdu,ssfd
+绅士派头	shenshipaitou,sspt
+绅士气	shenshiqi,ssq
+绅士协定	shenshixieding,ssxd

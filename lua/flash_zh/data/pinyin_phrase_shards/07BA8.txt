@@ -1,0 +1,6 @@
+箨粉	tuofen,tf
+箨冠	tuoguan,tg
+箨龙	tuolong,tl
+箨龙衣	tuolongyi,tly
+箨笋	tuosun,ts
+箨质	tuozhi,tz

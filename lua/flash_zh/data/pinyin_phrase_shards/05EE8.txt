@@ -1,0 +1,5 @@
+廨钱	xieqian,xq
+廨舍	xieshe,xs
+廨署	xieshu,xs
+廨田	xietian,xt
+廨宇	xieyu,xy

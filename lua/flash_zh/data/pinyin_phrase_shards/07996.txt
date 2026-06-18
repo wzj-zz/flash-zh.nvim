@@ -1,0 +1,4 @@
+禖祠	meici,mc
+禖宫	meigong,mg
+禖坛	meitan,mt
+禖祝	meizhu,mz

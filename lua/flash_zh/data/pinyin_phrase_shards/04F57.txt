@@ -1,0 +1,15 @@
+佗背	tuobei,tb
+佗城	tuocheng,tc
+佗发	tuofa,tf
+佗方	tafang,tf
+佗负	tuofu,tf
+佗故	tuogu,tg
+佗年	tuonian,tn
+佗人	taren,tr
+佗日	tuori,tr
+佗生	tuosheng,ts
+佗时	tuoshi,ts
+佗佗	tuo,t
+佗乡	taxiang,tx
+佗心通	tuoxintong,txt
+佗志	tuozhi,tz

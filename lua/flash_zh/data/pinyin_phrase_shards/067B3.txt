@@ -1,0 +1,17 @@
+枳道	zhidao,zd
+枳枸	zhigou,zg
+枳关	zhiguan,zg
+枳柜	zhigui,zg
+枳花	zhihua,zh
+枳机草	zhijicao,zjc
+枳棘	zhiji,zj
+枳椇	zhiju,zj
+枳句	zhiju,zj
+枳壳	zhike,zk
+枳篱	zhili,zl
+枳落	zhiluo,zl
+枳殻	zhike,zk
+枳实	zhishi,zs
+枳首	zhishou,zs
+枳首蛇	zhishoushe,zss
+枳园	zhiyuan,zy

@@ -1,0 +1,5 @@
+嗅觉	xiujue,xj
+嗅觉迟钝	xiujuechidun,xjcd
+嗅觉减退	xiujuejiantui,xjjt
+嗅觉丧失	xiujuesangshi,xjss
+嗅球	xiuqiu,xq

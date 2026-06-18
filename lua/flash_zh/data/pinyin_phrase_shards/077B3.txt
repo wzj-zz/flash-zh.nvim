@@ -1,0 +1,8 @@
+瞳睛	tongjing,tj
+瞳孔	tongkong,tk
+瞳蒙	tongmeng,tm
+瞳眸	tongmou,tm
+瞳人	tongren,tr
+瞳仁	tongren,tr
+瞳神	tongshen,ts
+瞳子	tongzi,tz

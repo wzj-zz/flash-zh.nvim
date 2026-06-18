@@ -1,0 +1,10 @@
+襞方	bifang,bf
+襞幅	bifu,bf
+襞积	biji,bj
+襞襀	biji,bj
+襞绩	biji,bj
+襞笺	bijian,bj
+襞锦	bijin,bj
+襞敛	bilian,bl
+襞染	biran,br
+襞褶	bizhe,bz

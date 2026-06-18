@@ -1,0 +1,5 @@
+秬草	jucao,jc
+秬鬯	juchang,jc
+秬酒	jujiu,jj
+秬秠	jupi,jp
+秬黍	jushu,js

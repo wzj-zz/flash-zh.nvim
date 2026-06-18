@@ -1,0 +1,12 @@
+躺倒	tangdao,td
+躺柜	tanggui,tg
+躺平	tangping,tp
+躺枪	tangqiang,tq
+躺桥	tangqiao,tq
+躺尸	tangshi,ts
+躺卧	tangwo,tw
+躺下	tangxia,tx
+躺椅	tangyi,ty
+躺赢	tangying,ty
+躺着地	tangzhede,tzd
+躺着也中枪	tangzheyezhongqiang,tzyzq

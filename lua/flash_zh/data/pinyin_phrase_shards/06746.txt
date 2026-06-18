@@ -1,0 +1,10 @@
+杆棒	ganbang,gb
+杆拨	ganbo,gb
+杆秤	gancheng,gc
+杆弟	gandi,gd
+杆儿	ganer,ge
+杆弓	gangong,gg
+杆棘	ganji,gj
+杆菌	ganjun,gj
+杆塔	ganta,gt
+杆子	ganzi,gz

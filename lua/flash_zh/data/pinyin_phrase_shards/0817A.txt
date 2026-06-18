@@ -1,0 +1,14 @@
+腺癌	xianai,xa
+腺病	xianbing,xb
+腺病毒	xianbingdu,xbd
+腺病质	xianbingzhi,xbz
+腺垂体	xianchuiti,xct
+腺苷	xiangan,xg
+腺瘤	xianliu,xl
+腺毛	xianmao,xm
+腺嘌呤	xianpiaoling,xpl
+腺嘌呤核苷三磷酸	xianpiaolinghegansanlinsuan,xplhgsls
+腺鼠疫	xianshuyi,xsy
+腺体	xianti,xt
+腺细胞	xianxibao,xxb
+腺样	xianyang,xy

@@ -1,0 +1,15 @@
+搉茶	quecha,qc
+搉场	quechang,qc
+搉估	quegu,qg
+搉沽	quegu,qg
+搉酤	quegu,qg
+搉筦	queguan,qg
+搉利	queli,ql
+搉量	queliang,ql
+搉虑	quelu,ql
+搉论	quelun,ql
+搉商	queshang,qs
+搉惟	quewei,qw
+搉扬	queyang,qy
+搉易	queyi,qy
+搉油	queyou,qy

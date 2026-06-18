@@ -1,0 +1,5 @@
+粱饭	liangfan,lf
+粱米	liangmi,lm
+粱糗	liangqiu,lq
+粱肉	liangrou,lr
+粱菽	liangshu,ls

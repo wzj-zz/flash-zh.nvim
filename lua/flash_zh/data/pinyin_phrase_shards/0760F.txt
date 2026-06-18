@@ -1,0 +1,4 @@
+瘏悴	tucui,tc
+瘏毒	tudu,td
+瘏口	tukou,tk
+瘏口哓音	tukouxiaoyin,tkxy

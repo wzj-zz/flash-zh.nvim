@@ -1,0 +1,14 @@
+汛弁	xunbian,xb
+汛兵	xunbing,xb
+汛地	xundi,xd
+汛防	xunfang,xf
+汛房	xunfang,xf
+汛界	xunjie,xj
+汛口	xunkou,xk
+汛期	xunqi,xq
+汛情	xunqing,xq
+汛扫	xunsao,xs
+汛哨	xunshao,xs
+汛守	xunshou,xs
+汛廨	xunxie,xx
+汛逐	xunzhu,xz

@@ -1,0 +1,4 @@
+粳稻	jingdao,jd
+粳粮	jingliang,jl
+粳粱	jingliang,jl
+粳米	jingmi,jm

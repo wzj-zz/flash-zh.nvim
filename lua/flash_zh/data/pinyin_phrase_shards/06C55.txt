@@ -1,0 +1,7 @@
+汕汕	shan,s
+汕头	shantou,st
+汕头大学	shantoudaxue,stdx
+汕头地区	shantoudiqu,stdq
+汕头市	shantoushi,sts
+汕尾	shanwei,sw
+汕尾市	shanweishi,sws

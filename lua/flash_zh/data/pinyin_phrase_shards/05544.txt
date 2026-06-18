@@ -1,0 +1,11 @@
+啄菢	zhuobao,zb
+啄锄	zhuochu,zc
+啄花鸟	zhuohuaniao,zhn
+啄木	zhuomu,zm
+啄木鸟	zhuomuniao,zmn
+啄评	zhuoping,zp
+啄食	zhuoshi,zs
+啄羊鹦鹉	zhuoyangyingwu,zyyw
+啄饮	zhuoyin,zy
+啄噪	zhuozao,zz
+啄啄	zhuo,z

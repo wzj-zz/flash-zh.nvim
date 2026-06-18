@@ -1,0 +1,12 @@
+杓棒	shaobang,sb
+杓秉	shaobing,sb
+杓风	shaofeng,sf
+杓衡	shaoheng,sh
+杓建	shaojian,sj
+杓角	shaojiao,sj
+杓口	shaokou,sk
+杓倈	shaolai,sl
+杓球场	shaoqiuchang,sqc
+杓窊印	shaowayin,swy
+杓云	shaoyun,sy
+杓子	shaozi,sz

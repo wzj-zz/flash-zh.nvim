@@ -1,0 +1,5 @@
+弑父	shifu,sf
+弑君	shijun,sj
+弑母	shimu,sm
+弑逆	shini,sn
+弑虐	shinue,sn

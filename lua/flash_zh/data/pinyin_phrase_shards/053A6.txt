@@ -1,0 +1,8 @@
+厦房	shafang,sf
+厦覆	shafu,sf
+厦门	xiamen,xm
+厦门大学	xiamendaxue,xmdx
+厦门市	xiamenshi,xms
+厦屋	shawu,sw
+厦宇	shayu,sy
+厦子	shazi,sz

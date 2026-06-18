@@ -1,0 +1,12 @@
+鼾鼻	hanbi,hb
+鼾咍	hanhai,hh
+鼾鼾	han,h
+鼾齁	hanhou,hh
+鼾呼	hanhu,hh
+鼾眠	hanmian,hm
+鼾寝	hanqin,hq
+鼾声	hansheng,hs
+鼾声如雷	hanshengrulei,hsrl
+鼾睡	hanshui,hs
+鼾卧	hanwo,hw
+鼾息	hanxi,hx

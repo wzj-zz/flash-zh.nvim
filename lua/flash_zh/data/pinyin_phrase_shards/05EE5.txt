@@ -1,0 +1,6 @@
+廥仓	kuaicang,kc
+廥储	kuaichu,kc
+廥积	kuaiji,kj
+廥聚	kuaiju,kj
+廥库	kuaiku,kk
+廥廪	kuailin,kl

@@ -1,0 +1,11 @@
+晾干	lianggan,lg
+晾花信	lianghuaxin,lhx
+晾晒	liangshai,ls
+晾墒	liangshang,ls
+晾台	liangtai,lt
+晾夏	liangxia,lx
+晾衣服	liangyifu,lyf
+晾衣夹	liangyijia,lyj
+晾衣架	liangyijia,lyj
+晾衣绳	liangyisheng,lys
+晾鹰台	liangyingtai,lyt

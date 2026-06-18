@@ -1,0 +1,5 @@
+砾石	lishi,ls
+砾石屋面	lishiwumian,lswm
+砾琇	lixiu,lx
+砾岩	liyan,ly
+砾洲	lizhou,lz

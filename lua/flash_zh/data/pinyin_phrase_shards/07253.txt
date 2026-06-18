@@ -1,0 +1,15 @@
+牓表	bangbiao,bb
+牓道	bangdao,bd
+牓额	bange,be
+牓挂	banggua,bg
+牓卖	bangmai,bm
+牓门卖官	bangmenmaiguan,bmmg
+牓阙	bangque,bq
+牓示	bangshi,bs
+牓题	bangti,bt
+牓帖	bangtie,bt
+牓眼	bangyan,by
+牓样	bangyang,by
+牓谕	bangyu,by
+牓元	bangyuan,by
+牓子	bangzi,bz

@@ -1,0 +1,7 @@
+锓板	qinban,qb
+锓版	qinban,qb
+锓本	qinben,qb
+锓画	qinhua,qh
+锓木	qinmu,qm
+锓枣	qinzao,qz
+锓梓	qinzi,qz

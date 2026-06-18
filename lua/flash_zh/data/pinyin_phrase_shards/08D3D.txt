@@ -1,0 +1,17 @@
+贽宝	zhibao,zb
+贽币	zhibi,zb
+贽赋	zhifu,zf
+贽见	zhijian,zj
+贽见礼	zhijianli,zjl
+贽敬	zhijing,zj
+贽具	zhiju,zj
+贽卷	zhijuan,zj
+贽礼	zhili,zl
+贽启	zhiqi,zq
+贽然	zhiran,zr
+贽文	zhiwen,zw
+贽献	zhixian,zx
+贽仪	zhiyi,zy
+贽遗	zhiyi,zy
+贽艺	zhiyi,zy
+贽御	zhiyu,zy

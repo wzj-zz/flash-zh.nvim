@@ -1,0 +1,6 @@
+痔病	zhibing,zb
+痔疮	zhichuang,zc
+痔疾	zhiji,zj
+痔漏	zhilou,zl
+痔瘘	zhilou,zl
+痔衕	zhitong,zt

@@ -1,0 +1,6 @@
+葺捕	qibu,qb
+葺理	qili,ql
+葺缮	qishan,qs
+葺屋	qiwu,qw
+葺袭	qixi,qx
+葺治	qizhi,qz

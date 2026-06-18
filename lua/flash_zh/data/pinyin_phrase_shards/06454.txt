@@ -1,0 +1,12 @@
+摔打	shuaida,sd
+摔倒	shuaidao,sd
+摔跌	shuaidie,sd
+摔断	shuaiduan,sd
+摔跟头	shuaigentou,sgt
+摔坏	shuaihuai,sh
+摔交	shuaijiao,sj
+摔跤	shuaijiao,sj
+摔角	shuaijiao,sj
+摔破	shuaipo,sp
+摔伤	shuaishang,ss
+摔死	shuaisi,ss

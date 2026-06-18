@@ -1,0 +1,8 @@
+镀层	duceng,dc
+镀铬	duge,dg
+镀铬钢	dugegang,dgg
+镀金	dujin,dj
+镀锡铁	duxitie,dxt
+镀锌	duxin,dx
+镀锌铁	duxintie,dxt
+镀银	duyin,dy

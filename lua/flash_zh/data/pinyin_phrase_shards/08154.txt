@@ -1,0 +1,13 @@
+腔板	qiangban,qb
+腔壁	qiangbi,qb
+腔肠	qiangchang,qc
+腔肠动物	qiangchangdongwu,qcdw
+腔调	qiangdiao,qd
+腔棘鱼	qiangjiyu,qjy
+腔窠	qiangke,qk
+腔口	qiangkou,qk
+腔拍	qiangpai,qp
+腔派	qiangpai,qp
+腔隙	qiangxi,qx
+腔音	qiangyin,qy
+腔子	qiangzi,qz

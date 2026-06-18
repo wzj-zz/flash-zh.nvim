@@ -1,0 +1,8 @@
+擂茶	leicha,lc
+擂鼓	leigu,lg
+擂鼓鸣金	leigumingjin,lgmj
+擂鼓筛锣	leigushailuo,lgsl
+擂台	leitai,lt
+擂台赛	leitaisai,lts
+擂天倒地	leitiandaodi,ltdd
+擂主	leizhu,lz

@@ -1,0 +1,12 @@
+泳池	yongchi,yc
+泳道	yongdao,yd
+泳儿	yonger,ye
+泳涵	yonghan,yh
+泳镜	yongjing,yj
+泳裤	yongku,yk
+泳帽	yongmao,ym
+泳坛	yongtan,yt
+泳体	yongti,yt
+泳衣	yongyi,yy
+泳游	yongyou,yy
+泳装	yongzhuang,yz

@@ -1,0 +1,15 @@
+笛步	dibu,db
+笛材	dicai,dc
+笛床	dichuang,dc
+笛簟	didian,dd
+笛工	digong,dg
+笛卡儿	dikaer,dke
+笛卡儿坐标	dikaerzuobiao,dkezb
+笛卡儿坐标制	dikaerzuobiaozhi,dkezbz
+笛卡尔	dikaer,dke
+笛律	dilu,dl
+笛膜	dimo,dm
+笛沙格	dishage,dsg
+笛韵	diyun,dy
+笛竹	dizhu,dz
+笛子	dizi,dz

@@ -1,0 +1,14 @@
+殡车	binche,bc
+殡服	binfu,bf
+殡宫	bingong,bg
+殡棺	binguan,bg
+殡阶	binjie,bj
+殡敛	binlian,bl
+殡殓	binlian,bl
+殡埋	binmai,bm
+殡丧	binsang,bs
+殡穸	binxi,bx
+殡仪馆	binyiguan,byg
+殡仪员	binyiyuan,byy
+殡攒	binzan,bz
+殡葬	binzang,bz

@@ -1,0 +1,3 @@
+餪房	nuanfang,nf
+餪女	nuannu,nn
+餪生	nuansheng,ns

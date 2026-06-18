@@ -1,0 +1,16 @@
+圩埠	xubu,xb
+圩场	xuchang,xc
+圩堤	weidi,wd
+圩丁	xuding,xd
+圩顶	yuding,yd
+圩防	xufang,xf
+圩埂	xugeng,xg
+圩户	xuhu,xh
+圩墙	xuqiang,xq
+圩日	xuri,xr
+圩市	xushi,xs
+圩田	weitian,wt
+圩垸	weiyuan,wy
+圩长	xuchang,xc
+圩镇	xuzhen,xz
+圩子	weizi,wz

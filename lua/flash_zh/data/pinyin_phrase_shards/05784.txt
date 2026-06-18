@@ -1,0 +1,11 @@
+垄断	longduan,ld
+垄断贩卖	longduanfanmai,ldfm
+垄断资本	longduanziben,ldzb
+垄岗沙	longgangsha,lgs
+垄沟	longgou,lg
+垄亩	longmu,lm
+垄墓	longmu,lm
+垄田	longtian,lt
+垄灶	longzao,lz
+垄种羊	longzhongyang,lzy
+垄作	longzuo,lz

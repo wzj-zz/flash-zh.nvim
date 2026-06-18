@@ -1,0 +1,8 @@
+蝌蚪	kedou,kd
+蝌蚪书	kedoushu,kds
+蝌蚪文	kedouwen,kdw
+蝌蚪文字	kedouwenzi,kdwz
+蝌斗	kedou,kd
+蝌斗鸟迹	kedouniaoji,kdnj
+蝌斗篆文	kedouzhuanwen,kdzw
+蝌篆	kezhuan,kz

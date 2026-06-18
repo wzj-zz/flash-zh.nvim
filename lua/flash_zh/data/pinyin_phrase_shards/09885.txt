@@ -1,0 +1,8 @@
+颅测量	luceliang,lcl
+颅底	ludi,ld
+颅盖	lugai,lg
+颅骨	lugu,lg
+颅脑	lunao,ln
+颅内压	luneiya,lny
+颅腔	luqiang,lq
+颅颡	lusang,ls

@@ -1,0 +1,12 @@
+窨藏	yincang,yc
+窨服	xunfu,xf
+窨付	xunfu,xf
+窨附	yinfu,yf
+窨腹	xunfu,xf
+窨井	yinjing,yj
+窨井盖	yinjinggai,yjg
+窨酒	yinjiu,yj
+窨口	yinkou,yk
+窨气	xunqi,xq
+窨清	xunqing,xq
+窨约	xunyue,xy

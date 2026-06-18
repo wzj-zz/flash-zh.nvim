@@ -1,0 +1,16 @@
+轿班	jiaoban,jb
+轿车	jiaoche,jc
+轿番	jiaofan,jf
+轿封	jiaofeng,jf
+轿夫	jiaofu,jf
+轿杠	jiaogang,jg
+轿柜	jiaogui,jg
+轿帘	jiaolian,jl
+轿马	jiaoma,jm
+轿铺	jiaopu,jp
+轿厅	jiaoting,jt
+轿帏	jiaowei,jw
+轿幰	jiaoxian,jx
+轿行	jiaoxing,jx
+轿衣	jiaoyi,jy
+轿子	jiaozi,jz

@@ -1,0 +1,4 @@
+挎包	kuabao,kb
+挎兜	kuadou,kd
+挎兜儿	kuadouer,kde
+挎斗	kuadou,kd

@@ -1,0 +1,10 @@
+癸丑	guichou,gc
+癸庚	guigeng,gg
+癸亥	guihai,gh
+癸卯	guimao,gm
+癸期	guiqi,gq
+癸水	guishui,gs
+癸巳	guisi,gs
+癸未	guiwei,gw
+癸穴庚涡	guixuegengwo,gxgw
+癸酉	guiyou,gy

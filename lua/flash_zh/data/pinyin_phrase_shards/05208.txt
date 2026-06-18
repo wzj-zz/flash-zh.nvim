@@ -1,0 +1,11 @@
+刈包	guabao,gb
+刈除	yichu,yc
+刈割	yige,yg
+刈钩	yigou,yg
+刈获	yihuo,yh
+刈取	yiqu,yq
+刈杀	yisha,ys
+刈熟	yishu,ys
+刈田	yitian,yt
+刈亡	yiwang,yw
+刈羽	yiyu,yy

@@ -1,0 +1,14 @@
+篮板	lanban,lb
+篮板球	lanbanqiu,lbq
+篮儿	laner,le
+篮筐	lankuang,lk
+篮球	lanqiu,lq
+篮球场	lanqiuchang,lqc
+篮圈	lanquan,lq
+篮笋	lansun,ls
+篮坛	lantan,lt
+篮胁	lanxie,lx
+篮舁	lanyu,ly
+篮舆	lanyu,ly
+篮轝	lanyu,ly
+篮子	lanzi,lz

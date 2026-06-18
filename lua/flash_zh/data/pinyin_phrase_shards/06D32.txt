@@ -1,0 +1,13 @@
+洲场	zhouchang,zc
+洲岛	zhoudao,zd
+洲府	zhoufu,zf
+洲际	zhouji,zj
+洲际弹道导弹	zhoujidandao,zjdd
+洲际导弹	zhoujidaodan,zjdd
+洲浦	zhoupu,zp
+洲溆	zhouxu,zx
+洲淤	zhouyu,zy
+洲屿	zhouyu,zy
+洲沚	zhouzhi,zz
+洲中奴	zhouzhongnu,zzn
+洲渚	zhouzhu,zz

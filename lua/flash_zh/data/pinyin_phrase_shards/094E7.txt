@@ -1,0 +1,5 @@
+铧弓	huagong,hg
+铧犁	huali,hl
+铧锹	huaqiao,hq
+铧式犁	huashili,hsl
+铧觜	huazi,hz

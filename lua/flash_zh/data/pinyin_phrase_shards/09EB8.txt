@@ -1,0 +1,9 @@
+麸秳	fuhuo,fh
+麸浆	fujiang,fj
+麸金	fujin,fj
+麸皮	fupi,fp
+麸皮面包	fupimianbao,fpmb
+麸炭	futan,ft
+麸桃	futao,ft
+麸质	fuzhi,fz
+麸子	fuzi,fz

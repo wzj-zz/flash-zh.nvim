@@ -1,0 +1,6 @@
+廞车	xinche,xc
+廞废	xinfei,xf
+廞马	xinma,xm
+廞塞	xinsai,xs
+廞饰	xinshi,xs
+廞淤	xinyu,xy

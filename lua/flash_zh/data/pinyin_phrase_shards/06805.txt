@@ -1,0 +1,14 @@
+栅格	shange,sg
+栅极	shanji,sj
+栅孔	shankong,sk
+栅剌子	shanlazi,slz
+栅栏	zhalan,zl
+栅垒	shanlei,sl
+栅篱	zhali,zl
+栅门	zhamen,zm
+栅墙	shanqiang,sq
+栅锁	shansuo,ss
+栅塘	shantang,st
+栅条	zhatiao,zt
+栅钥	shanyue,sy
+栅子	zhazi,zz

@@ -1,0 +1,17 @@
+焙茶	beicha,bc
+焙粉	beifen,bf
+焙干	beigan,bg
+焙果	beiguo,bg
+焙烘	beihong,bh
+焙火	beihuo,bh
+焙煎	beijian,bj
+焙蠒	beijian,bj
+焙烤	beikao,bk
+焙茗	beiming,bm
+焙人	beiren,br
+焙烧	beishao,bs
+焙笙炭	beishengtan,bst
+焙药	beiyao,by
+焙造	beizao,bz
+焙治	beizhi,bz
+焙炙	beizhi,bz

@@ -1,0 +1,2 @@
+薹草	taicao,tc
+薹草属	taicaoshu,tcs

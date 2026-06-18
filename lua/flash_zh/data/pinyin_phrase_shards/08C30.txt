@@ -1,0 +1,7 @@
+谰词	lanci,lc
+谰辞	lanci,lc
+谰调	landiao,ld
+谰谩	lanman,lm
+谰躛	lanwei,lw
+谰言	lanyan,ly
+谰语	lanyu,ly

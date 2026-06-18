@@ -1,0 +1,13 @@
+豸班	zhiban,zb
+豸补	zhibu,zb
+豸黼	zhifu,zf
+豸冠	zhiguan,zg
+豸角	zhijiao,zj
+豸角冠	zhijiaoguan,zjg
+豸袍	zhipao,zp
+豸佩	zhipei,zp
+豸绣	zhixiu,zx
+豸衣	zhiyi,zy
+豸簪	zhizan,zz
+豸豸	zhi,z
+豸种	zhizhong,zz

@@ -1,0 +1,5 @@
+镍币	niebi,nb
+镍箔	niebo,nb
+镍钢	niegang,ng
+镍镉电池	niegedianchi,ngdc
+镍铬丝	niegesi,ngs

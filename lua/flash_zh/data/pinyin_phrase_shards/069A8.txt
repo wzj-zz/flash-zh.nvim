@@ -1,0 +1,6 @@
+榨菜	zhacai,zc
+榨酒池	zhajiuchi,zjc
+榨取	zhaqu,zq
+榨油	zhayou,zy
+榨油厂	zhayouchang,zyc
+榨汁机	zhazhiji,zzj

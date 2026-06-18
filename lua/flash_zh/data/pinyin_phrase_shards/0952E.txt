@@ -1,0 +1,17 @@
+键闭	jianbi,jb
+键槽	jiancao,jc
+键词	jianci,jc
+键垫	jiandian,jd
+键櫜	jiangao,jg
+键关	jianguan,jg
+键阍	jianhun,jh
+键角	jianjiao,jj
+键控	jiankong,jk
+键帽	jianmao,jm
+键能	jianneng,jn
+键盘	jianpan,jp
+键盘乐器	jianpanyueqi,jpyq
+键盘侠	jianpanxia,jpx
+键入	jianru,jr
+键辖	jianxia,jx
+键钥	jianyue,jy

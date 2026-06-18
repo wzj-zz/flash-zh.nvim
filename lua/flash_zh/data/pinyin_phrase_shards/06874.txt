@@ -1,0 +1,17 @@
+桴槎	fucha,fc
+桴栋	fudong,fd
+桴栰	fufa,ff
+桴筏	fufa,ff
+桴革	fuge,fg
+桴鼓	fugu,fg
+桴鼓相应	fuguxiangying,fgxy
+桴檝	fuji,fj
+桴京	fujing,fj
+桴木	fumu,fm
+桴人	furen,fr
+桴思	fusi,fs
+桴炭	futan,ft
+桴苡	fuyi,fy
+桴应	fuying,fy
+桴粥	fuzhou,fz
+桴子	fuzi,fz

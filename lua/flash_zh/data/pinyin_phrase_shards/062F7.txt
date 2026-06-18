@@ -1,0 +1,15 @@
+拷贝	kaobei,kb
+拷边	kaobian,kb
+拷绸	kaochou,kc
+拷打	kaoda,kd
+拷供	kaogong,kg
+拷花	kaohua,kh
+拷较	kaojiao,kj
+拷鞫	kaoju,kj
+拷掠	kaolue,kl
+拷囚	kaoqiu,kq
+拷认	kaoren,kr
+拷纱	kaosha,ks
+拷问	kaowen,kw
+拷讯	kaoxun,kx
+拷治	kaozhi,kz

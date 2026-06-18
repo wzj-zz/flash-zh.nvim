@@ -1,0 +1,14 @@
+漆包线	qibaoxian,qbx
+漆布	qibu,qb
+漆弹	qidan,qd
+漆雕	qidiao,qd
+漆黑	qihei,qh
+漆黑一团	qiheiyituan,qhyt
+漆画	qihua,qh
+漆匠	qijiang,qj
+漆皮	qipi,qp
+漆皮鞋	qipixie,qpx
+漆器	qi,q
+漆身吞炭	qishentuntan,qstt
+漆树	qishu,qs
+漆树科	qishuke,qsk

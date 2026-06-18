@@ -1,0 +1,15 @@
+咫步	zhibu,zb
+咫尺	zhichi,zc
+咫尺千里	zhichiqianli,zcql
+咫尺书	zhichishu,zcs
+咫尺天涯	zhichitianya,zcty
+咫尺天颜	zhichitianyan,zcty
+咫尺万里	zhichiwanli,zcwl
+咫尺威颜	zhichiweiyan,zcwy
+咫尺颜	zhichiyan,zcy
+咫尺之功	zhichigong,zcg
+咫尺之书	zhichishu,zcs
+咫尺姿	zhichizi,zcz
+咫见	zhijian,zj
+咫角骖驹	zhijiaocanju,zjcj
+咫书	zhishu,zs

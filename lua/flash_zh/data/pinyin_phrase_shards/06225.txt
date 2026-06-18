@@ -1,0 +1,4 @@
+戥秤	dengcheng,dc
+戥耗	denghao,dh
+戥头	dengtou,dt
+戥子	dengzi,dz

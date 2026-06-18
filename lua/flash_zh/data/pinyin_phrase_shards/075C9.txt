@@ -1,0 +1,6 @@
+痉病	jingbing,jb
+痉风	jingfeng,jf
+痉挛	jingluan,jl
+痉挛性地	jingluanxingde,jlxd
+痉笑	jingxiao,jx
+痉笑地	jingxiaode,jxd

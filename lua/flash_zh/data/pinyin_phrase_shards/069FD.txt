@@ -1,0 +1,10 @@
+槽车	caoche,cc
+槽齿类	caochilei,ccl
+槽齿目	caochimu,ccm
+槽坊	caofang,cf
+槽钢	caogang,cg
+槽孔	caokong,ck
+槽头	caotou,ct
+槽位	caowei,cw
+槽牙	caoya,cy
+槽子	caozi,cz

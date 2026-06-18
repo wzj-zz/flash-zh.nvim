@@ -1,0 +1,7 @@
+诔词	leici,lc
+诔辞	leici,lc
+诔德	leide,ld
+诔谥	leishi,ls
+诔文	leiwen,lw
+诔行	leixing,lx
+诔状	leizhuang,lz

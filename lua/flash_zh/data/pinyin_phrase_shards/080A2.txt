@@ -1,0 +1,7 @@
+肢骸	zhihai,zh
+肢节	zhijie,zj
+肢解	zhijie,zj
+肢脉	zhimai,zm
+肢势	zhishi,zs
+肢体	zhiti,zt
+肢体冲突	zhitichongtu,ztct

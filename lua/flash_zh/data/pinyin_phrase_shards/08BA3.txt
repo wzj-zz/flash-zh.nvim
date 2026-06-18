@@ -1,0 +1,11 @@
+讣报	fubao,fb
+讣车	fuche,fc
+讣电	fudian,fd
+讣告	fugao,fg
+讣书	fushu,fs
+讣帖	futie,ft
+讣文	fuwen,fw
+讣闻	fuwen,fw
+讣问	fuwen,fw
+讣音	fuyin,fy
+讣纸	fuzhi,fz

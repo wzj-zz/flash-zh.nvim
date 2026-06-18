@@ -1,0 +1,5 @@
+餬口	hukou,hk
+餬料	huliao,hl
+餬名	huming,hm
+餬刷	hushua,hs
+餬药	huyao,hy

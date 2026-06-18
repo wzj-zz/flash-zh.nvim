@@ -1,0 +1,15 @@
+琛板	chenban,cb
+琛寳	chenbao,cb
+琛贝	chenbei,cb
+琛琲	chenbei,cb
+琛币	chenbi,cb
+琛帛	chenbo,cb
+琛册	chence,cc
+琛賨	chencong,cc
+琛贡	chengong,cg
+琛賮	chenjin,cj
+琛缡	chenli,cl
+琛丽	chenli,cl
+琛赂	chenlu,cl
+琛瑞	chenrui,cr
+琛献	chenxian,cx

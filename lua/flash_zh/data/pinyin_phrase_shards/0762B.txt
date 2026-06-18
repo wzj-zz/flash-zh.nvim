@@ -1,0 +1,9 @@
+瘫倒	tandao,td
+瘫废	tanfei,tf
+瘫风	tanfeng,tf
+瘫缓	tanhuan,th
+瘫痪	tanhuan,th
+瘫软	tanruan,tr
+瘫睡	tanshui,ts
+瘫子	tanzi,tz
+瘫坐	tanzuo,tz

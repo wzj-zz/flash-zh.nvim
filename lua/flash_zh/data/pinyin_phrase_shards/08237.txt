@@ -1,0 +1,8 @@
+舷边	xianbian,xb
+舷侧	xiance,xc
+舷窗	xianchuang,xc
+舷灯	xiandeng,xd
+舷门	xianmen,xm
+舷墙	xianqiang,xq
+舷梯	xianti,xt
+舷细地	xianxide,xxd

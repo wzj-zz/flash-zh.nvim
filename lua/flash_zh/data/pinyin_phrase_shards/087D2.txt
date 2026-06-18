@@ -1,0 +1,13 @@
+蟒缎	mangduan,md
+蟒服	mangfu,mf
+蟒虺	manghui,mh
+蟒袍	mangpao,mp
+蟒袍玉带	mangpaoyudai,mpyd
+蟒山	mangshan,ms
+蟒衫	mangshan,ms
+蟒蛇	mangshe,ms
+蟒身	mangshen,ms
+蟒绣	mangxiu,mx
+蟒衣	mangyi,my
+蟒衣玉带	mangyiyudai,myyd
+蟒玉	mangyu,my

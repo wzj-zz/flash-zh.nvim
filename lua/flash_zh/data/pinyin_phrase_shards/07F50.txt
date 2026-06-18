@@ -1,0 +1,10 @@
+罐车	guanche,gc
+罐底	guandi,gd
+罐笼	guanlong,gl
+罐头	guantou,gt
+罐头盒	guantouhe,gth
+罐头起子	guantouqizi,gtqz
+罐头笑声	guantouxiaosheng,gtxs
+罐装	guanzhuang,gz
+罐子	guanzi,gz
+罐子玉	guanziyu,gzy

@@ -1,0 +1,16 @@
+醴杯	libei,lb
+醴辞	lici,lc
+醴酒	lijiu,lj
+醴酒不设	lijiubushe,ljbs
+醴醪	lilao,ll
+醴酪	lilao,ll
+醴陵	liling,ll
+醴陵市	lilingshi,lls
+醴齐	liqi,lq
+醴泉	liquan,lq
+醴泉铭	liquanming,lqm
+醴泉县	liquanxian,lqx
+醴洒	lisa,ls
+醴水	lishui,ls
+醴液	liye,ly
+醴醆	lizhan,lz

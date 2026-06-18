@@ -1,0 +1,13 @@
+骰儿	touer,te
+骰局	touju,tj
+骰盘	toupan,tp
+骰盆	toupen,tp
+骰钱	touqian,tq
+骰塔	touta,tt
+骰盅	touzhong,tz
+骰钟	touzhong,tz
+骰子	touzi,tz
+骰子格	touzige,tzg
+骰子令	touziling,tzl
+骰子选	touzixuan,tzx
+骰子选格	touzixuange,tzxg

@@ -1,0 +1,13 @@
+症痼	zhenggu,zg
+症侯群	zhenghouqun,zhq
+症候	zhenghou,zh
+症候群	zhenghouqun,zhq
+症瘕	zhengjia,zj
+症瘕积聚	zhengjiajiju,zjjj
+症坚	zhengjian,zj
+症结	zhengjie,zj
+症癖	zhengpi,zp
+症象	zhengxiang,zx
+症噎	zhengye,zy
+症状	zhengzhuang,zz
+症状性	zhengzhuangxing,zzx

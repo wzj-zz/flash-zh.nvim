@@ -1,0 +1,5 @@
+盔甲	kuijia,kj
+盔头	kuitou,kt
+盔箱科	kuixiangke,kxk
+盔缨	kuiying,ky
+盔子	kuizi,kz

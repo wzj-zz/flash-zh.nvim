@@ -1,0 +1,8 @@
+撬棒	qiaobang,qb
+撬动	qiaodong,qd
+撬杠	qiaogang,qg
+撬棍	qiaogun,qg
+撬开	qiaokai,qk
+撬门	qiaomen,qm
+撬窃	qiaoqie,qq
+撬锁	qiaosuo,qs

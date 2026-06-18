@@ -1,0 +1,8 @@
+鲇出溜	nianchuliu,ncl
+鲇溜	nianliu,nl
+鲇鱼	nianyu,ny
+鲇鱼上竿	nianyushanggan,nysg
+鲇鱼上竹	nianyushangzhu,nysz
+鲇鱼上竹竿	nianyushangzhugan,nyszg
+鲇鱼缘竹竿	nianyuyuanzhugan,nyyzg
+鲇缘竹	nianyuanzhu,nyz

@@ -1,0 +1,13 @@
+筚窦	bidou,bd
+筚篥	bili,bl
+筚辂	bilu,bl
+筚路	bilu,bl
+筚路蓝缕	bilulan,bll
+筚路蓝褛	bilulan,bll
+筚路褴褛	bilulan,bll
+筚簬篮缕	bilulan,bll
+筚门	bimen,bm
+筚门圭窦	bimenguidou,bmgd
+筚门圭窬	bimenguiyu,bmgy
+筚门闺窦	bimenguidou,bmgd
+筚门闺窬	bimenguiyu,bmgy

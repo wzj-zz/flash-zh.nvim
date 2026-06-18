@@ -1,0 +1,4 @@
+爹地	diedi,dd
+爹爹	die,d
+爹妈	diema,dm
+爹娘	dieniang,dn

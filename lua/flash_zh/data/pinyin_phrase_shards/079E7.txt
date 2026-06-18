@@ -1,0 +1,13 @@
+秧稻	yangdao,yd
+秧歌	yangge,yg
+秧歌剧	yanggeju,ygj
+秧鼓	yanggu,yg
+秧脚	yangjiao,yj
+秧龄	yangling,yl
+秧马	yangma,ym
+秧苗	yangmiao,ym
+秧田	yangtian,yt
+秧信	yangxin,yx
+秧秧	yang,y
+秧针	yangzhen,yz
+秧子	yangzi,yz

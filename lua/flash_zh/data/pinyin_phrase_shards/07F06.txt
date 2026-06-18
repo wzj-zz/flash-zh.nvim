@@ -1,0 +1,9 @@
+缆车	lanche,lc
+缆掣	lanche,lc
+缆绳	lansheng,ls
+缆索	lansuo,ls
+缆索吊椅	lansuodiaoyi,lsdy
+缆系	lanxi,lx
+缆线	lanxian,lx
+缆鱼	lanyu,ly
+缆桩	lanzhuang,lz

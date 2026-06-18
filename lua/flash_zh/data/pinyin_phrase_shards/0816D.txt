@@ -1,0 +1,5 @@
+腭部	ebu,eb
+腭锋	efeng,ef
+腭化	ehua,eh
+腭裂	elie,el
+腭音	eyin,ey

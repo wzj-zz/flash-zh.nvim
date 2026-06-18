@@ -1,0 +1,10 @@
+纁币	xunbi,xb
+纁帛	xunbo,xb
+纁帛招徕	xunbozhaolai,xbzl
+纁黄	xunhuang,xh
+纁裳	xunchang,xc
+纁夏	xunxia,xx
+纁玄	xunxuan,xx
+纁雁	xunyan,xy
+纁鴈	xunyan,xy
+纁招	xunzhao,xz

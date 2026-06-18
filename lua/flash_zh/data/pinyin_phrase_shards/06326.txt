@@ -1,0 +1,11 @@
+挦剥	xianbao,xb
+挦补	xianbu,xb
+挦扯	xianche,xc
+挦撦	xianche,xc
+挦毛	xianmao,xm
+挦毛捣鬓	xianmaodaobin,xmdb
+挦绵扯絮	xianmianchexu,xmcx
+挦章扯句	xianzhangcheju,xzcj
+挦章撦句	xianzhangcheju,xzcj
+挦摭	xianzhi,xz
+挦治	xianzhi,xz

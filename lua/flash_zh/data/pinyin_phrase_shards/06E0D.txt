@@ -1,0 +1,13 @@
+渍病	zibing,zb
+渍痕	zihen,zh
+渍渐	zijian,zj
+渍浸	zijin,zj
+渍酒	zijiu,zj
+渍涝	zilao,zl
+渍米	zimi,zm
+渍墨	zimo,zm
+渍淖	zinao,zn
+渍染	ziran,zr
+渍水	zishui,zs
+渍污	ziwu,zw
+渍渍	zi,z

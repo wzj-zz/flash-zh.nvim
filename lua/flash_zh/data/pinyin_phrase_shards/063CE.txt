@@ -1,0 +1,11 @@
+揎拳拢袖	xuanquanlongxiu,xqlx
+揎拳掳袖	xuanquanluxiu,xqlx
+揎拳捋袖	xuanquanluoxiu,xqlx
+揎拳攞袖	xuanquanluoxiu,xqlx
+揎拳裸臂	xuanquanluobi,xqlb
+揎拳裸手	xuanquanluoshou,xqls
+揎拳裸袖	xuanquanluoxiu,xqlx
+揎拳捰袖	xuanquanluoxiu,xqlx
+揎拳舞袖	xuanquanwuxiu,xqwx
+揎头	xuantou,xt
+揎腕攘臂	xuanwanrangbi,xwrb

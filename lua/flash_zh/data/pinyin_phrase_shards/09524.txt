@@ -1,0 +1,15 @@
+锤淬	chuicui,cc
+锤打	chuida,cd
+锤锻	chuiduan,cd
+锤钩	chuigou,cg
+锤骨	chuigu,cg
+锤骨柄	chuigubing,cgb
+锤击	chuiji,cj
+锤击试验	chuijishiyan,cjsy
+锤金	chuijin,cj
+锤炼	chuilian,cl
+锤炉	chuilu,cl
+锤碎	chuisui,cs
+锤头鲨	chuitousha,cts
+锤旋	chuixuan,cx
+锤子	chuizi,cz

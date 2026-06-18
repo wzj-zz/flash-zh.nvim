@@ -1,0 +1,13 @@
+锭楮	dingchu,dc
+锭剂	dingji,dj
+锭壳	dingke,dk
+锭锞	dingke,dk
+锭模	dingmu,dm
+锭器	dingqi,dq
+锭铁	dingtie,dt
+锭药	dingyao,dy
+锭子	dingzi,dz
+锭子茶	dingzicha,dzc
+锭子金	dingzijin,dzj
+锭子药	dingziyao,dzy
+锭子油	dingziyou,dzy

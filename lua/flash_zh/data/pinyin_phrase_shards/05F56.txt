@@ -1,0 +1,4 @@
+彖传	tuanchuan,tc
+彖辞	tuanci,tc
+彖定	tuanding,td
+彖系	tuanxi,tx

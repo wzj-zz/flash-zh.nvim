@@ -1,0 +1,17 @@
+鵰鞍	diaoan,da
+鵰除	diaochu,dc
+鵰坊	diaofang,df
+鵰悍	diaohan,dh
+鵰翮	diaohe,dh
+鵰弧	diaohu,dh
+鵰喙	diaohui,dh
+鵰剿	diaojiao,dj
+鵰翎	diaoling,dl
+鵰翎箭	diaolingjian,dlj
+鵰睨	diaoni,dn
+鵰堂	diaotang,dt
+鵰心雁爪	diaoxinyanzhao,dxyz
+鵰心鴈爪	diaoxinyanzhao,dxyz
+鵰心鹰爪	diaoxinyingzhao,dxyz
+鵰影	diaoying,dy
+鵰章	diaozhang,dz

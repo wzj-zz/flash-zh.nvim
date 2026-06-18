@@ -1,0 +1,14 @@
+孀雌	shuangci,sc
+孀单	shuangdan,sd
+孀娥	shuange,se
+孀妇	shuangfu,sf
+孀姑	shuanggu,sg
+孀孤	shuanggu,sg
+孀寡	shuanggua,sg
+孀闺	shuanggui,sg
+孀节	shuangjie,sj
+孀居	shuangju,sj
+孀嫠	shuangli,sl
+孀妻	shuangqi,sq
+孀妻弱子	shuangqiruozi,sqrz
+孀婺	shuangwu,sw

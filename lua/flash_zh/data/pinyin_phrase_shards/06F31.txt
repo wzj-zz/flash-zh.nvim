@@ -1,0 +1,5 @@
+漱口	shukou,sk
+漱流	shuliu,sl
+漱流枕石	shuliuzhenshi,slzs
+漱石枕流	shushizhenliu,sszl
+漱洗	shuxi,sx

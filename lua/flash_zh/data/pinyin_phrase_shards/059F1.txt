@@ -1,0 +1,17 @@
+姱词	kuaci,kc
+姱辞	kuaci,kc
+姱大	kuada,kd
+姱娥	kuae,ke
+姱服	kuafu,kf
+姱嫭	kuahu,kh
+姱嫮	kuahu,kh
+姱节	kuajie,kj
+姱丽	kuali,kl
+姱美	kuamei,km
+姱名	kuaming,km
+姱容	kuarong,kr
+姱容修态	kuarongxiutai,krxt
+姱尚	kuashang,ks
+姱修	kuaxiu,kx
+姱志	kuazhi,kz
+姱姿	kuazi,kz

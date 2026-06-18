@@ -1,0 +1,7 @@
+飧餐	suncan,sc
+飧牵	sunqian,sq
+飧钱	sunqian,sq
+飧泄	sunxie,sx
+飧泻	sunxie,sx
+飧饔	sunyong,sy
+飧粥	sunzhou,sz

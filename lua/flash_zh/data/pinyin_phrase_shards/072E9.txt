@@ -1,0 +1,7 @@
+狩地	shoudi,sd
+狩猎	shoulie,sl
+狩猎衫	shoulieshan,sls
+狩取	shouqu,sq
+狩人	shouren,sr
+狩田	shoutian,st
+狩岳巡方	shouyuexunfang,syxf

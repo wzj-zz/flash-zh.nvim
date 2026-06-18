@@ -1,0 +1,8 @@
+汞槽	gongcao,gc
+汞灯	gongdeng,gd
+汞粉	gongfen,gf
+汞弧	gonghu,gh
+汞齐	gongqi,gq
+汞砂	gongsha,gs
+汞溴红	gongxiuhong,gxh
+汞柱	gongzhu,gz

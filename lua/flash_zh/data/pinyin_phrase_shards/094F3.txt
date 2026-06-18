@@ -1,0 +1,4 @@
+铳炮	chongpao,cp
+铳枪	chongqiang,cq
+铳手	chongshou,cs
+铳子	chongzi,cz

@@ -1,0 +1,11 @@
+膀臂	bangbi,bb
+膀大腰圆	bangdayaoyuan,bdyy
+膀光	bangguang,bg
+膀胱	pangguang,pg
+膀胱气化	pangguangqihua,pgqh
+膀胱炎	pangguangyan,pgy
+膀浪	banglang,bl
+膀扇子	bangshanzi,bsz
+膀爷	bangye,by
+膀子	bangzi,bz
+膀子吊	bangzidiao,bzd

@@ -1,0 +1,4 @@
+檐口	yankou,yk
+檐溜	yanliu,yl
+檐头	yantou,yt
+檐下	yanxia,yx

@@ -1,0 +1,13 @@
+页边	yebian,yb
+页底	yedi,yd
+页蒿	yehao,yh
+页框	yekuang,yk
+页码	yema,ym
+页面	yemian,ym
+页签	yeqian,yq
+页首	yeshou,ys
+页数	yeshu,ys
+页心	yexin,yx
+页岩	yeyan,yy
+页岩气	yeyanqi,yyq
+页子	yezi,yz

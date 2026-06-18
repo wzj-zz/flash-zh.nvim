@@ -1,0 +1,4 @@
+癌变	aibian,ab
+癌细胞	aixibao,axb
+癌症	aizheng,az
+癌肿	aizhong,az

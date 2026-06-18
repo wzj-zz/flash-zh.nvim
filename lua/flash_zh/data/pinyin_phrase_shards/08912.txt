@@ -1,0 +1,15 @@
+褒贬	baobian,bb
+褒贬与夺	baobianyuduo,bbyd
+褒禅山	baochanshan,bcs
+褒词	baoci,bc
+褒呔	baotai,bt
+褒奖	baojiang,bj
+褒善贬恶	baoshanbiane,bsbe
+褒姒	baosi,bs
+褒扬	baoyang,by
+褒衣博带	baoyibodai,bybd
+褒衣危冠	baoyiweiguan,bywg
+褒义	baoyi,by
+褒义词	baoyici,byc
+褒忠	baozhong,bz
+褒忠乡	baozhongxiang,bzx

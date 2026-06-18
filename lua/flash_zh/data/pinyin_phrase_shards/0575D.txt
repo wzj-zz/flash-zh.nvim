@@ -1,0 +1,8 @@
+坝地	badi,bd
+坝基	baji,bj
+坝埽	basao,bs
+坝身	bashen,bs
+坝田	batian,bt
+坝址	bazhi,bz
+坝趾	bazhi,bz
+坝子	bazi,bz

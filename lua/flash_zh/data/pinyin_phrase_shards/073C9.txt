@@ -1,0 +1,13 @@
+珉陛	minbi,mb
+珉采	mincai,mc
+珉砆	minfu,mf
+珉玒	minhong,mh
+珉简	minjian,mj
+珉阶	minjie,mj
+珉佩	minpei,mp
+珉砌	minqi,mq
+珉石	minshi,ms
+珉珣	minxun,mx
+珉瑶	minyao,my
+珉玉	minyu,my
+珉玉杂淆	minyuzaxiao,myzx

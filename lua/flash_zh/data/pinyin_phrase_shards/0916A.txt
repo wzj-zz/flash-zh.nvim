@@ -1,0 +1,17 @@
+酪氨酸	laoansuan,las
+酪氨酸代谢病	laoansuandaixiebing,lasdxb
+酪饼	laobing,lb
+酪苍头	laocangtou,lct
+酪蛋白	laodanbai,ldb
+酪浆	laojiang,lj
+酪酒	laojiu,lj
+酪梨	laoli,ll
+酪农业	laonongye,lny
+酪奴	laonu,ln
+酪肉	laorou,lr
+酪乳	laoru,lr
+酪苏	laosu,ls
+酪酥	laosu,ls
+酪素	laosu,ls
+酪酸	laosuan,ls
+酪粥	laozhou,lz

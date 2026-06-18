@@ -1,0 +1,17 @@
+逵道	kuidao,kd
+逵宫	kuigong,kg
+逵径	kuijing,kj
+逵路	kuilu,kl
+逵门	kuimen,km
+逵陌	kuimo,km
+逵衢	kuiqu,kq
+逵泉	kuiquan,kq
+逵泉之诛	kuiquanzhizhu,kqzz
+逵舍	kuishe,ks
+逵师	kuishi,ks
+逵市	kuishi,ks
+逵途	kuitu,kt
+逵巷	kuixiang,kx
+逵穴	kuixue,kx
+逵泽	kuize,kz
+逵卒	kuizu,kz

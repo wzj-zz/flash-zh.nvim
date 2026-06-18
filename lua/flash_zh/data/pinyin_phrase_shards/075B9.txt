@@ -1,0 +1,5 @@
+疹毒	zhendu,zd
+疹疾	zhenji,zj
+疹粟	zhensu,zs
+疹恙	zhenyang,zy
+疹子	zhenzi,zz

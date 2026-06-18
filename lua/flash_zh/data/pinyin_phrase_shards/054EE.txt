@@ -1,0 +1,14 @@
+哮喘	xiaochuan,xc
+哮喘病	xiaochuanbing,xcb
+哮悍	xiaohan,xh
+哮吼	xiaohou,xh
+哮呼	xiaohu,xh
+哮唬	xiaohu,xh
+哮阚	xiaokan,xk
+哮鸣	xiaoming,xm
+哮咆	xiaopao,xp
+哮噬	xiaoshi,xs
+哮咷	xiaotao,xt
+哮啕	xiaotao,xt
+哮呷	xiaoxia,xx
+哮哓	xiao,x

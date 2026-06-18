@@ -1,0 +1,13 @@
+舰船	jianchuan,jc
+舰岛	jiandao,jd
+舰队	jiandui,jd
+舰空导弹	jiankongdaodan,jkdd
+舰炮	jianpao,jp
+舰桥	jianqiao,jq
+舰日	jianri,jr
+舰首	jianshou,js
+舰艇	jianting,jt
+舰载	jianzai,jz
+舰载机	jianzaiji,jzj
+舰长	jianzhang,jz
+舰只	jianzhi,jz

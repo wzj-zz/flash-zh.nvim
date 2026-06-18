@@ -1,0 +1,14 @@
+扮故事	bangushi,bgs
+扮鬼脸	banguilian,bgl
+扮会	banhui,bh
+扮家家酒	banjiajiu,bjj
+扮酷	banku,bk
+扮桶	bantong,bt
+扮戏	banxi,bx
+扮戏子	banxizi,bxz
+扮相	banxiang,bx
+扮演	banyan,by
+扮妆	banzhuang,bz
+扮装	banzhuang,bz
+扮装皇后	banzhuanghuanghou,bzhh
+扮作	banzuo,bz

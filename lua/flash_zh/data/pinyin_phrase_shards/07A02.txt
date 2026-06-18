@@ -1,0 +1,4 @@
+稂秕	langbi,lb
+稂不稂莠不莠	langbuyou,lby
+稂莠	langyou,ly
+稂莠不齐	langyoubuqi,lybq

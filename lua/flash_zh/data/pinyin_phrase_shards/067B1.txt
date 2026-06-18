@@ -1,0 +1,7 @@
+枱布	taibu,tb
+枱灯	taideng,td
+枱历	taili,tl
+枱盘	taipan,tp
+枱球	taiqiu,tq
+枱钟	taizhong,tz
+枱子	taizi,tz

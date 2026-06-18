@@ -1,0 +1,5 @@
+泵柄	bengbing,bb
+泵灯	bengdeng,bd
+泵房	bengfang,bf
+泵浦	bengpu,bp
+泵站	bengzhan,bz

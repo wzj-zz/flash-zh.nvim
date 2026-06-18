@@ -1,0 +1,13 @@
+脓包	nongbao,nb
+脓包行	nongbaoxing,nbx
+脓疮	nongchuang,nc
+脓毒症	nongduzheng,ndz
+脓痂疹	nongjiazhen,njz
+脓泡	nongpao,np
+脓疱	nongpao,np
+脓水	nongshui,ns
+脓团	nongtuan,nt
+脓胸	nongxiong,nx
+脓血	nongxue,nx
+脓血债	nongxuezhai,nxz
+脓肿	nongzhong,nz

@@ -1,0 +1,15 @@
+粥厂	zhouchang,zc
+粥饭僧	zhoufanseng,zfs
+粥鼓	zhougu,zg
+粥卖	zhoumai,zm
+粥糜	zhoumi,zm
+粥面	zhoumian,zm
+粥棚	zhoupeng,zp
+粥权	zhouquan,zq
+粥少僧多	zhoushaosengduo,zssd
+粥饧	zhouxing,zx
+粥样硬化	zhouyangyinghua,zyyh
+粥鱼	zhouyu,zy
+粥饘	zhouzhan,zz
+粥粥	zhou,z
+粥粥无能	zhouwuneng,zwn

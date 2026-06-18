@@ -1,0 +1,5 @@
+硐产	dongchan,dc
+硐砂	dongsha,ds
+硐室	dongshi,ds
+硐长	dongchang,dc
+硐子	dongzi,dz

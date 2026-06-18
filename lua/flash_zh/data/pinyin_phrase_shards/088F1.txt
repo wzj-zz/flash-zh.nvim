@@ -1,0 +1,4 @@
+裱背	biaobei,bb
+裱褙	biaobei,bb
+裱糊	biaohu,bh
+裱花袋	biaohuadai,bhd

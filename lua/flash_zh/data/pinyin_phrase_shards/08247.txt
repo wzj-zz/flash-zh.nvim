@@ -1,0 +1,3 @@
+艇板	tingban,tb
+艇甲板	tingjiaban,tjb
+艇子	tingzi,tz

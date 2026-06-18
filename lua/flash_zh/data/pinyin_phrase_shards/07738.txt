@@ -1,0 +1,4 @@
+眸光	mouguang,mg
+眸瞯	moujian,mj
+眸瞩	mouzhu,mz
+眸子	mouzi,mz

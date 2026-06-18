@@ -1,0 +1,15 @@
+舅弟	jiudi,jd
+舅父	jiufu,jf
+舅公	jiugong,jg
+舅姑	jiugu,jg
+舅舅	jiu,j
+舅老爷	jiulaoye,jly
+舅妈	jiuma,jm
+舅母	jiumu,jm
+舅嫂	jiusao,js
+舅氏	jiushi,js
+舅太太	jiutai,jt
+舅兄	jiuxiong,jx
+舅爷	jiuye,jy
+舅子	jiuzi,jz
+舅祖	jiuzu,jz

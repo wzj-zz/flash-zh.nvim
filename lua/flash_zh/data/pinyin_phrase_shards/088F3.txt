@@ -1,0 +1,6 @@
+裳服	changfu,cf
+裳裾	changju,cj
+裳裳	chang,c
+裳帏	changwei,cw
+裳帷	changwei,cw
+裳衣	changyi,cy

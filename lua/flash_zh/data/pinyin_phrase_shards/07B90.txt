@@ -1,0 +1,6 @@
+箐道	qingdao,qd
+箐峒	qingdong,qd
+箐谷	qinggu,qg
+箐鸡	jingji,jj
+箐泽	jingze,jz
+箐砦	qingzhai,qz

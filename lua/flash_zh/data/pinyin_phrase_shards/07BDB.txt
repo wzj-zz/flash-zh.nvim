@@ -1,0 +1,6 @@
+篛篰	ruobu,rb
+篛笠	ruoli,rl
+篛笼	ruolong,rl
+篛帽	ruomao,rm
+篛篷	ruopeng,rp
+篛竹	ruozhu,rz

@@ -1,0 +1,5 @@
+梃棒	tingbang,tb
+梃杻	tingniu,tn
+梃击	tingji,tj
+梃刃	tingren,tr
+梃子	tingzi,tz

@@ -1,0 +1,6 @@
+帧格式	zhengeshi,zgs
+帧检验序列	zhenjianyanxulie,zjyxl
+帧率	zhenlu,zl
+帧频	zhenpin,zp
+帧首定界符	zhenshoudingjiefu,zsdjf
+帧中继	zhenzhongji,zzj

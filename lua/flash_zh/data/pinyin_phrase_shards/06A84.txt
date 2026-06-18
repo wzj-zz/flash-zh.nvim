@@ -1,0 +1,2 @@
+檄书	xishu,xs
+檄文	xiwen,xw

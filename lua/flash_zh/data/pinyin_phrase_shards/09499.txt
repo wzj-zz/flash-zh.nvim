@@ -1,0 +1,5 @@
+钙玻璃	gaiboli,gbl
+钙华	gaihua,gh
+钙化	gaihua,gh
+钙片	gaipian,gp
+钙质	gaizhi,gz

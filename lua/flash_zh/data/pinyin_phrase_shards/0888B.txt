@@ -1,0 +1,7 @@
+袋狼	dailang,dl
+袋扇	daishan,ds
+袋鼠	daishu,ds
+袋熊	daixiong,dx
+袋装	daizhuang,dz
+袋子	daizi,dz
+袋子包	daizibao,dzb

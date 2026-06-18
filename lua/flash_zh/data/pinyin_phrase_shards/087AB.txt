@@ -1,0 +1,13 @@
+螫搏	shibo,sb
+螫虫	shichong,sc
+螫刺	shici,sc
+螫毒	shidu,sd
+螫蜂	shifeng,sf
+螫口	shikou,sk
+螫乳	shiru,sr
+螫噬	shi,s
+螫手	shishou,ss
+螫手解腕	shishoujiewan,ssjw
+螫蝎	shixie,sx
+螫针	shizhen,sz
+螫中	zhezhong,zz

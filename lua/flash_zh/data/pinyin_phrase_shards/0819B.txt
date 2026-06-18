@@ -1,0 +1,4 @@
+膛径	tangjing,tj
+膛线	tangxian,tx
+膛音	tangyin,ty
+膛子	tangzi,tz

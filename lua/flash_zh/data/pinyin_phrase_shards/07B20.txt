@@ -1,0 +1,8 @@
+笠毂	ligu,lg
+笠冠蓑袂	liguansuomei,lgsm
+笠蓑	lisuo,ls
+笠檐	liyan,ly
+笠泽	lize,lz
+笠泽老翁	lizelaoweng,lzlw
+笠泽翁	lizeweng,lzw
+笠子	lizi,lz

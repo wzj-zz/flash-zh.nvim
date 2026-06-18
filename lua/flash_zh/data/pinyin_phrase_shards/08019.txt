@@ -1,0 +1,7 @@
+耙地	badi,bd
+耙耳朵	paerduo,ped
+耙耧	palou,pl
+耙路机	baluji,blj
+耙耱	pamo,pm
+耙梳	pashu,ps
+耙子	pazi,pz

@@ -1,0 +1,6 @@
+藩国	fanguo,fg
+藩库	fanku,fk
+藩篱	fanli,fl
+藩属	fanshu,fs
+藩镇	fanzhen,fz
+藩镇割据	fanzhengeju,fzgj

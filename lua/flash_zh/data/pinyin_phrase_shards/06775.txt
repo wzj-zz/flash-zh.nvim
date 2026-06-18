@@ -1,0 +1,16 @@
+杵棒	chubang,cb
+杵搏石	chuboshi,cbs
+杵舂	chuchong,cc
+杵触	chu,c
+杵歌	chuge,cg
+杵瓜	chugua,cg
+杵臼	chujiu,cj
+杵臼交	chujiujiao,cjj
+杵臼之交	chujiuzhijiao,cjzj
+杵糠	chukang,ck
+杵声	chusheng,cs
+杵头	chutou,ct
+杵土	chutu,ct
+杵药	chuyao,cy
+杵杖	chuzhang,cz
+杵砧	chuzhen,cz

@@ -1,0 +1,15 @@
+饔餐	yongcan,yc
+饔夫	yongfu,yf
+饔人	yongren,yr
+饔膳	yongshan,ys
+饔飧	yongsun,ys
+饔飧不饱	yongsunbubao,ysbb
+饔飧不给	yongsunbuji,ysbj
+饔飧不济	yongsunbuji,ysbj
+饔飧不继	yongsunbuji,ysbj
+饔飱	yongsun,ys
+饔飱不给	yongsunbugei,ysbg
+饔飱不继	yongsunbuji,ysbj
+饔饩	yongxi,yx
+饔飦	yongzhan,yz
+饔子	yongzi,yz

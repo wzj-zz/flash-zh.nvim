@@ -1,0 +1,16 @@
+馔宾	zhuanbin,zb
+馔哺	zhuanbu,zb
+馔餔	zhuanbu,zb
+馔具	zhuanju,zj
+馔馈	zhuankui,zk
+馔食	zhuanshi,zs
+馔所	zhuansuo,zs
+馔饩	zhuanxi,zx
+馔殽	zhuanyao,zy
+馔羞	zhuanxiu,zx
+馔饮	zhuanyin,zy
+馔玉	zhuanyu,zy
+馔玉炊金	zhuanyuchuijin,zycj
+馔玉炊珠	zhuanyuchuizhu,zycz
+馔珍	zhuanzhen,zz
+馔炙	zhuanzhi,zz

@@ -1,0 +1,4 @@
+辫发	bianfa,bf
+辫髻	bianji,bj
+辫绳	biansheng,bs
+辫子	bianzi,bz

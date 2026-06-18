@@ -1,0 +1,14 @@
+臀瓣	tunban,tb
+臀部	tunbu,tb
+臀产式分娩	tunchanshifenmian,tcsfm
+臀沟	tungou,tg
+臀肌	tunji,tj
+臀尖	tunjian,tj
+臀鳍	tunqi,tq
+臀推	tuntui,tt
+臀围	tunwei,tw
+臀位	tunwei,tw
+臀位分娩	tunweifenmian,twfm
+臀位取胎术	tunweiqutaishu,twqts
+臀疣	tunyou,ty
+臀杖	tunzhang,tz

@@ -1,0 +1,8 @@
+酚甲烷	fenjiawan,fjw
+酚类化合物	fenleihuahewu,flhhw
+酚醛	fenquan,fq
+酚醛胶	fenquanjiao,fqj
+酚醛塑料	fenquansuliao,fqsl
+酚酞	fentai,ft
+酚酞指示剂	fentaizhishiji,ftzsj
+酚油	fenyou,fy

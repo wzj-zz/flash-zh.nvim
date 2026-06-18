@@ -1,0 +1,5 @@
+烙饼	laobing,lb
+烙痕	laohen,lh
+烙花	laohua,lh
+烙铁	laotie,lt
+烙印	laoyin,ly

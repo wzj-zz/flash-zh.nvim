@@ -1,0 +1,13 @@
+罹兵	libing,lb
+罹毒	lidu,ld
+罹法	lifa,lf
+罹诟	ligou,lg
+罹辜	ligu,lg
+罹患	lihuan,lh
+罹祸	lihuo,lh
+罹咎	lijiu,lj
+罹丽	li,l
+罹乱	liluan,ll
+罹难	linan,ln
+罹惹	lire,lr
+罹罪	lizui,lz

@@ -1,0 +1,14 @@
+坯布	pibu,pb
+坯场	pichang,pc
+坯户	pihu,ph
+坯件	pijian,pj
+坯料	piliao,pl
+坯模	pimu,pm
+坯墣	pipu,pp
+坯璞	pipu,pp
+坯素	pisu,ps
+坯胎	pitai,pt
+坯陶	pitao,pt
+坯销	pixiao,px
+坯冶	piye,py
+坯子	pizi,pz

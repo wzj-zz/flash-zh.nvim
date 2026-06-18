@@ -1,0 +1,15 @@
+杼厕	zhuce,zc
+杼斗	zhudou,zd
+杼机	zhuji,zj
+杼栗	zhuli,zl
+杼情	zhuqing,zq
+杼首	zhushou,zs
+杼思	zhusi,zs
+杼梭	zhusuo,zs
+杼柚	zhu,z
+杼柚空虚	zhuzhoukongxu,zzkx
+杼柚其空	zhuzhouqikong,zzqk
+杼柚之空	zhuzhouzhikong,zzzk
+杼云	zhuyun,zy
+杼轴	zhuzhou,zz
+杼轴困	zhuzhoukun,zzk

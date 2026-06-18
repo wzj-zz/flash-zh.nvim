@@ -1,0 +1,17 @@
+肿病	zhongbing,zb
+肿大	zhongda,zd
+肿毒	zhongdu,zd
+肿块	zhongkuai,zk
+肿哙	zhongkuai,zk
+肿瘤	zhongliu,zl
+肿瘤病医生	zhongliubingyisheng,zlbys
+肿瘤切除术	zhongliuqiechushu,zlqcs
+肿瘤学	zhongliuxue,zlx
+肿么	zhongme,zm
+肿痛	zhongtong,zt
+肿物	zhongwu,zw
+肿膝	zhongxi,zx
+肿泄	zhongxie,zx
+肿疡	zhongyang,zy
+肿胀	zhongzhang,zz
+肿胀地	zhongzhangde,zzd

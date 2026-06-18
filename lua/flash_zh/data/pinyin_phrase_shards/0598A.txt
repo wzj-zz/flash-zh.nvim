@@ -1,0 +1,4 @@
+妊妇	renfu,rf
+妊身	renshen,rs
+妊娠	renshen,rs
+妊娠试验	renshenshiyan,rssy

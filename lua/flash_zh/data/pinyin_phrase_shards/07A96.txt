@@ -1,0 +1,6 @@
+窖菜	jiaocai,jc
+窖藏	jiaocang,jc
+窖肥	jiaofei,jf
+窖货	jiaohuo,jh
+窖穴	jiaoxue,jx
+窖子	jiaozi,jz

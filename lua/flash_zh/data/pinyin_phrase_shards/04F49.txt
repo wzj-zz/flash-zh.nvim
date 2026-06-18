@@ -1,0 +1,11 @@
+佉仓	qucang,qc
+佉经	qujing,qj
+佉苴	quju,qj
+佉楼	qulou,ql
+佉楼书	quloushu,qls
+佉卢	qulu,ql
+佉卢虱咤	qulushizha,qlsz
+佉卢文	quluwen,qlw
+佉卢文字	quluwenzi,qlwz
+佉路瑟咤	qulusezha,qlsz
+佉沙	qusha,qs

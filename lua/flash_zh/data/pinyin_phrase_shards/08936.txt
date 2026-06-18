@@ -1,0 +1,6 @@
+褶曲	zhequ,zq
+褶皱	zhezhou,zz
+褶皱山脉	zhezhoushanmai,zzsm
+褶皱山系	zhezhoushanxi,zzsx
+褶子	zhezi,zz
+褶子了	zhezile,zzl

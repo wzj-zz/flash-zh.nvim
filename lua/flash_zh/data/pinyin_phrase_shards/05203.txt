@@ -1,0 +1,8 @@
+刃创	renchuang,rc
+刃具	renju,rj
+刃口	renkou,rk
+刃铓	renmang,rm
+刃面	renmian,rm
+刃器	renqi,rq
+刃树剑山	renshujianshan,rsjs
+刃迎缕解	renyinglujie,rylj

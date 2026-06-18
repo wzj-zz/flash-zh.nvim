@@ -1,0 +1,16 @@
+荔波	libo,lb
+荔波县	liboxian,lbx
+荔城	licheng,lc
+荔城区	lichengqu,lcq
+荔浦	lipu,lp
+荔浦县	lipuxian,lpx
+荔挺	liting,lt
+荔湾	liwan,lw
+荔湾区	liwanqu,lwq
+荔支	lizhi,lz
+荔支香	lizhixiang,lzx
+荔枝	lizhi,lz
+荔枝核	lizhihe,lzh
+荔枝奴	lizhinu,lzn
+荔枝香	lizhixiang,lzx
+荔子	lizi,lz

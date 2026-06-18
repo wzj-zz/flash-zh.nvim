@@ -1,0 +1,14 @@
+葬家	zangjia,zj
+葬礼	zangli,zl
+葬埋	zangmai,zm
+葬薶	zangwo,zw
+葬身	zangshen,zs
+葬身鱼腹	zangshenyufu,zsyf
+葬师	zangshi,zs
+葬式	zangshi,zs
+葬术	zangshu,zs
+葬送	zangsong,zs
+葬巫	zangwu,zw
+葬仪	zangyi,zy
+葬虞	zangyu,zy
+葬玉埋香	zangyumaixiang,zymx

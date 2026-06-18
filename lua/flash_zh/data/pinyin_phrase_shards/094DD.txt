@@ -1,0 +1,8 @@
+铝箔	lubo,lb
+铝箔纸	lubozhi,lbz
+铝矾土	lufantu,lft
+铝锅	luguo,lg
+铝合金	luhejin,lhj
+铝矿	lukuang,lk
+铝土	lutu,lt
+铝土矿	lutukuang,ltk

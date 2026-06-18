@@ -1,0 +1,2 @@
+屉柜	tigui,tg
+屉子	tizi,tz

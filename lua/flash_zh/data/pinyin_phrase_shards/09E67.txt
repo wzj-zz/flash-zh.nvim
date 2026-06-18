@@ -1,0 +1,10 @@
+鹧斑	zheban,zb
+鹧鸪	zhegu,zg
+鹧鸪斑	zheguban,zgb
+鹧鸪菜	zhegucai,zgc
+鹧鸪沉	zheguchen,zgc
+鹧鸪词	zheguci,zgc
+鹧鸪辞	zheguci,zgc
+鹧鸪名	zheguming,zgm
+鹧鸪天	zhegutian,zgt
+鹧鸪枕	zheguzhen,zgz

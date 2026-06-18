@@ -1,0 +1,13 @@
+镶边	xiangbian,xb
+镶齿	xiangchi,xc
+镶滚	xianggun,xg
+镶花	xianghua,xh
+镶黄旗	xianghuangqi,xhq
+镶接	xiangjie,xj
+镶金	xiangjin,xj
+镶面	xiangmian,xm
+镶配	xiangpei,xp
+镶片	xiangpian,xp
+镶嵌	xiangqian,xq
+镶铜木鞋	xiangtongmuxie,xtmx
+镶牙	xiangya,xy

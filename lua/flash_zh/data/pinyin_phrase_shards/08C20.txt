@@ -1,0 +1,16 @@
+谠臣	dangchen,dc
+谠词	dangci,dc
+谠辞	dangci,dc
+谠规	danggui,dg
+谠理	dangli,dl
+谠论	danglun,dl
+谠论侃侃	danglunkan,dlk
+谠谋	dangmou,dm
+谠切	dangqie,dq
+谠人	dangren,dr
+谠言	dangyan,dy
+谠言嘉论	dangyanjialun,dyjl
+谠言直声	dangyanzhisheng,dyzs
+谠议	dangyi,dy
+谠正	dangzheng,dz
+谠直	dangzhi,dz

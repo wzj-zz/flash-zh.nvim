@@ -1,0 +1,10 @@
+硃笔	zhubi,zb
+硃笔官票	zhubiguanpiao,zbgp
+硃笔票	zhubipiao,zbp
+硃笔条子	zhubitiaozi,zbtz
+硃笔帖	zhubitie,zbt
+硃点	zhudian,zd
+硃锭	zhuding,zd
+硃粉	zhufen,zf
+硃封	zhufeng,zf
+硃符	zhufu,zf

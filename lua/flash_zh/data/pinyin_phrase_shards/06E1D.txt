@@ -1,0 +1,6 @@
+渝北	yubei,yb
+渝北区	yubeiqu,ybq
+渝水	yushui,ys
+渝水区	yushuiqu,ysq
+渝中	yuzhong,yz
+渝中区	yuzhongqu,yzq

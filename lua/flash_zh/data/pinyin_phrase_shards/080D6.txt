@@ -1,0 +1,15 @@
+胖袄	pangao,pa
+胖次	pangci,pc
+胖大海	pangdahai,pdh
+胖嘟嘟	pangdu,pd
+胖墩墩	pangdun,pd
+胖墩儿	pangduner,pde
+胖鼓鼓	panggu,pg
+胖乎乎	panghu,ph
+胖人	pangren,pr
+胖肆	pangsi,ps
+胖头鱼	pangtouyu,pty
+胖胀	pangzhang,pz
+胖壮	pangzhuang,pz
+胖子	pangzi,pz
+胖子年	pangzinian,pzn

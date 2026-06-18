@@ -1,0 +1,5 @@
+啤酒	pijiu,pj
+啤酒厂	pijiuchang,pjc
+啤酒肚	pijiudu,pjd
+啤酒花	pijiuhua,pjh
+啤酒节	pijiujie,pjj

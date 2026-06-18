@@ -1,0 +1,4 @@
+挏酒	dongjiu,dj
+挏马	dongma,dm
+挏马酒	dongmajiu,dmj
+挏乳	dongru,dr

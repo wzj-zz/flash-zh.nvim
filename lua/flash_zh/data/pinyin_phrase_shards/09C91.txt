@@ -1,0 +1,12 @@
+鲑禀	guibing,gb
+鲑菜	guicai,gc
+鲑饭	guifan,gf
+鲑冠	guiguan,gg
+鲑蠪	guilong,gl
+鲑泡	guipao,gp
+鲑膳	guishan,gs
+鲑蔬	guishu,gs
+鲑羞	guixiu,gx
+鲑阳	guiyang,gy
+鲑鱼	guiyu,gy
+鲑珍	xiezhen,xz

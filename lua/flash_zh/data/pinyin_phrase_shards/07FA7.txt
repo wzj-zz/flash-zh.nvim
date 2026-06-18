@@ -1,0 +1,4 @@
+羧基	suoji,sj
+羧基酸	suojisuan,sjs
+羧甲司坦	suojiasitan,sjst
+羧酸	suosuan,ss

@@ -1,0 +1,11 @@
+垃圾	laji,lj
+垃圾车	lajiche,ljc
+垃圾电邮	lajidianyou,ljdy
+垃圾堆	lajidui,ljd
+垃圾工	lajigong,ljg
+垃圾股	lajigu,ljg
+垃圾食品	lajishipin,ljsp
+垃圾桶	lajitong,ljt
+垃圾筒	lajitong,ljt
+垃圾箱	lajixiang,ljx
+垃圾邮件	lajiyoujian,ljyj

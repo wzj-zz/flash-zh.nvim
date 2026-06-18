@@ -1,0 +1,17 @@
+罩杯	zhaobei,zb
+罩褂	zhaogua,zg
+罩甲	zhaojia,zj
+罩裤	zhaoku,zk
+罩笼	zhaolong,zl
+罩罗	zhaoluo,zl
+罩门	zhaomen,zm
+罩面	zhaomian,zm
+罩袍	zhaopao,zp
+罩棚	zhaopeng,zp
+罩裙	zhaoqun,zq
+罩衫	zhaoshan,zs
+罩汕	zhaoshan,zs
+罩袖	zhaoxiu,zx
+罩衣	zhaoyi,zy
+罩罩	zhao,z
+罩子	zhaozi,zz

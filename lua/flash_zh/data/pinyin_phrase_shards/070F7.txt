@@ -1,0 +1,5 @@
+烷基	wanji,wj
+烷基苯	wanjiben,wjb
+烷基苯磺酸钠	wanjibenhuangsuanna,wjbhsn
+烷烃	wanting,wt
+烷氧基	wanyangji,wyj

@@ -1,0 +1,13 @@
+爻变	yaobian,yb
+爻辰	yaochen,yc
+爻槌	yaochui,yc
+爻辞	yaoci,yc
+爻错	yaocuo,yc
+爻分	yaofen,yf
+爻画	yaohua,yh
+爻闾	yaolu,yl
+爻律	yaolu,yl
+爻彖	yaotuan,yt
+爻位	yaowei,yw
+爻系	yaoxi,yx
+爻象	yaoxiang,yx

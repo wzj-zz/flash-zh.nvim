@@ -1,0 +1,16 @@
+咒罚	zhoufa,zf
+咒旛儿	zhoufaner,zfe
+咒禁师	zhoujinshi,zjs
+咒诀	zhoujue,zj
+咒骂	zhouma,zm
+咒骂地	zhoumade,zmd
+咒师	zhoushi,zs
+咒术	zhoushu,zs
+咒说	zhoushuo,zs
+咒天骂地	zhoutianmadi,ztmd
+咒文	zhouwen,zw
+咒厌	zhouyan,zy
+咒语	zhouyu,zy
+咒愿	zhouyuan,zy
+咒枣	zhouzao,zz
+咒诅	zhouzu,zz

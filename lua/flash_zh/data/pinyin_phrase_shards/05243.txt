@@ -1,0 +1,17 @@
+剃刀	tidao,td
+剃度	tidu,td
+剃发	tifa,tf
+剃发令	tifaling,tfl
+剃发留辫	tifaliubian,tflb
+剃工	tigong,tg
+剃光头	tiguangtou,tgt
+剃剪	tijian,tj
+剃落	tiluo,tl
+剃面	timian,tm
+剃灭	timie,tm
+剃头	titou,tt
+剃头刀	titoudao,ttd
+剃头挑子一头热	titoutiaoziyire,tttzyr
+剃须刀	tixudao,txd
+剃须膏	tixugao,txg
+剃削	tixue,tx

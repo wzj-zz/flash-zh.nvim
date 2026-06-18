@@ -1,0 +1,5 @@
+鹔霜	sushuang,ss
+鹔鷞	sushuang,ss
+鹔鹴	sushuang,ss
+鹔鹴袍	sushuangpao,ssp
+鹔鹴裘	sushuangqiu,ssq

@@ -1,0 +1,5 @@
+墒沟	shanggou,sg
+墒垄	shanglong,sl
+墒垅	shanglong,sl
+墒情	shangqing,sq
+墒土	shangtu,st

@@ -1,0 +1,10 @@
+艮背	genbei,gb
+艮岑	gencen,gc
+艮峯	genfeng,gf
+艮头	gentou,gt
+艮维	genwei,gw
+艮音	genyin,gy
+艮隅	genyu,gy
+艮域	genyu,gy
+艮岳	genyue,gy
+艮止	genzhi,gz

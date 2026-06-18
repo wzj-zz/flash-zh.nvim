@@ -1,0 +1,17 @@
+糠包	kangbao,kb
+糠秕	kangbi,kb
+糠粃	kangbi,kb
+糠菜半年粮	kangcaibannianliang,kcbnl
+糠灯	kangdeng,kd
+糠镫	kangdeng,kd
+糠豆不赡	kangdoubushan,kdbs
+糠籺	kanghe,kh
+糠核	kanghe,kh
+糠糜	kangmi,km
+糠醛	kangquan,kq
+糠市	kangshi,ks
+糠粞	kangxi,kx
+糠星	kangxing,kx
+糠油	kangyou,ky
+糠糟	kangzao,kz
+糠疹	kangzhen,kz

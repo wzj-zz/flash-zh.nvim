@@ -1,0 +1,15 @@
+茔竁	yingcui,yc
+茔地	yingdi,yd
+茔封	yingfeng,yf
+茔户	yinghu,yh
+茔记	yingji,yj
+茔垄	yinglong,yl
+茔木	yingmu,ym
+茔墓	yingmu,ym
+茔树	yingshu,ys
+茔田	yingtian,yt
+茔域	yingyu,yy
+茔园	yingyuan,yy
+茔葬	yingzang,yz
+茔兆	yingzhao,yz
+茔冢	yingzhong,yz

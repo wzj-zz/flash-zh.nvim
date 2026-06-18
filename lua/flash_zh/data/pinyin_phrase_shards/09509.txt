@@ -1,0 +1,15 @@
+锉冰	cuobing,cb
+锉刀	cuodao,cd
+锉碓	cuodui,cd
+锉工	cuogong,cg
+锉荐	cuojian,cj
+锉角媒人	cuojiaomeiren,cjmr
+锉刻	cuoke,ck
+锉末	cuomo,cm
+锉辱	cuoru,cr
+锉尸	cuoshi,cs
+锉屑	cuoxie,cx
+锉药	cuoyao,cy
+锉斩	cuozhan,cz
+锉折	cuoshe,cs
+锉子	cuozi,cz

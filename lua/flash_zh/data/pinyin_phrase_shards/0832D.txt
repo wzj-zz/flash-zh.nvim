@@ -1,0 +1,10 @@
+茭白	jiaobai,jb
+茭白笋	jiaobaisun,jbs
+茭艸	jiaocao,jc
+茭草	jiaocao,jc
+茭刍	jiaochu,jc
+茭葑	jiaofeng,jf
+茭鸡	jiaoji,jj
+茭米	jiaomi,jm
+茭牧	jiaomu,jm
+茭笋	jiaosun,js

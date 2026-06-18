@@ -1,0 +1,12 @@
+荤菜	huncai,hc
+荤臊	hunsao,hs
+荤膻	hunshan,hs
+荤食	hunshi,hs
+荤素	hunsu,hs
+荤笑话	hunxiaohua,hxh
+荤辛	hunxin,hx
+荤腥	hunxing,hx
+荤血	hunxue,hx
+荤油	hunyou,hy
+荤允	hunyun,hy
+荤粥	xunzhou,xz

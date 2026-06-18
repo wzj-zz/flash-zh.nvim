@@ -1,0 +1,5 @@
+庀材	picai,pc
+庀工	pigong,pg
+庀事	pishi,ps
+庀徒	pitu,pt
+庀役	piyi,py

@@ -1,0 +1,5 @@
+嵊泗	shengsi,ss
+嵊泗列岛	shengsiliedao,ssld
+嵊泗县	shengsixian,ssx
+嵊州	shengzhou,sz
+嵊州市	shengzhoushi,szs

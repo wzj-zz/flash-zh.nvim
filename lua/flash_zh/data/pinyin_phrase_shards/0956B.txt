@@ -1,0 +1,11 @@
+镫棒	dengbang,db
+镫锄	dengchu,dc
+镫骨	denggu,dg
+镫花	denghua,dh
+镫火	denghuo,dh
+镫里藏身	denglicangshen,dlcs
+镫台	dengtai,dt
+镫王	dengwang,dw
+镫仗	dengzhang,dz
+镫杖	dengzhang,dz
+镫子	dengzi,dz

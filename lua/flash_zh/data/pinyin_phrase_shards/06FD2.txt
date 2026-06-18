@@ -1,0 +1,10 @@
+濒海	binhai,bh
+濒河	binhe,bh
+濒近	binjin,bj
+濒临	binlin,bl
+濒灭	binmie,bm
+濒死	binsi,bs
+濒危	binwei,bw
+濒危物种	binweiwuzhong,bwwz
+濒危野生动植物种国际贸易公约	binweiyeshengdongzhiwuzhongguojimaoyigongyue,bwysdzwzgjmygy
+濒于	binyu,by

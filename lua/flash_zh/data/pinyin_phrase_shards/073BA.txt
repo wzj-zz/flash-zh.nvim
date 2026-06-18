@@ -1,0 +1,16 @@
+玺册	xice,xc
+玺策	xice,xc
+玺封	xifeng,xf
+玺绂	xifu,xf
+玺韨	xifu,xf
+玺符	xifu,xf
+玺诰	xigao,xg
+玺唤	xihuan,xh
+玺剑	xijian,xj
+玺节	xijie,xj
+玺室	xishi,xs
+玺绶	xishou,xs
+玺书	xishu,xs
+玺印	xiyin,xy
+玺运	xiyun,xy
+玺诏	xizhao,xz

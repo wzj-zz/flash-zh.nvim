@@ -1,0 +1,9 @@
+肱被	gongbei,gb
+肱髀	gongbi,gb
+肱二头肌	gongertouji,getj
+肱股	gonggu,gg
+肱骨	gonggu,gg
+肱膂	gonglu,gl
+肱三头肌	gongsantouji,gstj
+肱三折	gongsanzhe,gsz
+肱支	gongzhi,gz

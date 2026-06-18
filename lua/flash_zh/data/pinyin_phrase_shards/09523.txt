@@ -1,0 +1,11 @@
+锣槌	luochui,lc
+锣鼓	luogu,lg
+锣鼓点	luogudian,lgd
+锣鼓点儿	luogudianer,lgde
+锣鼓经	luogujing,lgj
+锣鼓听音	luogutingyin,lgty
+锣鼓喧天	luoguxuantian,lgxt
+锣锅	luoguo,lg
+锣经	luojing,lj
+锣齐鼓不齐	luoqigubu,lqgb
+锣声	luosheng,ls

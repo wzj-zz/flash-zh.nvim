@@ -1,0 +1,8 @@
+畋猎	tianlie,tl
+畋马	tianma,tm
+畋犬	tianquan,tq
+畋食	tianshi,ts
+畋狩	tianshou,ts
+畋弋	tianyi,ty
+畋游	tianyou,ty
+畋渔	tianyu,ty

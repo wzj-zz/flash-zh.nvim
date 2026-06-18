@@ -1,0 +1,7 @@
+煅成末	duanchengmo,dcm
+煅粉	duanfen,df
+煅炼	duanlian,dl
+煅炉	duanlu,dl
+煅烧	duanshao,ds
+煅石膏	duanshigao,dsg
+煅事	duanshi,ds

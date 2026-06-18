@@ -1,0 +1,12 @@
+蛀齿	zhuchi,zc
+蛀虫	zhuchong,zc
+蛀船	zhuchuan,zc
+蛀轿	zhujiao,zj
+蛀孔	zhukong,zk
+蛀蚀	zhushi,zs
+蛀食	zhushi,zs
+蛀书虫	zhushuchong,zsc
+蛀书蠹	zhushudu,zsd
+蛀夏	zhuxia,zx
+蛀心虫	zhuxinchong,zxc
+蛀牙	zhuya,zy

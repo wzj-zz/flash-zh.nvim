@@ -1,0 +1,6 @@
+镑错	bangcuo,bc
+镑亏	bangkui,bk
+镑刨	bangpao,bp
+镑余	bangyu,by
+镑张	bangzhang,bz
+镑子儿	bangzier,bze

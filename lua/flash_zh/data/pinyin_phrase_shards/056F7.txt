@@ -1,0 +1,11 @@
+囷仓	quncang,qc
+囷府	qunfu,qf
+囷窌	qunjiao,qj
+囷窖	qunjiao,qj
+囷京	qunjing,qj
+囷廪	qunlin,ql
+囷鹿	qunlu,ql
+囷簏	qunlu,ql
+囷轮	qunlun,ql
+囷囷	qun,q
+囷庾	qunyu,qy

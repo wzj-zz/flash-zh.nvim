@@ -1,0 +1,6 @@
+柩殡	jiubin,jb
+柩车	jiuche,jc
+柩辂	jiulu,jl
+柩路	jiulu,jl
+柩尸	jiushi,js
+柩室	jiushi,js

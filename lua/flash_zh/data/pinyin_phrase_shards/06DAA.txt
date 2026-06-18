@@ -1,0 +1,9 @@
+涪城	fucheng,fc
+涪城区	fuchengqu,fcq
+涪陵	fuling,fl
+涪陵地区	fulingdiqu,fldq
+涪陵区	fulingqu,flq
+涪沤	fuou,fo
+涪皤	fupo,fp
+涪翁	fuweng,fw
+涪湛	fuzhan,fz

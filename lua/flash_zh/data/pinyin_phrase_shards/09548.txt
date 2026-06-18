@@ -1,0 +1,5 @@
+镈铝	bolu,bl
+镈器	boqi,bq
+镈人	boren,br
+镈师	boshi,bs
+镈钟	bozhong,bz

@@ -1,0 +1,12 @@
+胄阀	zhoufa,zf
+胄甲	zhoujia,zj
+胄监	zhoujian,zj
+胄科	zhouke,zk
+胄嗣	zhousi,zs
+胄序	zhouxu,zx
+胄绪	zhouxu,zx
+胄裔	zhouyi,zy
+胄裔繁衍	zhouyifanyan,zyfy
+胄胤	zhouyin,zy
+胄子	zhouzi,zz
+胄族	zhouzu,zz

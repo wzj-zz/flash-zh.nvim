@@ -1,0 +1,7 @@
+釉瓷砖	youcizhuan,ycz
+釉画	youhua,yh
+釉里红	youlihong,ylh
+釉面砖	youmianzhuan,ymz
+釉陶	youtao,yt
+釉质	youzhi,yz
+釉子	youzi,yz

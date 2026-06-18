@@ -1,0 +1,11 @@
+隧道	suidao,sd
+隧道门	suidaomen,sdm
+隧洞	suidong,sd
+隧风	suifeng,sf
+隧户	suihu,sh
+隧口	suikou,sk
+隧埒	suilie,sl
+隧路	suilu,sl
+隧炭	suitan,st
+隧正	suizheng,sz
+隧志	suizhi,sz

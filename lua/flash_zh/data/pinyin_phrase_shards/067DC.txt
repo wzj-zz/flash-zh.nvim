@@ -1,0 +1,15 @@
+柜橱	guichu,gc
+柜坊	guifang,gf
+柜房	guifang,gf
+柜格之松	guigezhisong,ggzs
+柜吏	guili,gl
+柜柳	juliu,jl
+柜签	guiqian,gq
+柜上	guishang,gs
+柜身	guishen,gs
+柜台	guitai,gt
+柜枱	guitai,gt
+柜田	guitian,gt
+柜员机	guiyuanji,gyj
+柜桌	guizhuo,gz
+柜子	guizi,gz

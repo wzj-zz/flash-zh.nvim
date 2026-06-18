@@ -1,0 +1,3 @@
+鲳鳊	changbian,cb
+鲳鯸	changhou,ch
+鲳鱼	changyu,cy

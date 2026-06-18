@@ -1,0 +1,17 @@
+箪豆	dandou,dd
+箪豆见色	dandoujianse,ddjs
+箪壶	danhu,dh
+箪醪投川	danlaotouchuan,dltc
+箪瓢	danpiao,dp
+箪瓢陋室	danpiaoloushi,dpls
+箪瓢陋巷	danpiaolouxiang,dplx
+箪瓢屡空	danpiaolukong,dplk
+箪瓢屡罄	danpiaoluqing,dplq
+箪瓢士	danpiaoshi,dps
+箪食	dansi,ds
+箪食豆羹	danshidougeng,dsdg
+箪食壶浆	dansihujiang,dshj
+箪食壶酒	dansihujiu,dshj
+箪食瓢饮	dansipiaoyin,dspy
+箪笥	dansi,ds
+箪竹	danzhu,dz

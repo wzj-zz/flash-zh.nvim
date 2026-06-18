@@ -1,0 +1,7 @@
+乒乓	pingpang,pp
+乒乓球	pingpangqiu,ppq
+乒乓球拍	pingpangqiupai,ppqp
+乒乓球台	pingpangqiutai,ppqt
+乒乓球运动	pingpangqiuyundong,ppqyd
+乒乒乓乓	pingpang,pp
+乒坛	pingtan,pt

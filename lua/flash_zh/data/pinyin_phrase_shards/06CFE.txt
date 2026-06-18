@@ -1,0 +1,16 @@
+泾川	jingchuan,jc
+泾川县	jingchuanxian,jcx
+泾清渭浊	jingqingweizhuo,jqwz
+泾水	jingshui,js
+泾渭	jingwei,jw
+泾渭不分	jingweibufen,jwbf
+泾渭分明	jingweifenming,jwfm
+泾渭自分	jingweizifen,jwzf
+泾渭自明	jingweiziming,jwzm
+泾溪	jingxi,jx
+泾县	jingxian,jx
+泾阳	jingyang,jy
+泾阳县	jingyangxian,jyx
+泾源	jingyuan,jy
+泾源县	jingyuanxian,jyx
+泾浊渭清	jingzhuoweiqing,jzwq

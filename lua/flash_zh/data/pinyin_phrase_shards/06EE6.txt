@@ -1,0 +1,6 @@
+滦河	luanhe,lh
+滦南	luannan,ln
+滦南县	luannanxian,lnx
+滦平	luanping,lp
+滦平县	luanpingxian,lpx
+滦县	luanxian,lx

@@ -1,0 +1,3 @@
+钣锭	banding,bd
+钣金	banjin,bj
+钣金件	banjinjian,bjj

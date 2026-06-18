@@ -1,0 +1,7 @@
+喂哺	weibu,wb
+喂料	weiliao,wl
+喂母乳	weimuru,wmr
+喂奶	weinai,wn
+喂食	weishi,ws
+喂喂地叫	weidejiao,wdj
+喂养	weiyang,wy

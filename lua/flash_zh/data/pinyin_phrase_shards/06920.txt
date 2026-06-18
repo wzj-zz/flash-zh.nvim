@@ -1,0 +1,5 @@
+椠本	qianben,qb
+椠次	qianci,qc
+椠工	qiangong,qg
+椠刻	qianke,qk
+椠人	qianren,qr

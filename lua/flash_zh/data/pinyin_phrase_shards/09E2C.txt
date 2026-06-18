@@ -1,0 +1,13 @@
+鸬杓	lushao,ls
+鸬鹚	luci,lc
+鸬鹚杓	lucishao,lcs
+鸬鹚船	lucichuan,lcc
+鸬鹚咳	lucihai,lch
+鸬鹚号	lucihao,lch
+鸬鹚酒	lucijiu,lcj
+鸬鹚句当	lucigoudang,lcgd
+鸬鹚陂	lucibei,lcb
+鸬鹚瘟	luciwen,lcw
+鸬鹚笑	lucixiao,lcx
+鸬鸟船	luniaochuan,lnc
+鸬吐	lutu,lt

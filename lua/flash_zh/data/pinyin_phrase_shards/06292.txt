@@ -1,0 +1,15 @@
+抒笔	shubi,sb
+抒厕	shuce,sc
+抒词	shuci,sc
+抒发	shufa,sf
+抒愤	shufen,sf
+抒怀	shuhuai,sh
+抒溷	shuhun,sh
+抒井	shujing,sj
+抒气	shuqi,sq
+抒情	shuqing,sq
+抒情诗	shuqingshi,sqs
+抒思	shusi,ss
+抒写	shuxie,sx
+抒心	shuxin,sx
+抒意	shuyi,sy

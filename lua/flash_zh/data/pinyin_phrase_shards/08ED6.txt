@@ -1,0 +1,4 @@
+軖车	kuangche,kc
+軖床	kuangchuang,kc
+軖头	kuangtou,kt
+軖轴	kuangzhou,kz

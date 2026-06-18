@@ -1,0 +1,13 @@
+碗朝地	wanchaodi,wcd
+碗橱	wanchu,wc
+碗唇	wanchun,wc
+碗公	wangong,wg
+碗柜	wangui,wg
+碗筷	wankuai,wk
+碗里拿蒸饼	wanlinazhengbing,wlnzb
+碗内拿蒸饼	wanneinazhengbing,wnnzb
+碗泥	wanni,wn
+碗脱	wantuo,wt
+碗碗腔	wanqiang,wq
+碗窑	wanyao,wy
+碗盏	wanzhan,wz

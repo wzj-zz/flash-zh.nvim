@@ -1,0 +1,5 @@
+譔次	zhuanci,zc
+譔録	zhuanlu,zl
+譔名	zhuanming,zm
+譔述	zhuanshu,zs
+譔堂	zhuantang,zt

@@ -1,0 +1,15 @@
+戕败	qiangbai,qb
+戕残	qiangcan,qc
+戕伐	qiangfa,qf
+戕风	qiangfeng,qf
+戕害	qianghai,qh
+戕祸	qianghuo,qh
+戕囊	qiangnang,qn
+戕虐	qiangnue,qn
+戕忍	qiangren,qr
+戕杀	qiangsha,qs
+戕身伐命	qiangshenfaming,qsfm
+戕生	qiangsheng,qs
+戕夷	qiangyi,qy
+戕贼	qiangzei,qz
+戕折	qiangshe,qs

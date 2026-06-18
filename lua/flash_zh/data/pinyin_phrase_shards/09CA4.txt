@@ -1,0 +1,15 @@
+鲤肠	lichang,lc
+鲤城	licheng,lc
+鲤城区	lichengqu,lcq
+鲤对	lidui,ld
+鲤风	lifeng,lf
+鲤簰	lipai,lp
+鲤趋	liqu,lq
+鲤书	lishu,ls
+鲤素	lisu,ls
+鲤庭	liting,lt
+鲤鱼	liyu,ly
+鲤鱼风	liyufeng,lyf
+鲤鱼旗	liyuqi,lyq
+鲤鱼跳龙门	liyutiaolongmen,lytlm
+鲤子	lizi,lz

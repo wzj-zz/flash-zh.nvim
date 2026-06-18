@@ -1,0 +1,12 @@
+蠕变	rubian,rb
+蠕虫	ruchong,rc
+蠕簇	rucu,rc
+蠕动	rudong,rd
+蠕动前进	rudongqianjin,rdqj
+蠕蜚	rufei,rf
+蠕滑	ruhua,rh
+蠕活	ruhuo,rh
+蠕蠕	ru,r
+蠕蛇	rushe,rs
+蠕行	ruxing,rx
+蠕形动物	ruxingdongwu,rxdw

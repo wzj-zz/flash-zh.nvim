@@ -1,0 +1,4 @@
+腑肺	fufei,ff
+腑冷	fuleng,fl
+腑水	fushui,fs
+腑脏	fuzang,fz

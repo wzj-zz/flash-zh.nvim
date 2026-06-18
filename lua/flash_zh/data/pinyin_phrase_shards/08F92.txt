@@ -1,0 +1,6 @@
+辒车	wenche,wc
+辒凉	wenliang,wl
+辒凉车	wenliangche,wlc
+辒辌	wenliang,wl
+辒辌车	wenliangche,wlc
+辒辂	wenlu,wl

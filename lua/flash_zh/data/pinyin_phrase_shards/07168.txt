@@ -1,0 +1,12 @@
+煨尘	weichen,wc
+煨燔	weifan,wf
+煨干避湿	weiganbishi,wgbs
+煨干就湿	weiganjiushi,wgjs
+煨罐	weiguan,wg
+煨火	weihuo,wh
+煨烬	weijin,wj
+煨烤	weikao,wk
+煨热	weire,wr
+煨炭	weitan,wt
+煨芋	weiyu,wy
+煨炙	weizhi,wz

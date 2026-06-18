@@ -1,0 +1,14 @@
+螟虫	mingchong,mc
+螟蠧	mingdu,md
+螟蠹	mingdu,md
+螟蛾	minge,me
+螟蜅	mingfu,mf
+螟蝗	minghuang,mh
+螟立	mingli,ml
+螟蛉	mingling,ml
+螟蛉子	minglingzi,mlz
+螟蟊	mingmao,mm
+螟脯	mingfu,mf
+螟螣	mingte,mt
+螟蜓	mingting,mt
+螟蜮	mingyu,my

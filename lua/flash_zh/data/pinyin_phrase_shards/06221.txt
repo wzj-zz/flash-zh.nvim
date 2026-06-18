@@ -1,0 +1,10 @@
+戡定	kanding,kd
+戡复	kanfu,kf
+戡济	kanji,kj
+戡翦	kanjian,kj
+戡戮	kanlu,kl
+戡乱	kanluan,kl
+戡难	kannan,kn
+戡天	kantian,kt
+戡殄	kantian,kt
+戡夷	kanyi,ky

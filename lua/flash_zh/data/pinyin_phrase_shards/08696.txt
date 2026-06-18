@@ -1,0 +1,11 @@
+蚖蚕	yuancan,yc
+蚖虫	yuanchong,yc
+蚖膏	yuangao,yg
+蚖青	yuanqing,yq
+蚖鳝	yuanshan,ys
+蚖鱓	yuantuo,yt
+蚖虵	yuanshe,ys
+蚖蛇	yuanshe,ys
+蚖珍	yuanzhen,yz
+蚖珍蚕	yuanzhencan,yzc
+蚖脂	yuanzhi,yz

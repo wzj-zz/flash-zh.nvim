@@ -1,0 +1,9 @@
+舵把	duoba,db
+舵杆	duogan,dg
+舵工	duogong,dg
+舵机	duoji,dj
+舵轮	duolun,dl
+舵盘	duopan,dp
+舵旁	duopang,dp
+舵手	duoshou,ds
+舵位	duowei,dw

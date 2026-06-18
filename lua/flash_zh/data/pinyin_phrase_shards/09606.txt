@@ -1,0 +1,17 @@
+阆颠	langdian,ld
+阆风	langfeng,lf
+阆风岑	langfengcen,lfc
+阆风巅	langfengdian,lfd
+阆风台	langfengtai,lft
+阆凤山	langfengshan,lfs
+阆宫	langgong,lg
+阆伉	langkang,lk
+阆阆	lang,l
+阆丘	langqiu,lq
+阆邱	langqiu,lq
+阆阙	langque,lq
+阆山	langshan,ls
+阆苑	langyuan,ly
+阆苑琼楼	langyuanqionglou,lyql
+阆中	langzhong,lz
+阆中市	langzhongshi,lzs

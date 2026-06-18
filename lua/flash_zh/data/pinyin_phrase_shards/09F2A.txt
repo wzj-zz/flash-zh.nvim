@@ -1,0 +1,7 @@
+鼪径	shengjing,sj
+鼪鼠	shengshu,ss
+鼪鼯	shengwu,sw
+鼪鼯径	shengwujing,swj
+鼪鼯之径	shengwuzhijing,swzj
+鼪鼬之径	shengyouzhijing,syzj
+鼪鼬之迳	shengyouzhijing,syzj

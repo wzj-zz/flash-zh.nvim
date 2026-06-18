@@ -1,0 +1,15 @@
+晷表	guibiao,gb
+晷度	guidu,gd
+晷候	guihou,gh
+晷景	guijing,gj
+晷刻	guike,gk
+晷漏	guilou,gl
+晷时	guishi,gs
+晷纬	guiwei,gw
+晷暇	guixia,gx
+晷曜	guiyao,gy
+晷仪	guiyi,gy
+晷影	guiying,gy
+晷运	guiyun,gy
+晷昃	guize,gz
+晷柱	guizhu,gz

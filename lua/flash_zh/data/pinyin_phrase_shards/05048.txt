@@ -1,0 +1,8 @@
+偈偈	jie,j
+偈句	jiju,jj
+偈诵	jisong,js
+偈颂	jisong,js
+偈文	jiwen,jw
+偈言	jiyan,jy
+偈语	jiyu,jy
+偈子	jizi,jz

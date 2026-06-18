@@ -1,0 +1,2 @@
+骷髅	kulou,kl
+骷髅头	kuloutou,klt

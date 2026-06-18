@@ -1,0 +1,13 @@
+筵床	yanchuang,yc
+筵会	yanhui,yh
+筵几	yanji,yj
+筵九	yanjiu,yj
+筵阑	yanlan,yl
+筵上	yanshang,ys
+筵肆	yansi,ys
+筵席	yanxi,yx
+筵席捐	yanxijuan,yxj
+筵羞	yanxiu,yx
+筵宴	yan,y
+筵燕	yan,y
+筵笫	yanzi,yz

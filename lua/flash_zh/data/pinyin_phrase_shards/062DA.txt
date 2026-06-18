@@ -1,0 +1,13 @@
+拚财	pancai,pc
+拚除	panchu,pc
+拚得	pinde,pd
+拚娇	pinjiao,pj
+拚捐	pinjuan,pj
+拚命	panming,pm
+拚命地	panmingde,pmd
+拚弃	panqi,pq
+拚去	panqu,pq
+拚舍	pinshe,ps
+拚死	pansi,ps
+拚贴	pintie,pt
+拚着一身剐	pinzheyishengua,pzysg

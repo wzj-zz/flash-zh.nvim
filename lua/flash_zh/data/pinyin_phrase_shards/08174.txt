@@ -1,0 +1,13 @@
+腴表	yubiao,yb
+腴产	yuchan,yc
+腴词	yuci,yc
+腴辞	yuci,yc
+腴甘	yugan,yg
+腴厚	yuhou,yh
+腴膴	yuwu,yw
+腴健	yujian,yj
+腴壤	yurang,yr
+腴润	yurun,yr
+腴田	yutian,yt
+腴沃	yuwo,yw
+腴莹	yuying,yy

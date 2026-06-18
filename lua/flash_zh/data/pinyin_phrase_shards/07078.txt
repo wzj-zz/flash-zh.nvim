@@ -1,0 +1,17 @@
+灸艾分痛	jiuaifentong,jaft
+灸草	jiucao,jc
+灸疮	jiuchuang,jc
+灸刺	jiuci,jc
+灸頞	jiue,je
+灸发	jiufa,jf
+灸法	jiufa,jf
+灸客	jiuke,jk
+灸疗	jiuliao,jl
+灸眉	jiumei,jm
+灸晒	jiushai,js
+灸师	jiushi,js
+灸诈	jiuzha,jz
+灸治	jiuzhi,jz
+灸炷	jiuzhu,jz
+灸灼	jiuzhuo,jz
+灸足	jiuzu,jz

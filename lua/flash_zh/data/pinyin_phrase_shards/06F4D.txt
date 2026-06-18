@@ -1,0 +1,5 @@
+潍城	weicheng,wc
+潍城区	weichengqu,wcq
+潍坊	weifang,wf
+潍坊地区	weifangdiqu,wfdq
+潍坊市	weifangshi,wfs

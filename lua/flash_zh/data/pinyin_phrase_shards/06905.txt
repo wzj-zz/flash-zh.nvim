@@ -1,0 +1,17 @@
+椅背	yibei,yb
+椅搭	yida,yd
+椅凳	yideng,yd
+椅垫	yidian,yd
+椅垫子	yidianzi,ydz
+椅袱	yifu,yf
+椅轿	yijiao,yj
+椅靠	yikao,yk
+椅柅	yini,yn
+椅披	yipi,yp
+椅榻	yita,yt
+椅檀	yitan,yt
+椅桐	yitong,yt
+椅梧	yiwu,yw
+椅杌	yiwu,yw
+椅子	yizi,yz
+椅子舆	yiziyu,yzy

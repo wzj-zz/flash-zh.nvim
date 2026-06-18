@@ -1,0 +1,14 @@
+杪春	miaochun,mc
+杪颠	miaodian,md
+杪冬	miaodong,md
+杪忽	miaohu,mh
+杪曶	miaohu,mh
+杪季	miaoji,mj
+杪节	miaojie,mj
+杪杪	miao,m
+杪末	miaomo,mm
+杪秋	miaoqiu,mq
+杪黍	miaoshu,ms
+杪岁	miaosui,ms
+杪头	miaotou,mt
+杪小	miaoxiao,mx

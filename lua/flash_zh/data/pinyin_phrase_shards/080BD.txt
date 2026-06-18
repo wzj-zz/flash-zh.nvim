@@ -1,0 +1,5 @@
+肽单位	taidanwei,tdw
+肽基	taiji,tj
+肽键	taijian,tj
+肽聚糖	taijutang,tjt
+肽链	tailian,tl

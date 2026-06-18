@@ -1,0 +1,6 @@
+舱房	cangfang,cf
+舱口	cangkou,ck
+舱面	cangmian,cm
+舱室	cangshi,cs
+舱外活动	cangwaihuodong,cwhd
+舱位	cangwei,cw

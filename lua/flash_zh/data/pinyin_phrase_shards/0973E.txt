@@ -1,0 +1,12 @@
+霾暗	maian,ma
+霾藏	maicang,mc
+霾霃	maichen,mc
+霾风	maifeng,mf
+霾晦	maihui,mh
+霾昏	maihun,mh
+霾晶	maijing,mj
+霾蒙	maimeng,mm
+霾天	maitian,mt
+霾土	maitu,mt
+霾雾	maiwu,mw
+霾曀	maiyi,my

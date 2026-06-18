@@ -1,0 +1,14 @@
+冕版	mianban,mb
+冕弁	mianbian,mb
+冕带	miandai,md
+冕服	mianfu,mf
+冕绂	mianfu,mf
+冕黻	mianfu,mf
+冕冠	mianguan,mg
+冕笏	mianhu,mh
+冕旒	mianliu,ml
+冕柳莺	mianliuying,mly
+冕宁	mianning,mn
+冕宁县	mianningxian,mnx
+冕雀	mianque,mq
+冕绅	mianshen,ms

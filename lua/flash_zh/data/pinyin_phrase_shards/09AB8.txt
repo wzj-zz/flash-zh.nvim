@@ -1,0 +1,4 @@
+骸骼	haige,hg
+骸骨	haigu,hg
+骸筋	haijin,hj
+骸炭	haitan,ht

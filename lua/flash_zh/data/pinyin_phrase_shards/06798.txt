@@ -1,0 +1,5 @@
+枘方	ruifang,rf
+枘圆凿方	ruiyuanzaofang,ryzf
+枘凿	ruizuo,rz
+枘凿冰炭	ruizaobingtan,rzbt
+枘凿方圆	ruizaofangyuan,rzfy

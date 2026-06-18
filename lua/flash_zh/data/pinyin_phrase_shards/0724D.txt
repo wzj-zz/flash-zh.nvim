@@ -1,0 +1,4 @@
+牍背	dubei,db
+牍书	dushu,ds
+牍尾	duwei,dw
+牍聿	duyu,dy

@@ -1,0 +1,3 @@
+锆合金	gaohejin,ghj
+锆石	gaoshi,gs
+锆英砂	gaoyingsha,gys

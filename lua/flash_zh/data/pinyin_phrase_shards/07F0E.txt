@@ -1,0 +1,9 @@
+缎布	duanbu,db
+缎带	duandai,dd
+缎匹	duanpi,dp
+缎匹库	duanpiku,dpk
+缎疋	duanpi,dp
+缎疋库	duanpiku,dpk
+缎纹织	duanwenzhi,dwz
+缎织	duanzhi,dz
+缎子	duanzi,dz

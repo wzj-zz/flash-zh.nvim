@@ -1,0 +1,4 @@
+莆田	putian,pt
+莆田地区	putiandiqu,ptdq
+莆田市	putianshi,pts
+莆仙戏	puxianxi,pxx

@@ -1,0 +1,13 @@
+壬辰	renchen,rc
+壬辰倭乱	renchenwoluan,rcwl
+壬遁	rendun,rd
+壬夫	renfu,rf
+壬公	rengong,rg
+壬佞	renning,rn
+壬奇	renqi,rq
+壬人	ren,r
+壬申	renshen,rs
+壬午	renwu,rw
+壬戌	renxu,rx
+壬寅	renyin,ry
+壬子	renzi,rz

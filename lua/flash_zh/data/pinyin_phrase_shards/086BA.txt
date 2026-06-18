@@ -1,0 +1,6 @@
+蚺胆	randan,rd
+蚺虵	ranshe,rs
+蚺虵胆	ranshedan,rsd
+蚺蛇	ranshe,rs
+蚺蛇胆	ranshedan,rsd
+蚺蛇藤	ransheteng,rst

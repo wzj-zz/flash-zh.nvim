@@ -1,0 +1,4 @@
+筇杖	qiongzhang,qz
+筇枝	qiongzhi,qz
+筇竹	qiongzhu,qz
+筇竹杖	qiongzhuzhang,qzz

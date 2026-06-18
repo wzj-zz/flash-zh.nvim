@@ -1,0 +1,3 @@
+镔刀	bindao,bd
+镔芬	binfen,bf
+镔铁	bintie,bt

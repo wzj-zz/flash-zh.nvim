@@ -1,0 +1,14 @@
+髭鬓	zibin,zb
+髭蟾	zichan,zc
+髭发	zifa,zf
+髭根	zigen,zg
+髭胡	zihu,zh
+髭龙	zilong,zl
+髭毛	zimao,zm
+髭毛儿	zimaoer,zme
+髭捻	zinian,zn
+髭髯	ziran,zr
+髭圣	zisheng,zs
+髭塔	zita,zt
+髭须	zixu,zx
+髭髭	zi,z

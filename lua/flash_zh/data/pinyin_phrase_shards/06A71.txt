@@ -1,0 +1,3 @@
+橱窗	chuchuang,cc
+橱柜	chugui,cg
+橱子	chuzi,cz

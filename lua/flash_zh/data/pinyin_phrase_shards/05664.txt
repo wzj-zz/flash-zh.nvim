@@ -1,0 +1,5 @@
+噤口卷舌	jinkoujuanshe,jkjs
+噤口捲舌	jinkoujuanshe,jkjs
+噤若寒蝉	jinruohanchan,jrhc
+噤声	jinsheng,js
+噤声令	jinshengling,jsl

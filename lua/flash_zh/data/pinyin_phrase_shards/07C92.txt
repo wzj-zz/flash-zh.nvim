@@ -1,0 +1,17 @@
+粒白细胞	libaixibao,lbxb
+粒度	lidu,ld
+粒间	lijian,lj
+粒径	lijing,lj
+粒米狼戾	limilang,lml
+粒米束薪	limishuxin,lmsx
+粒食	lishi,ls
+粒细胞	lixibao,lxb
+粒选	lixuan,lx
+粒雪	lixue,lx
+粒状	lizhuang,lz
+粒子	lizi,lz
+粒子加速器	lizijiasuqi,lzjsq
+粒子流	liziliu,lzl
+粒子束	lizishu,lzs
+粒子物理	liziwu,lzw
+粒子物理学	liziwuxue,lzwx

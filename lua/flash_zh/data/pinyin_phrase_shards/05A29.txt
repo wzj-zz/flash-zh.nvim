@@ -1,0 +1,9 @@
+娩出	mianchu,mc
+娩后	mianhou,mh
+娩怀	mianhuai,mh
+娩媚	mianmei,mm
+娩难	miannan,mn
+娩身	mianshen,ms
+娩娠	mianshen,ms
+娩息	mianxi,mx
+娩泽	mianze,mz

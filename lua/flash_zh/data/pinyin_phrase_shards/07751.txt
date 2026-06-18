@@ -1,0 +1,5 @@
+睑板	jianban,jb
+睑裂	jianlie,jl
+睑下垂	jianxiachui,jxc
+睑腺炎	jianxianyan,jxy
+睑炎	jianyan,jy

@@ -1,0 +1,7 @@
+簟茀	dianbo,db
+簟文	dianwen,dw
+簟纹	dianwen,dw
+簟纹如水	dianwenrushui,dwrs
+簟席	dianxi,dx
+簟竹	dianzhu,dz
+簟子	dianzi,dz

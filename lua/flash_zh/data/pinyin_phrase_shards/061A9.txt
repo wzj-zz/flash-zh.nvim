@@ -1,0 +1,17 @@
+憩馆	qiguan,qg
+憩脚	qijiao,qj
+憩流	qiliu,ql
+憩泊	qibo,qb
+憩赏	qishang,qs
+憩室	qishi,qs
+憩室炎	qishiyan,qsy
+憩睡	qishui,qs
+憩棠	qitang,qt
+憩息	qixi,qx
+憩息处	qixichu,qxc
+憩歇	qixie,qx
+憩休	qixiu,qx
+憩偃	qiyan,qy
+憩宴	qiyan,qy
+憩燕	qiyan,qy
+憩止	qizhi,qz

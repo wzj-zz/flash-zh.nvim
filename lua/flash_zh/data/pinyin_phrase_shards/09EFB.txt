@@ -1,0 +1,11 @@
+黻班	fuban,fb
+黻领	fuling,fl
+黻冕	fumian,fm
+黻佩	fupei,fp
+黻裘	fuqiu,fq
+黻翣	fusha,fs
+黻裳	fuchang,fc
+黻文	fuwen,fw
+黻绣	fuxiu,fx
+黻衣	fuyi,fy
+黻藻	fuzao,fz

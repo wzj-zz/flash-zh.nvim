@@ -1,0 +1,3 @@
+铬钢	gegang,gg
+铬镍钢	geniegang,gng
+铬铁矿	getiekuang,gtk

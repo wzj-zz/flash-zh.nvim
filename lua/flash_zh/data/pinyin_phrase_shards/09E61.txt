@@ -1,0 +1,5 @@
+鹡鸰	jiling,jl
+鹡鸰科	jilingke,jlk
+鹡鸰原	jilingyuan,jly
+鹡鸰在原	jilingzaiyuan,jlzy
+鹡原	jiyuan,jy

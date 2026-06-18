@@ -1,0 +1,5 @@
+锌白	xinbai,xb
+锌板	xinban,xb
+锌版	xinban,xb
+锌钡白	xinbeibai,xbb
+锌粉	xinfen,xf

@@ -1,0 +1,5 @@
+耧播	loubo,lb
+耧车	louche,lc
+耧锄	louchu,lc
+耧犁	louli,ll
+耧犂	louli,ll

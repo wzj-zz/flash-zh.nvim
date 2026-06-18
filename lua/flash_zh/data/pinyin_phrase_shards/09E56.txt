@@ -1,0 +1,11 @@
+鹖戴	hedai,hd
+鹖旦	hedan,hd
+鹖鴠	hedan,hd
+鹖冠	heguan,hg
+鹖鸡	heji,hj
+鹖鸡冠	hejiguan,hjg
+鹖鸟	heniao,hn
+鹖鸟冠	heniaoguan,hng
+鹖雀	heque,hq
+鹖苏	hesu,hs
+鹖尾	hewei,hw

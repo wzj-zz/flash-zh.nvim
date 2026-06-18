@@ -1,0 +1,3 @@
+疔疮	dingchuang,dc
+疔毒	dingdu,dd
+疔瘇	dingzhong,dz

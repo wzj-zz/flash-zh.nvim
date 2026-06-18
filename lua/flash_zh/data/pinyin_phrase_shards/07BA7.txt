@@ -1,0 +1,12 @@
+箧椟	qiedu,qd
+箧牍	qiedu,qd
+箧服	qiefu,qf
+箧匮	qiekui,qk
+箧簏	qielu,ql
+箧箧	qie,q
+箧扇	qieshan,qs
+箧书潜递	qieshuqiandi,qsqd
+箧笥	qiesi,qs
+箧衍	qieyan,qy
+箧枕	qiezhen,qz
+箧中书	qiezhongshu,qzs

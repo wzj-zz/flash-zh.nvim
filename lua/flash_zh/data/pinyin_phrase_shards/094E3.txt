@@ -1,0 +1,11 @@
+铣床	xichuang,xc
+铣刀	xidao,xd
+铣工	xigong,xg
+铣锒	xilang,xl
+铣塞	xisai,xs
+铣树	xishu,xs
+铣铁	xiantie,xt
+铣鋧	xixian,xx
+铣削	xixiao,xx
+铣珧	xiyao,xy
+铣泽	xize,xz

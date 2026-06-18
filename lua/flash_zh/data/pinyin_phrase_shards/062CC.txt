@@ -1,0 +1,17 @@
+拌炒	banchao,bc
+拌唇撅嘴	banchunjuezui,bcjz
+拌饭	banfan,bf
+拌和	banhuo,bh
+拌娇	banjiao,bj
+拌磕	banke,bk
+拌料	banliao,bl
+拌面	banmian,bm
+拌命	banming,bm
+拌舍	banshe,bs
+拌蒜	bansuan,bs
+拌蒜加葱	bansuanjiacong,bsjc
+拌匀	banyun,by
+拌种	banzhong,bz
+拌嘴	banzui,bz
+拌嘴拌舌	banzuishe,bzs
+拌嘴斗舌	banzuidoushe,bzds

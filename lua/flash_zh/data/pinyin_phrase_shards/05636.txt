@@ -1,0 +1,9 @@
+嘶喊	sihan,sh
+嘶吼	sihou,sh
+嘶叫	sijiao,sj
+嘶鸣	siming,sm
+嘶嘶地响	sidexiang,sdx
+嘶嘶声	sisheng,ss
+嘶哑	siya,sy
+嘶哑地	siyade,syd
+嘶哑声	siyasheng,sys

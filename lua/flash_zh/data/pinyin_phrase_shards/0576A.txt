@@ -1,0 +1,4 @@
+坪坝	pingba,pb
+坪林	pinglin,pl
+坪林乡	pinglinxiang,plx
+坪台	pingtai,pt

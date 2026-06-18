@@ -1,0 +1,12 @@
+蚑蟜	qijiao,qj
+蚑离	qili,ql
+蚑蛲	qinao,qn
+蚑蚑	qi,q
+蚑蛷	qiqiu,qq
+蚑蠕	qiru,qr
+蚑行	qixing,qx
+蚑行喘息	qixingchuanxi,qxcx
+蚑行喙息	qixinghuixi,qxhx
+蚑行哙息	qixingkuaixi,qxkx
+蚑行蛲动	qixingnaodong,qxnd
+蚑行蠕动	qixingrudong,qxrd

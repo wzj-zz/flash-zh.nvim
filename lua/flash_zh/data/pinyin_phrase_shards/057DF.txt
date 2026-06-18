@@ -1,0 +1,11 @@
+域多利皇后	yuduolihuanghou,ydlhh
+域名	yuming,ym
+域名编码	yumingbianma,ymbm
+域名服务器	yumingfuwuqi,ymfwq
+域名抢注	yumingqiangzhu,ymqz
+域名注册	yumingzhuce,ymzc
+域内	yunei,yn
+域外	yuwai,yw
+域域	yu,y
+域兆	yuzhao,yz
+域中	yuzhong,yz

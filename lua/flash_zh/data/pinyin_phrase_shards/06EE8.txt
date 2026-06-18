@@ -1,0 +1,17 @@
+滨城	bincheng,bc
+滨城区	binchengqu,bcq
+滨海	binhai,bh
+滨海边疆区	binhaibianjiangqu,bhbjq
+滨海区	binhaiqu,bhq
+滨海县	binhaixian,bhx
+滨海新区	binhaixinqu,bhxq
+滨湖	binhu,bh
+滨湖区	binhuqu,bhq
+滨江	binjiang,bj
+滨江区	binjiangqu,bjq
+滨松	binsong,bs
+滨松市	binsongshi,bss
+滨田	bintian,bt
+滨田靖一	bintianjingyi,btjy
+滨州	binzhou,bz
+滨州市	binzhoushi,bzs

@@ -1,0 +1,13 @@
+蹭车	cengche,cc
+蹭吃	cengchi,cc
+蹭吃蹭喝	cengchihe,cch
+蹭蹬	cengdeng,cd
+蹭饭	cengfan,cf
+蹭课	cengke,ck
+蹭热度	cengredu,crd
+蹭踏	cengta,ct
+蹭网	cengwang,cw
+蹭窝	cengwo,cw
+蹭戏	cengxi,cx
+蹭躅	cengzhu,cz
+蹭坐	cengzuo,cz

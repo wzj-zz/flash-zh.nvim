@@ -1,0 +1,16 @@
+柄把	bingba,bb
+柄靶	bingba,bb
+柄欛	bingba,bb
+柄朝	bingchao,bc
+柄臣	bingchen,bc
+柄国	bingguo,bg
+柄令	bingling,bl
+柄权	bingquan,bq
+柄任	bingren,br
+柄事	bingshi,bs
+柄授	bingshou,bs
+柄文钱	bingwenqian,bwq
+柄用	bingyong,by
+柄政	bingzheng,bz
+柄子	bingzi,bz
+柄坐	bingzuo,bz

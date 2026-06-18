@@ -1,0 +1,10 @@
+厅房	tingfang,tf
+厅事	tingshi,ts
+厅堂	tingtang,tt
+厅头	tingtou,tt
+厅屋	tingwu,tw
+厅宇	tingyu,ty
+厅长	tingzhang,tz
+厅子	tingzi,tz
+厅子都	tingzidou,tzd
+厅子军	tingzijun,tzj

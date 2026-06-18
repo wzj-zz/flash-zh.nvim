@@ -1,0 +1,12 @@
+锚地	maodi,md
+锚灯	maodeng,md
+锚定	maoding,md
+锚纲	maogang,mg
+锚固	maogu,mg
+锚机	maoji,mj
+锚链	maolian,ml
+锚链孔	maoliankong,mlk
+锚泊	maobo,mb
+锚泊地	maopodi,mpd
+锚绳	maosheng,ms
+锚爪	maozhao,mz

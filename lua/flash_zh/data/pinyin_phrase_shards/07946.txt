@@ -1,0 +1,9 @@
+祆祠	xianci,xc
+祆道	xiandao,xd
+祆教	xianjiao,xj
+祆庙	xianmiao,xm
+祆庙火	xianmiaohuo,xmh
+祆神	xianshen,xs
+祆神庙	xianshenmiao,xsm
+祆正	xianzheng,xz
+祆主	xianzhu,xz

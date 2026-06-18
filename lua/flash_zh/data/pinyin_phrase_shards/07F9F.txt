@@ -1,0 +1,6 @@
+羟氨基	qianganji,qaj
+羟基	qiangji,qj
+羟基丁酸	qiangjidingsuan,qjds
+羟基磷灰石	qiangjilinhuishi,qjlhs
+羟氯喹	qianglukui,qlk
+羟自由基	qiangziyouji,qzyj

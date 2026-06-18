@@ -1,0 +1,4 @@
+痠痹	suanbi,sb
+痠冻	suandong,sd
+痠疼	suanteng,st
+痠痛	suantong,st

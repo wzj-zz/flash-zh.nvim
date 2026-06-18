@@ -1,0 +1,12 @@
+黉宫	honggong,hg
+黉门	hongmen,hm
+黉门监生	hongmenjiansheng,hmjs
+黉门客	hongmenke,hmk
+黉舍	hongshe,hs
+黉室	hongshi,hs
+黉塾	hongshu,hs
+黉堂	hongtang,ht
+黉校	hongxiao,hx
+黉序	hongxu,hx
+黉学	hongxue,hx
+黉宇	hongyu,hy

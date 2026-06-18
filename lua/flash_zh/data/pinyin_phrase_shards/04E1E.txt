@@ -1,0 +1,13 @@
+丞弼	chengbi,cb
+丞簿	chengbu,cb
+丞参	chengcan,cc
+丞倅	chengcui,cc
+丞辅	chengfu,cf
+丞局	chengju,cj
+丞郎	chenglang,cl
+丞史	chengshi,cs
+丞属	chengshu,cs
+丞尉	chengwei,cw
+丞辖	chengxia,cx
+丞相	chengxiang,cx
+丞掾	chengyuan,cy

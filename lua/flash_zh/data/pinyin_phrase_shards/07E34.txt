@@ -1,0 +1,3 @@
+縴道	qiandao,qd
+縴夫	qianfu,qf
+縴手	qianshou,qs

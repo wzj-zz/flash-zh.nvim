@@ -1,0 +1,13 @@
+型板	xingban,xb
+型别	xingbie,xb
+型材	xingcai,xc
+型范	xingfan,xf
+型坊	xingfang,xf
+型钢	xinggang,xg
+型号	xinghao,xh
+型录	xinglu,xl
+型男	xingnan,xn
+型砂	xingsha,xs
+型式	xingshi,xs
+型态	xingtai,xt
+型芯	xingxin,xx

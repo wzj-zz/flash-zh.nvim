@@ -1,0 +1,8 @@
+镗床	tangchuang,tc
+镗鎝	tangda,td
+镗锝	tangde,td
+镗孔	tangkong,tk
+镗锣	tangluo,tl
+镗鞳	tangta,tt
+镗镗	tang,t
+镗威	tangwei,tw

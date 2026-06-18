@@ -1,0 +1,10 @@
+亩产	muchan,mc
+亩道	mudao,md
+亩积	muji,mj
+亩级	muji,mj
+亩捐	mujuan,mj
+亩陇	mulong,ml
+亩丘	muqiu,mq
+亩畹	muwan,mw
+亩制	muzhi,mz
+亩钟	muzhong,mz

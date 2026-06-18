@@ -1,0 +1,5 @@
+孪生	luansheng,ls
+孪生姐妹	luanshengjiemei,lsjm
+孪生兄弟	luanshengxiongdi,lsxd
+孪生子	luanshengzi,lsz
+孪子	luanzi,lz

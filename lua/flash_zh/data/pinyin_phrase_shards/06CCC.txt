@@ -1,0 +1,10 @@
+泌尿	miniao,mn
+泌尿器	miniaoqi,mnq
+泌尿器官	miniaoqiguan,mnqg
+泌尿系统	miniaoxitong,mnxt
+泌丘	miqiu,mq
+泌乳	miru,mr
+泌渗	mishen,ms
+泌阳	biyang,by
+泌阳县	biyangxian,byx
+泌瀄	mizhi,mz

@@ -1,0 +1,6 @@
+吨公里	dungongli,dgl
+吨海里	dunhaili,dhl
+吨级	dunji,dj
+吨浬	dunli,dl
+吨数	dunshu,ds
+吨位	dunwei,dw

@@ -1,0 +1,4 @@
+袍服	paofu,pf
+袍笏登场	paohudengchang,phdc
+袍泽	paoze,pz
+袍子	paozi,pz

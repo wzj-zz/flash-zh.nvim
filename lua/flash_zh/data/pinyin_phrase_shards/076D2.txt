@@ -1,0 +1,16 @@
+盒菜	hecai,hc
+盒带	hedai,hd
+盒担	hedan,hd
+盒饭	hefan,hf
+盒礼	heli,hl
+盒奁	helian,hl
+盒式	heshi,hs
+盒式录音磁带	heshiluyincidai,hslycd
+盒仗	hezhang,hz
+盒中袋	hezhongdai,hzd
+盒装	hezhuang,hz
+盒子	hezi,hz
+盒子菜	hezicai,hzc
+盒子会	hezihui,hzh
+盒子炮	hezipao,hzp
+盒子枪	heziqiang,hzq

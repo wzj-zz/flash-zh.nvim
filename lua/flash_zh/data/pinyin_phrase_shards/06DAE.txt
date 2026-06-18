@@ -1,0 +1,6 @@
+涮锅子	shuanguozi,sgz
+涮火锅	shuanhuoguo,shg
+涮肉	shuanrou,sr
+涮涮锅	shuanguo,sg
+涮洗	shuanxi,sx
+涮羊肉	shuanyangrou,syr

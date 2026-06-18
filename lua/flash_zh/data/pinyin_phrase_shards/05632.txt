@@ -1,0 +1,14 @@
+嘲风弄月	chaofengnongyue,cfny
+嘲风咏月	chaofengyongyue,cfyy
+嘲讽	chaofeng,cf
+嘲讽地	chaofengde,cfd
+嘲讽地说	chaofengdeshuo,cfds
+嘲骂	chaoma,cm
+嘲骂地	chaomade,cmd
+嘲弄	chaonong,cn
+嘲弄地	chaonongde,cnd
+嘲弄地骂	chaonongdema,cndm
+嘲笑	chaoxiao,cx
+嘲笑地	chaoxiaode,cxd
+嘲谑	chaoxue,cx
+嘲哳	zhaozha,zz

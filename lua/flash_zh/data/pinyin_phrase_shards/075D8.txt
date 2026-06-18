@@ -1,0 +1,14 @@
+痘疤	douba,db
+痘瘢	douban,db
+痘疮	douchuang,dc
+痘毒	doudu,dd
+痘痕	douhen,dh
+痘花	douhua,dh
+痘痂	doujia,dj
+痘浆	doujiang,dj
+痘客	douke,dk
+痘苗	doumiao,dm
+痘疱	doupao,dp
+痘神	doushen,ds
+痘疹	douzhen,dz
+痘子	douzi,dz

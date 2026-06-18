@@ -1,0 +1,3 @@
+覂轨	fenggui,fg
+覂驾	fengjia,fj
+覂竭	fengjie,fj

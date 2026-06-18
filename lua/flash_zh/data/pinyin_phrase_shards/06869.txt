@@ -1,0 +1,14 @@
+桩办	zhuangban,zb
+桩歌	zhuangge,zg
+桩构栈道	zhuanggouzhandao,zgzd
+桩管	zhuangguan,zg
+桩积	zhuangji,zj
+桩家	zhuangjia,zj
+桩脚	zhuangjiao,zj
+桩橛	zhuangjue,zj
+桩科	zhuangke,zk
+桩配	zhuangpei,zp
+桩埽夫	zhuangsaofu,zsf
+桩手	zhuangshou,zs
+桩主	zhuangzhu,zz
+桩子	zhuangzi,zz

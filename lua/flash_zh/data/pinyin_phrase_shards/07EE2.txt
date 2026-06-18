@@ -1,0 +1,16 @@
+绢本	juanben,jb
+绢帛	juanbo,jb
+绢布	juanbu,jb
+绢绸	juanchou,jc
+绢地	juandi,jd
+绢幅	juanfu,jf
+绢估	juangu,jg
+绢光	juanguang,jg
+绢花	juanhua,jh
+绢画	juanhua,jh
+绢扇	juanshan,js
+绢丝	juansi,js
+绢素	juansu,js
+绢帖	juantie,jt
+绢头	juantou,jt
+绢子	juanzi,jz

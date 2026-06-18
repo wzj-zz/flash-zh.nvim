@@ -1,0 +1,4 @@
+樊城	fancheng,fc
+樊城区	fanchengqu,fcq
+樊篱	fanli,fl
+樊笼	fanlong,fl

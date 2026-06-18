@@ -1,0 +1,12 @@
+沼池	zhaochi,zc
+沼地	zhaodi,zd
+沼狸	zhaoli,zl
+沼气	zhaoqi,zq
+沼吴	zhaowu,zw
+沼泽	zhaoze,zz
+沼泽大尾莺	zhaozedaweiying,zzdwy
+沼泽地	zhaozedi,zzd
+沼泽地带	zhaozedidai,zzdd
+沼泽山雀	zhaozeshanque,zzsq
+沼泽土	zhaozetu,zzt
+沼沚	zhaozhi,zz

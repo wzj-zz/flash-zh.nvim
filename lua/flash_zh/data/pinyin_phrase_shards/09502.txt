@@ -1,0 +1,2 @@
+锂电池	lidianchi,ldc
+锂离子电池	lizidianchi,lzdc

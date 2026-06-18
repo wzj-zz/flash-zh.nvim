@@ -1,0 +1,17 @@
+趫才	qiaocai,qc
+趫材	qiaocai,qc
+趫荡	qiaodang,qd
+趫夫	qiaofu,qf
+趫悍	qiaohan,qh
+趫疾	qiaoji,qj
+趫健	qiaojian,qj
+趫捷	qiaojie,qj
+趫猛	qiaomeng,qm
+趫敏	qiaomin,qm
+趫揵	qiaojian,qj
+趫趫	qiao,q
+趫轻	qiaoqing,qq
+趫腾	qiaoteng,qt
+趫雄	qiaoxiong,qx
+趫迅	qiaoxun,qx
+趫勇	qiaoyong,qy

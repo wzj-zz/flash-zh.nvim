@@ -1,0 +1,7 @@
+级别	jibie,jb
+级差	jicha,jc
+级距	jiju,jj
+级联	jilian,jl
+级任	jiren,jr
+级数	jishu,js
+级长	jizhang,jz

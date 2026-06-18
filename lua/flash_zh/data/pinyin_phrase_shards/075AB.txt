@@ -1,0 +1,14 @@
+疫病	yibing,yb
+疫病地	yibingde,ybd
+疫鬼	yigui,yg
+疫疾	yiji,yj
+疫祲	yijin,yj
+疫疠	yili,yl
+疫痢	yili,yl
+疫苗	yimiao,ym
+疫气	yiqi,yq
+疫情	yiqing,yq
+疫区	yiqu,yq
+疫神	yishen,ys
+疫源地	yiyuandi,yyd
+疫症	yizheng,yz

@@ -1,0 +1,17 @@
+柞蚕	zuocan,zc
+柞绸	zuochou,zc
+柞鄂	zhae,ze
+柞格	zhage,zg
+柞栎	zuoli,zl
+柞木	zuomu,zm
+柞撒	zhasa,zs
+柞氏	zhashi,zs
+柞树	zuoshu,zs
+柞水	zhashui,zs
+柞水县	zhashuixian,zsx
+柞丝绸	zuosichou,zsc
+柞狭	zhaxia,zx
+柞薪	zhaxin,zx
+柞叶	zhaye,zy
+柞棫	zuoyu,zy
+柞子	zhazi,zz

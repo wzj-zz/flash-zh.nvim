@@ -1,0 +1,11 @@
+缸盖	ganggai,gg
+缸管	gangguan,gg
+缸花	ganghua,gh
+缸炉	ganglu,gl
+缸面	gangmian,gm
+缸盆	gangpen,gp
+缸胎	gangtai,gt
+缸瓦	gangwa,gw
+缸砚	gangyan,gy
+缸砖	gangzhuan,gz
+缸子	gangzi,gz

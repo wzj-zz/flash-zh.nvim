@@ -1,0 +1,5 @@
+腱弓	jiangong,jg
+腱鞘	jianqiao,jq
+腱鞘炎	jianqiaoyan,jqy
+腱炎	jianyan,jy
+腱子	jianzi,jz

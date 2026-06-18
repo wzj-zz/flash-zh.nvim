@@ -1,0 +1,4 @@
+熄灯	xideng,xd
+熄火	xihuo,xh
+熄灭	ximie,xm
+熄讼	xisong,xs

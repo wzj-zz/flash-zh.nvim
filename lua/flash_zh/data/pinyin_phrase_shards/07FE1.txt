@@ -1,0 +1,4 @@
+翡帱	feichou,fc
+翡翠	feicui,fc
+翡冷翠	feilengcui,flc
+翡帷	feiwei,fw

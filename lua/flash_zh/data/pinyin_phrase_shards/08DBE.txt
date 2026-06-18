@@ -1,0 +1,17 @@
+趾绊	zhiban,zb
+趾错	zhicuo,zc
+趾疔	zhiding,zd
+趾高气扬	zhigaoqiyang,zgqy
+趾股	zhigu,zg
+趾骨	zhigu,zg
+趾迹	zhiji,zj
+趾甲	zhijia,zj
+趾尖	zhijian,zj
+趾离	zhili,zl
+趾美	zhimei,zm
+趾业	zhiye,zy
+趾爪	zhizhao,zz
+趾趾	zhi,z
+趾踵	zhizhong,zz
+趾踵相错	zhizhongxiangcuo,zzxc
+趾踵相接	zhizhongxiangjie,zzxj

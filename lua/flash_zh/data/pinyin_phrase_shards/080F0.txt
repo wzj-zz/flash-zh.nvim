@@ -1,0 +1,10 @@
+胰岛	yidao,yd
+胰岛素	yidaosu,yds
+胰腺	yixian,yx
+胰腺炎	yixianyan,yxy
+胰液	yiye,yy
+胰脏	yizang,yz
+胰脏炎	yizangyan,yzy
+胰皂	yizao,yz
+胰脂酶	yizhimei,yzm
+胰子	yizi,yz

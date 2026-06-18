@@ -1,0 +1,16 @@
+剂次	jici,jc
+剂刀	jidao,jd
+剂调	jidiao,jd
+剂钢	jigang,jg
+剂和	jihe,jh
+剂救	jijiu,jj
+剂量	jiliang,jl
+剂量当量	jiliangdang,jld
+剂量监控	jiliangjiankong,jljk
+剂量效应	jiliangxiaoying,jlxy
+剂量学	jiliangxue,jlx
+剂料	jiliao,jl
+剂限	jixian,jx
+剂信	jixin,jx
+剂型	jixing,jx
+剂子	jizi,jz

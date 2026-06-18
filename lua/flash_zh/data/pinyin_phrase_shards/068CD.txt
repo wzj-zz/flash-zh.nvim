@@ -1,0 +1,16 @@
+棍棒	gunbang,gb
+棍成	guncheng,gc
+棍蠧	gundu,gd
+棍蠹	gundu,gd
+棍儿茶	gunercha,gec
+棍棍	gun,g
+棍虎	gunhu,gh
+棍精	gunjing,gj
+棍类	gunlei,gl
+棍骗	gunpian,gp
+棍球	gunqiu,gq
+棍术	gunshu,gs
+棍徒	guntu,gt
+棍团	guntuan,gt
+棍杖	gunzhang,gz
+棍子	gunzi,gz

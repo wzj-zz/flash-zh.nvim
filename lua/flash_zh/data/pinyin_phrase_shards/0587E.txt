@@ -1,0 +1,4 @@
+塾师	shushi,ss
+塾徒	shutu,st
+塾修	shuxiu,sx
+塾脩	shuxiu,sx

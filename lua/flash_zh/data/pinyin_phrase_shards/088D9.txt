@@ -1,0 +1,10 @@
+裙带	qundai,qd
+裙带菜	qundaicai,qdc
+裙带风	qundaifeng,qdf
+裙带关系	qundaiguanxi,qdgx
+裙带官	qundaiguan,qdg
+裙带亲	qundaiqin,qdq
+裙带资本主义	qundaizibenzhuyi,qdzbzy
+裙屐少年	qunjishaonian,qjsn
+裙裤	qunku,qk
+裙子	qunzi,qz

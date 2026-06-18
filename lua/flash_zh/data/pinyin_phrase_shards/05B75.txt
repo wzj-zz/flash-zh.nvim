@@ -1,0 +1,8 @@
+孵蛋	fudan,fd
+孵化	fuhua,fh
+孵化场	fuhuachang,fhc
+孵化期	fuhuaqi,fhq
+孵化器	fuhuaqi,fhq
+孵卵	fuluan,fl
+孵卵器	fuluanqi,flq
+孵育	fuyu,fy

@@ -1,0 +1,6 @@
+瘕疵	jiaci,jc
+瘕疾	jiaji,jj
+瘕气	jiaqi,jq
+瘕疝	jiashan,js
+瘕痛	jiatong,jt
+瘕症	jiazheng,jz

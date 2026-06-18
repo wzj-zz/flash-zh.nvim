@@ -1,0 +1,5 @@
+钎拨	qianbo,qb
+钎锢	qiangu,qg
+钎焊	qianhan,qh
+钎栅	qianshan,qs
+钎子	qianzi,qz

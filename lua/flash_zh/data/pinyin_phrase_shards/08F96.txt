@@ -1,0 +1,11 @@
+辖床	xiachuang,xc
+辖管	xiaguan,xg
+辖戛	xiajia,xj
+辖境	xiajing,xj
+辖区	xiaqu,xq
+辖司	xiasi,xs
+辖统	xiatong,xt
+辖下	xia,x
+辖邑	xiayi,xy
+辖制	xiazhi,xz
+辖治	xiazhi,xz

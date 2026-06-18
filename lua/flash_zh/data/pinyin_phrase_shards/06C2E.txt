@@ -1,0 +1,7 @@
+氮肥	danfei,df
+氮芥气	danjieqi,djq
+氮气	danqi,dq
+氮烯	danxi,dx
+氮循环	danxunhuan,dxh
+氮氧化物	danyanghuawu,dyhw
+氮族	danzu,dz

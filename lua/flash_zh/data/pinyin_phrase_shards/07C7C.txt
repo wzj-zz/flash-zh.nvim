@@ -1,0 +1,3 @@
+籼稻	xiandao,xd
+籼米	xianmi,xm
+籼粟	xiansu,xs

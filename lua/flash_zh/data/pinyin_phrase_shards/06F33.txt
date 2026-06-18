@@ -1,0 +1,7 @@
+漳平	zhangping,zp
+漳平市	zhangpingshi,zps
+漳浦	zhangpu,zp
+漳浦县	zhangpuxian,zpx
+漳县	zhangxian,zx
+漳州	zhangzhou,zz
+漳州市	zhangzhoushi,zzs

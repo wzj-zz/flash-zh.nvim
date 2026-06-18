@@ -1,0 +1,7 @@
+拴车	shuanche,sc
+拴缚	shuanfu,sf
+拴马桩	shuanmazhuang,smz
+拴束	shuanshu,ss
+拴通	shuantong,st
+拴线	shuanxian,sx
+拴住	shuanzhu,sz

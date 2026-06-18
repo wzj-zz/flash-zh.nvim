@@ -1,0 +1,15 @@
+谍报	diebao,db
+谍查	diezha,dz
+谍谍	die,d
+谍夫	diefu,df
+谍候	diehou,dh
+谍记	dieji,dj
+谍间	diejian,dj
+谍人	dieren,dr
+谍士	dieshi,ds
+谍探	dietan,dt
+谍诇	diexiong,dx
+谍贼	diezei,dz
+谍战	diezhan,dz
+谍者	diezhe,dz
+谍知	diezhi,dz

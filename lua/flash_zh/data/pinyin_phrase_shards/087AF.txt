@@ -1,0 +1,4 @@
+螯胶	aojiao,aj
+螯虾	aoxia,ax
+螯蟹	aoxie,ax
+螯肢	aozhi,az

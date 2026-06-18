@@ -1,0 +1,12 @@
+镰采	liancai,lc
+镰仓	liancang,lc
+镰仓幕府	liancangmufu,lcmf
+镰翅鸡	lianchiji,lcj
+镰刀	liandao,ld
+镰刀斧头	liandaofutou,ldft
+镰刀细胞贫血	liandaoxibaopinxue,ldxbpx
+镰锷	liane,le
+镰利	lianli,ll
+镰尾	lianwei,lw
+镰形血球贫血症	lianxingxueqiupinzheng,lxxqpz
+镰状细胞血症	lianzhuangxibaoxuezheng,lzxbxz

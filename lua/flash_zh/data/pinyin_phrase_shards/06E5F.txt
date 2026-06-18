@@ -1,0 +1,6 @@
+湟水	huangshui,hs
+湟鱼	huangyu,hy
+湟源	huangyuan,hy
+湟源县	huangyuanxian,hyx
+湟中	huangzhong,hz
+湟中县	huangzhongxian,hzx

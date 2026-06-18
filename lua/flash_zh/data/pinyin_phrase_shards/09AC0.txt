@@ -1,0 +1,11 @@
+髀盖	bigai,bg
+髀骨	bigu,bg
+髀髋	bikuan,bk
+髀里肉生	bilirousheng,blrs
+髀秋	biqiu,bq
+髀肉	birou,br
+髀肉复生	biroufusheng,brfs
+髀石	bishi,bs
+髀枢	bishu,bs
+髀臋	bitun,bt
+髀殖	bizhi,bz

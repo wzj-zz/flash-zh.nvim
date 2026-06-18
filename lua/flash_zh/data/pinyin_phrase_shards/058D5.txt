@@ -1,0 +1,4 @@
+壕沟	haogou,hg
+壕堑	haoqian,hq
+壕堑战	haoqianzhan,hqz
+壕壍	haoqian,hq

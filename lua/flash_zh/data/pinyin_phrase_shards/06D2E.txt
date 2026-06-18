@@ -1,0 +1,15 @@
+洮北	taobei,tb
+洮北区	taobeiqu,tbq
+洮盥	taoguan,tg
+洮河	taohe,th
+洮河绿石	taohelushi,thls
+洮颒	taohui,th
+洮靧	taohui,th
+洮沬	taomei,tm
+洮南	taonan,tn
+洮南市	taonanshi,tns
+洮汰	taotai,tt
+洮洮	tao,t
+洮研	taoyan,ty
+洮砚	taoyan,ty
+洮州	taozhou,tz

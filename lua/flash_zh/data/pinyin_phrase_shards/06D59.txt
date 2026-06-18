@@ -1,0 +1,14 @@
+浙本	zheben,zb
+浙菜	zhecai,zc
+浙东学派	zhedongxuepai,zdxp
+浙赣	zhegan,zg
+浙河	zhehe,zh
+浙江	zhejiang,zj
+浙江大学	zhejiangdaxue,zjdx
+浙江抗英战役	zhejiangkangyingzhanyi,zjkyzy
+浙江三门县	zhejiangsanmenxian,zjsmx
+浙江省	zhejiangsheng,zjs
+浙江天台县	zhejiangtiantaixian,zjttx
+浙闽丘陵	zheminqiuling,zmql
+浙水	zheshui,zs
+浙西诗派	zhexishipai,zxsp

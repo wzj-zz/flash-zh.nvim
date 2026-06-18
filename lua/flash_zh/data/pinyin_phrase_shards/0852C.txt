@@ -1,0 +1,3 @@
+蔬菜	shucai,sc
+蔬果	shuguo,sg
+蔬食	shushi,ss

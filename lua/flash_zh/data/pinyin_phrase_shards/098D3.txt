@@ -1,0 +1,4 @@
+飓潮	juchao,jc
+飓风	jufeng,jf
+飓风云	jufengyun,jfy
+飓母	jumu,jm

@@ -1,0 +1,7 @@
+踝骨	huaigu,hg
+踝拐	huaiguai,hg
+踝胫	huaijing,hj
+踝蹄婆	huaitipo,htp
+踝体	huaiti,ht
+踝膝	huaixi,hx
+踝子骨	huaizigu,hzg

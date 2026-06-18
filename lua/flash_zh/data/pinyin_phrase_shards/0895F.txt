@@ -1,0 +1,12 @@
+襟抱	jinbao,jb
+襟弟	jindi,jd
+襟度	jindu,jd
+襟副翼	jinfuyi,jfy
+襟怀	jinhuai,jh
+襟怀磊落	jinhuaileiluo,jhll
+襟怀洒落	jinhuaisaluo,jhsl
+襟怀坦白	jinhuaitanbai,jhtb
+襟怀夷旷	jinhuaiyikuang,jhyk
+襟素	jinsu,js
+襟兄	jinxiong,jx
+襟翼	jinyi,jy

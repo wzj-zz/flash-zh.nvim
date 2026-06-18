@@ -1,0 +1,4 @@
+羚牛	lingniu,ln
+羚羊	lingyang,ly
+羚羊挂角	lingyangguajiao,lygj
+羚羊角	lingyangjiao,lyj

@@ -1,0 +1,3 @@
+烩饼	huibing,hb
+烩饭	huifan,hf
+烩面	huimian,hm

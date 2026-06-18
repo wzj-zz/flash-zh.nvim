@@ -1,0 +1,4 @@
+锟钢	kungang,kg
+锟鋘	kunwu,kw
+锟吾	kunwu,kw
+锟铻	kunwu,kw

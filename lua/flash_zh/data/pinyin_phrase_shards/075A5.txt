@@ -1,0 +1,14 @@
+疥壁	jiebi,jb
+疥虫	jiechong,jc
+疥疮	jiechuang,jc
+疥癞	jielai,jl
+疥痨宾	jielaobin,jlb
+疥疠	jieli,jl
+疥骆驼	jieluotuo,jlt
+疥搔	jiesao,js
+疥骚	jiesao,js
+疥瘙	jiesao,js
+疥驼	jietuo,jt
+疥癣	jiexuan,jx
+疥癣之疾	jiexuanzhiji,jxzj
+疥痒	jieyang,jy

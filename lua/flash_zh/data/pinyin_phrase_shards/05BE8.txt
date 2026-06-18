@@ -1,0 +1,13 @@
+寨堡	zhaipu,zp
+寨垛	zhaiduo,zd
+寨壕	zhaihao,zh
+寨卡病毒	zhaikabingdu,zkbd
+寨粮	zhailiang,zl
+寨落	zhailuo,zl
+寨圩	zhaixu,zx
+寨屋	zhaiwu,zw
+寨勇	zhaiyong,zy
+寨长	zhaichang,zc
+寨主	zhaizhu,zz
+寨子	zhaizi,zz
+寨总	zhaizong,zz

@@ -1,0 +1,17 @@
+谶步	chenbu,cb
+谶词	chenci,cc
+谶辞	chenci,cc
+谶符	chenfu,cf
+谶候	chenhou,ch
+谶悔	chenhui,ch
+谶记	chenji,cj
+谶箓	chenlu,cl
+谶録	chenlu,cl
+谶瑞	chenrui,cr
+谶书	chenshu,cs
+谶术	chenshu,cs
+谶纬	chenwei,cw
+谶文	chenwen,cw
+谶言	chenyan,cy
+谶语	chenyu,cy
+谶兆	chenzhao,cz

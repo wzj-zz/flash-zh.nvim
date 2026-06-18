@@ -1,0 +1,7 @@
+辊弹	gundan,gd
+辊辊	gun,g
+辊雷	gunlei,gl
+辊碾	gunnian,gn
+辊辗	gunnian,gn
+辊轴	gunzhou,gz
+辊子	gunzi,gz

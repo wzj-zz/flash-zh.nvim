@@ -1,0 +1,12 @@
+衬布	chenbu,cb
+衬垫	chendian,cd
+衬裤	chenku,ck
+衬里	chenli,cl
+衬领	chenling,cl
+衬裙	chenqun,cq
+衬衫	chenshan,cs
+衬托	chentuo,ct
+衬线	chenxian,cx
+衬衣	chenyi,cy
+衬映	chenying,cy
+衬纸	chenzhi,cz

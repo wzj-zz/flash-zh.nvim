@@ -1,0 +1,14 @@
+阡表	qianbiao,qb
+阡塍	qiancheng,qc
+阡陇	qianlong,ql
+阡眠	qianmian,qm
+阡绵	qianmian,qm
+阡陌	qianmo,qm
+阡陌纵横	qianmozongheng,qmzh
+阡亩	qianmu,qm
+阡阡	qian,q
+阡巷	qianxiang,qx
+阡原	qianyuan,qy
+阡张	qianzhang,qz
+阡兆	qianzhao,qz
+阡纸	qianzhi,qz

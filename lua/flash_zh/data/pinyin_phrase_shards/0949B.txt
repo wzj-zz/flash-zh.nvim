@@ -1,0 +1,3 @@
+钛白	taibai,tb
+钛合金	taihejin,thj
+钛铁矿	taitiekuang,ttk

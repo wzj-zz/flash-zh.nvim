@@ -1,0 +1,8 @@
+繐布	suibu,sb
+繐屦	suiju,sj
+繐幕	suimu,sm
+繐裳	suichang,sc
+繐衰	suishuai,ss
+繐帏	suiwei,sw
+繐帷	suiwei,sw
+繐帐	suizhang,sz

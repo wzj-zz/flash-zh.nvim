@@ -1,0 +1,12 @@
+菩萨	pusa,ps
+菩萨低眉	pusadimei,psdm
+菩萨哥儿	pusageer,psge
+菩萨蛮	pusaman,psm
+菩萨面	pusamian,psm
+菩萨心肠	pusaxinchang,psxc
+菩萨鱼	pusayu,psy
+菩提	puti,pt
+菩提达摩	putidamo,ptdm
+菩提道场	putidaochang,ptdc
+菩提树	putishu,pts
+菩提子	putizi,ptz

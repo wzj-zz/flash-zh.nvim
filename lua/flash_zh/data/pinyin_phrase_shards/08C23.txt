@@ -1,0 +1,7 @@
+谣传	yaochuan,yc
+谣风	yaofeng,yf
+谣俗	yaosu,ys
+谣言	yaoyan,yy
+谣言惑众	yaoyanhuozhong,yyhz
+谣谚	yaoyan,yy
+谣诼	yaozhuo,yz

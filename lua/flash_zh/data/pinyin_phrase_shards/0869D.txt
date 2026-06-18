@@ -1,0 +1,14 @@
+蚝白	haobai,hb
+蚝场	haochang,hc
+蚝豉	haochi,hc
+蚝房	haofang,hf
+蚝甲	haojia,hj
+蚝壳	haoke,hk
+蚝壳窗	haokechuang,hkc
+蚝蛎	haoli,hl
+蚝莆	haopu,hp
+蚝浦	haopu,hp
+蚝山	haoshan,hs
+蚝田	haotian,ht
+蚝油	haoyou,hy
+蚝珠	haozhu,hz

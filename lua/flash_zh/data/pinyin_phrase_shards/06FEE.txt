@@ -1,0 +1,3 @@
+濮阳	puyang,py
+濮阳市	puyangshi,pys
+濮阳县	puyangxian,pyx

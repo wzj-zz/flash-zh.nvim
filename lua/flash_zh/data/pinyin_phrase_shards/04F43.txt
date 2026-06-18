@@ -1,0 +1,14 @@
+佃东	diandong,dd
+佃富农	dianfunong,dfn
+佃户	dianhu,dh
+佃具	tianju,tj
+佃科	dianke,dk
+佃客	dianke,dk
+佃农	diannong,dn
+佃仆	dianpu,dp
+佃契	dianqi,dq
+佃器	tianqi,tq
+佃人	dianren,dr
+佃渔	tianyu,ty
+佃租	dianzu,dz
+佃作	tianzuo,tz

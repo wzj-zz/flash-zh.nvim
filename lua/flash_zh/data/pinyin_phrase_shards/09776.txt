@@ -1,0 +1,10 @@
+靶场	bachang,bc
+靶船	bachuan,bc
+靶儿镜子	baerjingzi,bejz
+靶机	baji,bj
+靶镜	bajing,bj
+靶牌	bapai,bp
+靶台	batai,bt
+靶心	baxin,bx
+靶纸	bazhi,bz
+靶子	bazi,bz

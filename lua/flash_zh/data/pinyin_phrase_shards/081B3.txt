@@ -1,0 +1,17 @@
+膳部	shanbu,sb
+膳啖	shandan,sd
+膳房	shanfang,sf
+膳费	shanfei,sf
+膳夫	shanfu,sf
+膳服	shanfu,sf
+膳府	shanfu,sf
+膳荤	shanhun,sh
+膳魔师	shanmoshi,sms
+膳牌	shanpai,sp
+膳脯	shanfu,sf
+膳食	shanshi,ss
+膳宿	shansu,ss
+膳堂	shantang,st
+膳羞	shanxiu,sx
+膳饮	shanyin,sy
+膳宰	shanzai,sz
