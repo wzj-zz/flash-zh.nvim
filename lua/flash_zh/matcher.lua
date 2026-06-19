@@ -45,6 +45,10 @@ local function normalize_text(text)
   end))
 end
 
+local function is_pinyin_separator(char)
+  return char == " " or char == "\t" or char == "-" or char == "_" or char == "'"
+end
+
 local function normalize(pattern)
   return normalize_text(pattern)
 end
@@ -110,23 +114,37 @@ local function match_positions(segment_text, pattern)
   local normalized_chars = {}
   local normalized_offsets = {}
   local normalized_offset = 1
+  local pinyin_chars = {}
+  local pinyin_offsets = {}
+  local pinyin_offset = 1
   local pinyin_pattern = pattern:gsub("[%s%-%_']+", "")
 
   for index, char in ipairs(chars) do
-    normalized_chars[index] = punctuation_alias(char) or char:lower()
+    local normalized_char = punctuation_alias(char) or char:lower()
+    normalized_chars[index] = normalized_char
     normalized_offsets[index] = normalized_offset
-    normalized_offset = normalized_offset + #normalized_chars[index]
+    normalized_offset = normalized_offset + #normalized_char
+
+    pinyin_offsets[index] = pinyin_offset
+    if is_pinyin_separator(normalized_char) then
+      pinyin_chars[index] = ""
+    else
+      pinyin_chars[index] = normalized_char
+      pinyin_offset = pinyin_offset + #normalized_char
+    end
   end
 
   local normalized_segment = table.concat(normalized_chars)
+  local pinyin_segment = table.concat(pinyin_chars)
 
   for char_index = 1, #chars do
-    local candidate = table.concat(chars, "", char_index)
     local normalized_index = normalized_offsets[char_index]
-    local normalized_candidate = normalized_segment:sub(normalized_index)
+    local pinyin_index = pinyin_offsets[char_index]
+    local pinyin_candidate = pinyin_segment:sub(pinyin_index)
+    local can_match_pinyin = pinyin_chars[char_index] ~= ""
     if
       normalized_segment:find(pattern, normalized_index, true) == normalized_index
-      or (pinyin_pattern ~= "" and pinyin.match_prefix(normalized_candidate, pinyin_pattern))
+      or (can_match_pinyin and pinyin_pattern ~= "" and pinyin.match_prefix(pinyin_candidate, pinyin_pattern))
     then
       positions[#positions + 1] = char_index
     end

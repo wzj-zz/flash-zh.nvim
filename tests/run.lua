@@ -94,6 +94,28 @@ local function test_matcher_punctuation_aliases()
   end)
 end
 
+local function test_matcher_pinyin_across_separators()
+  with_buffer_line("宇 宙", function(win)
+    local opts = matcher.opts({})
+    assert_equal(#opts.matcher(win, { pattern = function() return "yu zhou" end }), 1, "pinyin should match across text spaces")
+    assert_equal(#opts.matcher(win, { pattern = function() return "yuzhou" end }), 1, "continuous pinyin should match across text spaces")
+    assert_equal(#opts.matcher(win, { pattern = function() return "yz" end }), 1, "pinyin initials should match across text spaces")
+    assert_equal(#opts.matcher(win, { pattern = function() return "宇 宙" end }), 1, "literal space matching should still work")
+  end)
+
+  with_buffer_line("API 响 应", function(win)
+    local opts = matcher.opts({})
+    assert_equal(#opts.matcher(win, { pattern = function() return "api xy" end }), 1, "mixed ascii and pinyin initials should match across spaces")
+    assert_equal(#opts.matcher(win, { pattern = function() return "api xiangying" end }), 1, "mixed ascii and full pinyin should match across spaces")
+  end)
+
+  with_buffer_line("星-际_旅'行", function(win)
+    local opts = matcher.opts({})
+    assert_equal(#opts.matcher(win, { pattern = function() return "xjlx" end }), 1, "pinyin initials should match across light separators")
+    assert_equal(#opts.matcher(win, { pattern = function() return "xj-lx" end }), 1, "pinyin pattern separators should still be ignored")
+  end)
+end
+
 local function test_has_matches()
   with_buffer_line("代码跳转", function(win)
     assert_truthy(matcher.has_matches(win, "dm"), "dm should match 代码")
@@ -433,6 +455,7 @@ local tests = {
   test_matcher_pinyin,
   test_matcher_ascii_and_space,
   test_matcher_punctuation_aliases,
+  test_matcher_pinyin_across_separators,
   test_has_matches,
   test_smart_label_skip,
   test_ascii_separator_continuation_skips_case_pair,
