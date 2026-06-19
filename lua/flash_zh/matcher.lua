@@ -113,14 +113,14 @@ function M.opts(config)
   local opts = {
     jump = { autojump = false },
     highlight = { matches = false },
-    labels = (config and config.labels) or "1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    labels = (config and config.labels) or "abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ",
     search = {
       multi_window = false,
       mode = "exact",
       trigger = "",
     },
     label = {
-      uppercase = true,
+      uppercase = false,
       before = { 0, 0 },
       after = false,
     },
@@ -130,6 +130,10 @@ function M.opts(config)
   }
 
   return vim.tbl_deep_extend("force", {}, opts, config or {})
+end
+
+function M.has_matches(win, pattern)
+  return #visible_matches(win, pattern) > 0
 end
 
 return M

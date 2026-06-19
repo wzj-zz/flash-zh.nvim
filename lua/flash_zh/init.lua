@@ -1,8 +1,58 @@
 local M = {}
 
 local defaults = {
-  labels = "1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  labels = "abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ",
 }
+
+local function zh_labeler()
+  local flash_labeler = require "flash.labeler"
+  local matcher = require "flash_zh.matcher"
+
+  return function(_, state)
+    local labeler = flash_labeler.new(state)
+    labeler:reset()
+
+    if #state.pattern() < state.opts.label.min_pattern_length then return end
+
+    local matches = labeler:filter()
+    local continuation = {}
+    local pattern = state.pattern()
+    local has_match_cache = {}
+
+    local function has_continuation(win, label)
+      local cache_key = win .. "\0" .. label
+      if has_match_cache[cache_key] == nil then
+        has_match_cache[cache_key] = matcher.has_matches(win, pattern .. label)
+      end
+      return has_match_cache[cache_key]
+    end
+
+    for _, label in ipairs(labeler.labels) do
+      if label:match "%l" then
+        for _, win in ipairs(state.wins) do
+          if has_continuation(win, label) then
+            continuation[label] = true
+            break
+          end
+        end
+      end
+    end
+
+    if next(continuation) then
+      labeler.labels = vim.tbl_filter(function(label)
+        return not continuation[label]
+      end, labeler.labels)
+    end
+
+    for _, match in ipairs(matches) do
+      labeler:label(match, true)
+    end
+
+    for _, match in ipairs(matches) do
+      if not labeler:label(match) then break end
+    end
+  end
+end
 
 local function is_visual_mode(mode)
   local prefix = mode:sub(1, 1)
@@ -65,6 +115,7 @@ function M.jump(opts)
   local config = vim.tbl_deep_extend("force", {}, M.config or defaults, opts or {})
   local flash_opts = require("flash_zh.matcher").opts(config)
   local mode = vim.fn.mode(true)
+  flash_opts.labeler = zh_labeler()
 
   if is_visual_mode(mode) then
     flash_opts.action = visual_action(vim.fn.getpos "v", mode, config.action)

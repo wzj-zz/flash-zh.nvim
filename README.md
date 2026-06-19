@@ -52,7 +52,7 @@ return {
 - 触发后实时筛选当前屏幕可见范围内的连续可搜索串
 - 支持中文拼音、首字母、英文/数字混合搜索
 - 不自动跳转
-- 使用数字和大写字母标签选择结果
+- 默认优先使用小写字母和数字标签，最后才使用大写字母；会尽量避开与当前拼音续输冲突的小写标签
 - 可选用 `require("flash_zh").remote()` 作为 operator-pending 的远程拼音跳转入口
 
 ## 数据
@@ -77,6 +77,12 @@ return {
 
 ```powershell
 node "scripts/generate-pinyin-data.mjs"
+```
+
+### 运行测试
+
+```powershell
+nvim --headless -u NONE -c "lua dofile('tests/run.lua')" -c qa!
 ```
 
 脚本默认从环境变量 `FLASH_ZH_TEMP_ROOT` 指定的临时目录读取上游仓库副本；未设置时使用本机默认临时目录：
