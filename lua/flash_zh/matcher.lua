@@ -113,7 +113,7 @@ function M.opts(config)
   local opts = {
     jump = { autojump = false },
     highlight = { matches = false },
-    labels = (config and config.labels) or "abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    labels = (config and config.labels) or "1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
     search = {
       multi_window = false,
       mode = "exact",
@@ -123,6 +123,7 @@ function M.opts(config)
       uppercase = false,
       before = { 0, 0 },
       after = false,
+      reuse = "all",
     },
     matcher = function(win, state)
       return visible_matches(win, state.pattern())

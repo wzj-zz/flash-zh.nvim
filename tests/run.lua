@@ -82,7 +82,7 @@ end
 
 local function test_label_reuse_across_updates()
   init.setup()
-  with_buffer_line("文件搜索 文件收尾", function()
+  with_buffer_line("文件搜索 文件收尾 文件书法", function()
     local captured
     local original = require("flash").jump
     require("flash").jump = function(opts)
@@ -108,8 +108,21 @@ local function test_label_reuse_across_updates()
       end
     end
 
+    state:update({ pattern = "sou", force = true })
+    for _, match in ipairs(state.results) do
+      local key = table.concat(match.pos, ":")
+      if labels_by_pos[key] then
+        assert_equal(match.label, labels_by_pos[key], "labels should remain stable across continuation filtering")
+      end
+    end
+
     state:hide()
   end)
+end
+
+local function test_letter_reuse_mode_is_all()
+  local opts = matcher.opts({})
+  assert_equal(opts.label.reuse, "all", "labels should reuse across case groups")
 end
 
 local function test_remote_opts()
@@ -153,8 +166,8 @@ local function test_label_order_default()
   local opts = matcher.opts(init.config)
   assert_equal(
     opts.labels,
-    "abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "default labels should prefer lowercase, then digits, then uppercase"
+    "1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "default labels should prefer digits, then lowercase, then uppercase"
   )
   assert_equal(opts.label.uppercase, false, "explicit mixed-case labels should not rely on uppercase expansion")
 end
@@ -186,6 +199,7 @@ local tests = {
   test_has_matches,
   test_smart_label_skip,
   test_label_reuse_across_updates,
+  test_letter_reuse_mode_is_all,
   test_remote_opts,
   test_matcher_opts_preserve_config,
   test_label_order_default,

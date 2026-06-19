@@ -1,7 +1,7 @@
 local M = {}
 
 local defaults = {
-  labels = "abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  labels = "1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
 }
 
 local function zh_labeler()
@@ -17,8 +17,14 @@ local function zh_labeler()
 
     local matches = labeler:filter()
     local continuation = {}
+    local full_labels = vim.deepcopy(labeler.labels)
+    local label_index = {}
     local pattern = state.pattern()
     local has_match_cache = {}
+
+    for index, label in ipairs(full_labels) do
+      label_index[label] = index
+    end
 
     local function has_continuation(win, label)
       local cache_key = win .. "\0" .. label
@@ -39,18 +45,49 @@ local function zh_labeler()
       end
     end
 
-    if next(continuation) then
-      labeler.labels = vim.tbl_filter(function(label)
-        return not continuation[label]
-      end, labeler.labels)
+    local assigned = {}
+
+    local function is_assignable(label)
+      return label and not continuation[label] and not assigned[label]
+    end
+
+    local function assign(match, label)
+      match.label = label
+      assigned[label] = true
+      labeler.used[match.pos:id(match.win)] = label
+    end
+
+    local function assign_next_available(match, start_index)
+      for index = start_index, #full_labels do
+        local label = full_labels[index]
+        if is_assignable(label) then
+          assign(match, label)
+          return true
+        end
+      end
+
+      for index = 1, start_index - 1 do
+        local label = full_labels[index]
+        if is_assignable(label) then
+          assign(match, label)
+          return true
+        end
+      end
+
+      return false
     end
 
     for _, match in ipairs(matches) do
-      labeler:label(match, true)
+      local reused = labeler.used[match.pos:id(match.win)]
+      if is_assignable(reused) then assign(match, reused) end
     end
 
     for _, match in ipairs(matches) do
-      if not labeler:label(match) then break end
+      if match.label == nil then
+        local previous = labeler.used[match.pos:id(match.win)]
+        local start_index = previous and label_index[previous] or 1
+        assign_next_available(match, start_index)
+      end
     end
   end
 end
