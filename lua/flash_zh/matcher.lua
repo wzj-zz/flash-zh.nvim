@@ -109,14 +109,14 @@ function M.opts(config)
   return {
     jump = { autojump = false },
     highlight = { matches = false },
-    labels = (config and config.labels) or "1234567890",
+    labels = (config and config.labels) or "1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ",
     search = {
       multi_window = false,
       mode = "exact",
       trigger = "",
     },
     label = {
-      uppercase = false,
+      uppercase = true,
       before = { 0, 0 },
       after = false,
     },

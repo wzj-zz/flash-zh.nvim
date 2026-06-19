@@ -1,7 +1,7 @@
 local M = {}
 
 local defaults = {
-  labels = "1234567890",
+  labels = "1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ",
 }
 
 local function is_visual_mode(mode)
