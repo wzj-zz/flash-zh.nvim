@@ -49,6 +49,51 @@ local function test_matcher_ascii_and_space()
   end)
 end
 
+local function test_matcher_punctuation_aliases()
+  local opts = matcher.opts({})
+
+  with_buffer_line("属性：值", function(win)
+    assert_equal(#opts.matcher(win, { pattern = function() return ":" end }), 1, ": should match fullwidth colon")
+    assert_equal(#opts.matcher(win, { pattern = function() return "属性:" end }), 1, "ASCII colon should match fullwidth colon in text")
+  end)
+
+  with_buffer_line("你好，世界。", function(win)
+    assert_equal(#opts.matcher(win, { pattern = function() return "," end }), 1, ", should match fullwidth comma")
+    assert_equal(#opts.matcher(win, { pattern = function() return "世界." end }), 1, "ASCII period should match Chinese period in text")
+  end)
+
+  with_buffer_line("列表、项目", function(win)
+    assert_equal(#opts.matcher(win, { pattern = function() return "/" end }), 1, "/ should match Chinese enumeration comma")
+  end)
+
+  with_buffer_line("函数（参数）", function(win)
+    assert_equal(#opts.matcher(win, { pattern = function() return "(" end }), 1, "( should match fullwidth left parenthesis")
+    assert_equal(#opts.matcher(win, { pattern = function() return "参数)" end }), 1, ") should match fullwidth right parenthesis")
+  end)
+
+  with_buffer_line("《标题》", function(win)
+    assert_equal(#opts.matcher(win, { pattern = function() return "<标" end }), 1, "< should match Chinese left title mark")
+    assert_equal(#opts.matcher(win, { pattern = function() return "题>" end }), 1, "> should match Chinese right title mark")
+  end)
+
+  with_buffer_line("《海贼王》", function(win)
+    assert_equal(#opts.matcher(win, { pattern = function() return "<h" end }), 1, "punctuation aliases should work with pinyin initials")
+    assert_equal(#opts.matcher(win, { pattern = function() return "<ha" end }), 1, "punctuation aliases should work with partial pinyin")
+    assert_equal(#opts.matcher(win, { pattern = function() return "<hai" end }), 1, "punctuation aliases should work with full pinyin")
+  end)
+
+  with_buffer_line("他说“好的”", function(win)
+    assert_equal(#opts.matcher(win, { pattern = function() return '"好' end }), 1, "double quote should match Chinese left double quote")
+    assert_equal(#opts.matcher(win, { pattern = function() return '的"' end }), 1, "double quote should match Chinese right double quote")
+  end)
+
+  with_buffer_line("甲——乙……丙·丁", function(win)
+    assert_equal(#opts.matcher(win, { pattern = function() return "--" end }), 1, "-- should match Chinese dash sequence")
+    assert_equal(#opts.matcher(win, { pattern = function() return ".." end }), 1, ".. should match Chinese ellipsis sequence")
+    assert_equal(#opts.matcher(win, { pattern = function() return ".丁" end }), 1, ". should match Chinese middle dot")
+  end)
+end
+
 local function test_has_matches()
   with_buffer_line("代码跳转", function(win)
     assert_truthy(matcher.has_matches(win, "dm"), "dm should match 代码")
@@ -387,6 +432,7 @@ end
 local tests = {
   test_matcher_pinyin,
   test_matcher_ascii_and_space,
+  test_matcher_punctuation_aliases,
   test_has_matches,
   test_smart_label_skip,
   test_ascii_separator_continuation_skips_case_pair,

@@ -2,8 +2,51 @@ local pinyin = require "flash_zh.pinyin"
 
 local M = {}
 
+local punctuation_aliases = {
+  ["　"] = " ",
+  ["、"] = "/",
+  ["。"] = ".",
+  ["“"] = '"',
+  ["”"] = '"',
+  ["‘"] = "'",
+  ["’"] = "'",
+  ["《"] = "<",
+  ["〈"] = "<",
+  ["》"] = ">",
+  ["〉"] = ">",
+  ["【"] = "[",
+  ["「"] = "[",
+  ["『"] = "[",
+  ["】"] = "]",
+  ["」"] = "]",
+  ["』"] = "]",
+  ["—"] = "-",
+  ["–"] = "-",
+  ["…"] = ".",
+  ["·"] = ".",
+  ["￥"] = "$",
+}
+
+local function punctuation_alias(char)
+  local alias = punctuation_aliases[char]
+  if alias then return alias end
+
+  if char:byte(1) ~= 0xEF then return end
+
+  local codepoint = vim.fn.char2nr(char, true)
+  if codepoint >= 0xFF01 and codepoint <= 0xFF5E then
+    return string.char(codepoint - 0xFEE0)
+  end
+end
+
+local function normalize_text(text)
+  return (text:gsub(".[\128-\191]*", function(char)
+    return punctuation_alias(char) or char:lower()
+  end))
+end
+
 local function normalize(pattern)
-  return pattern:lower()
+  return normalize_text(pattern)
 end
 
 local function is_cjk(codepoint)
@@ -18,7 +61,7 @@ end
 
 local function is_searchable_char(char)
   local codepoint = vim.fn.char2nr(char, true)
-  return is_cjk(codepoint) or is_visible_ascii(codepoint)
+  return is_cjk(codepoint) or is_visible_ascii(codepoint) or punctuation_alias(char) ~= nil
 end
 
 local function char_at(line, index)
@@ -61,19 +104,29 @@ local function split_chars(text)
   return chars
 end
 
-local function normalize_text(text)
-  return text:lower()
-end
-
 local function match_positions(segment_text, pattern)
   local positions = {}
   local chars = split_chars(segment_text)
+  local normalized_chars = {}
+  local normalized_offsets = {}
+  local normalized_offset = 1
   local pinyin_pattern = pattern:gsub("[%s%-%_']+", "")
+
+  for index, char in ipairs(chars) do
+    normalized_chars[index] = punctuation_alias(char) or char:lower()
+    normalized_offsets[index] = normalized_offset
+    normalized_offset = normalized_offset + #normalized_chars[index]
+  end
+
+  local normalized_segment = table.concat(normalized_chars)
+
   for char_index = 1, #chars do
     local candidate = table.concat(chars, "", char_index)
+    local normalized_index = normalized_offsets[char_index]
+    local normalized_candidate = normalized_segment:sub(normalized_index)
     if
-      normalize_text(candidate):find(pattern, 1, true) == 1
-      or (pinyin_pattern ~= "" and pinyin.match_prefix(candidate, pinyin_pattern))
+      normalized_segment:find(pattern, normalized_index, true) == normalized_index
+      or (pinyin_pattern ~= "" and pinyin.match_prefix(normalized_candidate, pinyin_pattern))
     then
       positions[#positions + 1] = char_index
     end
