@@ -80,6 +80,197 @@ local function test_smart_label_skip()
   end)
 end
 
+local function test_ascii_separator_continuation_skips_case_pair()
+  init.setup()
+  with_buffer_line("M-a M-b M-c M-d M-e M-f M-g M-h M-i M-j M-k M-l M-m M-n M-o M-p M-q M-r M-s M-t M-u M-v M-w M-x M-y M-z M-X", function()
+    local state = require("flash.state").new(require("flash_zh.matcher").opts(init.config))
+    state:update({ pattern = "M-", force = true })
+
+    local labels = extract_labels(state)
+    assert_truthy(#labels > 0, "labels should be assigned for ascii continuation test")
+    for _, label in ipairs(labels) do
+      assert_equal(label == "x", false, "continuation label x should be skipped for pattern M-")
+      assert_equal(label == "X", false, "continuation label X should be skipped for pattern M-")
+    end
+
+    state:hide()
+  end)
+end
+
+local function test_angle_bracket_meta_continuation_skips_case_pair()
+  init.setup()
+  with_buffer_line("<M-B> <M-N> <M-P> <M-E> <M-L> <M-H> <M-V> <M-G> <M-Z> <M-T>", function()
+    local state = require("flash.state").new(require("flash_zh.matcher").opts(init.config))
+    state:update({ pattern = "<M-", force = true })
+
+    local labels = extract_labels(state)
+    assert_truthy(#labels > 0, "labels should be assigned for angle bracket meta continuation test")
+    for _, label in ipairs(labels) do
+      assert_equal(label == "n", false, "continuation label n should be skipped for pattern <M-")
+      assert_equal(label == "N", false, "continuation label N should be skipped for pattern <M-")
+      assert_equal(label == "p", false, "continuation label p should be skipped for pattern <M-")
+      assert_equal(label == "P", false, "continuation label P should be skipped for pattern <M-")
+    end
+
+    state:hide()
+  end)
+end
+
+local function test_m_prefix_reserves_separator_continuations()
+  init.setup()
+  with_buffer_line("M-x M-y M-z M-a M-b M-c M-d M-e M-f M-g M-h M-i M-j M-k M-l M-m M-n M-o M-p M-q M-r M-s M-t M-u M-v M-w M-X", function()
+    local captured
+    local original = require("flash").jump
+    require("flash").jump = function(opts)
+      captured = opts
+      return opts
+    end
+
+    init.jump()
+
+    require("flash").jump = original
+
+    local state = require("flash.state").new(captured)
+    state:update({ pattern = "M", force = true })
+
+    local labels = extract_labels(state)
+    assert_truthy(#labels > 0, "labels should be assigned for M-prefix reservation test")
+    for _, label in ipairs(labels) do
+      assert_equal(label == "x", false, "label x should be reserved for pattern M when M-x exists")
+      assert_equal(label == "X", false, "label X should be reserved for pattern M when M-X exists")
+    end
+
+    state:hide()
+  end)
+end
+
+local function assert_labels_do_not_include(pattern, line, forbidden_labels, message)
+  init.setup()
+  with_buffer_line(line, function()
+    local state = require("flash.state").new(require("flash_zh.matcher").opts(init.config))
+    state:update({ pattern = pattern, force = true })
+
+    local labels = extract_labels(state)
+    assert_truthy(#labels > 0, message .. ": labels should be assigned")
+    for _, label in ipairs(labels) do
+      for _, forbidden in ipairs(forbidden_labels) do
+        assert_equal(label == forbidden, false, string.format("%s: label %s should be skipped for pattern %s", message, forbidden, pattern))
+      end
+    end
+
+    state:hide()
+  end)
+end
+
+local function test_ascii_literal_continuation_variants()
+  assert_labels_do_not_include(
+    "foo-",
+    "foo-a foo-b foo-c foo-d foo-e foo-f foo-g foo-h foo-i foo-j foo-k foo-l foo-m foo-n foo-o foo-p foo-q foo-r foo-s foo-t foo-u foo-v foo-w foo-x foo-y foo-z foo-A",
+    { "a", "A" },
+    "ascii hyphen continuation should skip case pair"
+  )
+
+  assert_labels_do_not_include(
+    "bar-",
+    "bar-a bar-b bar-c bar-d bar-e bar-f bar-g bar-h bar-i bar-j bar-k bar-l bar-m bar-n bar-o bar-p bar-q bar-r bar-s bar-t bar-u bar-v bar-w bar-x bar-y bar-z bar-X",
+    { "x", "X" },
+    "ascii uppercase continuation should skip case pair"
+  )
+
+  assert_labels_do_not_include(
+    "A-",
+    "A-1 A-2 A-3 A-4 A-5 A-6 A-7 A-8 A-9 A-0",
+    { "1" },
+    "ascii numeric continuation should skip digit label"
+  )
+
+  assert_labels_do_not_include(
+    "x_",
+    "x_a x_b x_c x_d x_e x_f x_g x_h x_i x_j x_k x_l x_m x_n x_o x_p x_q x_r x_s x_t x_u x_v x_w x_x x_y x_z x_A",
+    { "a", "A" },
+    "ascii underscore continuation should skip case pair"
+  )
+
+  assert_labels_do_not_include(
+    "foo/",
+    "foo/a foo/b foo/c foo/d foo/e foo/f foo/g foo/h foo/i foo/j foo/k foo/l foo/m foo/n foo/o foo/p foo/q foo/r foo/s foo/t foo/u foo/v foo/w foo/x foo/y foo/z foo/X",
+    { "x", "X" },
+    "ascii slash continuation should skip case pair"
+  )
+
+  assert_labels_do_not_include(
+    "it'",
+    "it's it'sa it'sb it'sc it'sd it'se it'sf it'sg it'sh it'si it'sj it'sk it'sl it'sm it'sn it'so it'sp it'sq it'sr it'ss itst it'su it'sv it'sw it'sx it'sy it'sz it'sA",
+    { "s", "S" },
+    "ascii apostrophe continuation should skip case pair"
+  )
+
+  assert_labels_do_not_include(
+    "foo.",
+    "foo.a foo.b foo.c foo.d foo.e foo.f foo.g foo.h foo.i foo.j foo.k foo.l foo.m foo.n foo.o foo.p foo.q foo.r foo.s foo.t foo.u foo.v foo.w foo.x foo.y foo.z foo.X",
+    { "x", "X" },
+    "ascii dot continuation should skip case pair"
+  )
+
+  assert_labels_do_not_include(
+    "mod:",
+    "mod:a mod:b mod:c mod:d mod:e mod:f mod:g mod:h mod:i mod:j mod:k mod:l mod:m mod:n mod:o mod:p mod:q mod:r mod:s mod:t mod:u mod:v mod:w mod:x mod:y mod:z mod:A",
+    { "a", "A" },
+    "ascii colon continuation should skip case pair"
+  )
+
+  assert_labels_do_not_include(
+    "foo+",
+    "foo+a foo+b foo+c foo+d foo+e foo+f foo+g foo+h foo+i foo+j foo+k foo+l foo+m foo+n foo+o foo+p foo+q foo+r foo+s foo+t foo+u foo+v foo+w foo+x foo+y foo+z foo+A",
+    { "a", "A" },
+    "ascii plus continuation should skip case pair"
+  )
+
+  assert_labels_do_not_include(
+    "bar=",
+    "bar=a bar=b bar=c bar=d bar=e bar=f bar=g bar=h bar=i bar=j bar=k bar=l bar=m bar=n bar=o bar=p bar=q bar=r bar=s bar=t bar=u bar=v bar=w bar=x bar=y bar=z bar=X",
+    { "x", "X" },
+    "ascii equal continuation should skip case pair"
+  )
+
+  assert_labels_do_not_include(
+    "ns::",
+    "ns::a ns::b ns::c ns::d ns::e ns::f ns::g ns::h ns::i ns::j ns::k ns::l ns::m ns::n ns::o ns::p ns::q ns::r ns::s ns::t ns::u ns::v ns::w ns::x ns::y ns::z ns::A",
+    { "a", "A" },
+    "double colon continuation should skip case pair"
+  )
+
+  with_buffer_line(
+    "arr[a arr[b arr[c arr[d arr[e arr[f arr[g arr[h arr[i arr[j arr[k arr[l arr[m arr[n arr[o arr[p arr[q arr[r arr[s arr[t arr[u arr[v arr[w arr[x arr[y arr[z arr[X",
+    function()
+      local state = require("flash.state").new(require("flash_zh.matcher").opts(init.config))
+      state:update({ pattern = "arr[", force = true })
+
+      local first = state.results[1]
+      assert_truthy(first ~= nil, "bracket continuation should produce a first result")
+      assert_equal(first.label == "a", false, "bracket continuation should not assign label a to arr[")
+      assert_equal(first.label == "A", false, "bracket continuation should not assign label A to arr[")
+
+      state:hide()
+    end
+  )
+
+  with_buffer_line(
+    "fn<a fn<b fn<c fn<d fn<e fn<f fn<g fn<h fn<i fn<j fn<k fn<l fn<m fn<n fn<o fn<p fn<q fn<r fn<s fn<t fn<u fn<v fn<w fn<x fn<y fn<z fn<X",
+    function()
+      local state = require("flash.state").new(require("flash_zh.matcher").opts(init.config))
+      state:update({ pattern = "fn<", force = true })
+
+      local first = state.results[1]
+      assert_truthy(first ~= nil, "angle continuation should produce a first result")
+      assert_equal(first.label == "a", false, "angle continuation should not assign label a to fn<")
+      assert_equal(first.label == "A", false, "angle continuation should not assign label A to fn<")
+
+      state:hide()
+    end
+  )
+end
+
 local function test_label_reuse_across_updates()
   init.setup()
   with_buffer_line("文件搜索 文件收尾 文件书法", function()
@@ -166,8 +357,8 @@ local function test_label_order_default()
   local opts = matcher.opts(init.config)
   assert_equal(
     opts.labels,
-    "1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    "default labels should prefer digits, then lowercase, then uppercase"
+    "abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "default labels should prefer lowercase, then digits, then uppercase"
   )
   assert_equal(opts.label.uppercase, false, "explicit mixed-case labels should not rely on uppercase expansion")
 end
@@ -198,6 +389,10 @@ local tests = {
   test_matcher_ascii_and_space,
   test_has_matches,
   test_smart_label_skip,
+  test_ascii_separator_continuation_skips_case_pair,
+  test_angle_bracket_meta_continuation_skips_case_pair,
+  test_m_prefix_reserves_separator_continuations,
+  test_ascii_literal_continuation_variants,
   test_label_reuse_across_updates,
   test_letter_reuse_mode_is_all,
   test_remote_opts,

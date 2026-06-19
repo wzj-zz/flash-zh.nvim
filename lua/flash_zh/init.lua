@@ -1,8 +1,100 @@
 local M = {}
 
 local defaults = {
-  labels = "1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  labels = "abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ",
 }
+
+local continuation_separators = {
+  [" "] = true,
+  ["\t"] = true,
+  ["!"] = true,
+  ['"'] = true,
+  ["#"] = true,
+  ["$"] = true,
+  ["%"] = true,
+  ["&"] = true,
+  ["'"] = true,
+  ["("] = true,
+  [")"] = true,
+  ["*"] = true,
+  ["+"] = true,
+  [","] = true,
+  ["-"] = true,
+  ["."] = true,
+  ["/"] = true,
+  [":"] = true,
+  [";"] = true,
+  ["<"] = true,
+  ["="] = true,
+  [">"] = true,
+  ["?"] = true,
+  ["@"] = true,
+  ["["] = true,
+  ["\\"] = true,
+  ["]"] = true,
+  ["^"] = true,
+  ["_"] = true,
+  ["`"] = true,
+  ["{"] = true,
+  ["|"] = true,
+  ["}"] = true,
+  ["~"] = true,
+}
+
+local function case_variants(label)
+  if not label:match "%a" then return { label } end
+  local lower = label:lower()
+  local upper = label:upper()
+  if lower == upper then return { label } end
+  if lower == label then return { lower, upper } end
+  if upper == label then return { upper, lower } end
+  return { label, lower, upper }
+end
+
+local function separator_continuations(matches, pattern)
+  local reserved = {}
+  if pattern:find("[%z\128-\255]") then return reserved end
+
+  local pattern_len = #pattern
+  local line_cache = {}
+
+  local function reserve(win, label)
+    reserved[win] = reserved[win] or {}
+    for _, variant in ipairs(case_variants(label)) do
+      reserved[win][variant] = true
+    end
+  end
+
+  for _, match in ipairs(matches) do
+    local win = match.win
+    local win_lines = line_cache[win]
+    if win_lines == nil then
+      win_lines = {}
+      line_cache[win] = win_lines
+    end
+
+    local lnum = match.pos[1]
+    local line = win_lines[lnum]
+    if line == nil then
+      line = vim.api.nvim_buf_get_lines(vim.api.nvim_win_get_buf(win), lnum - 1, lnum, false)[1] or ""
+      win_lines[lnum] = line
+    end
+
+    local after_pattern = line:sub(match.pos[2] + pattern_len + 1)
+    local index = 1
+    while index <= #after_pattern do
+      local char = after_pattern:sub(index, index)
+      if not continuation_separators[char] then break end
+      index = index + 1
+    end
+    local label = after_pattern:sub(index, index)
+    if label:match "%w" then
+      reserve(win, label)
+    end
+  end
+
+  return reserved
+end
 
 local function zh_labeler()
   local flash_labeler = require "flash.labeler"
@@ -21,12 +113,18 @@ local function zh_labeler()
     local label_index = {}
     local pattern = state.pattern()
     local has_match_cache = {}
+    local separator_reserved = separator_continuations(matches, pattern)
 
     for index, label in ipairs(full_labels) do
       label_index[label] = index
     end
 
     local function has_continuation(win, label)
+      local reserved = separator_reserved[win]
+      if reserved and reserved[label] then
+        return true
+      end
+
       local cache_key = win .. "\0" .. label
       if has_match_cache[cache_key] == nil then
         has_match_cache[cache_key] = matcher.has_matches(win, pattern .. label)
@@ -35,11 +133,23 @@ local function zh_labeler()
     end
 
     for _, label in ipairs(labeler.labels) do
-      if label:match "%l" then
+      if label:match "%a" then
+        local variants = case_variants(label)
+        local has_variant_continuation = false
+
         for _, win in ipairs(state.wins) do
-          if has_continuation(win, label) then
-            continuation[label] = true
-            break
+          for _, variant in ipairs(variants) do
+            if has_continuation(win, variant) then
+              has_variant_continuation = true
+              break
+            end
+          end
+          if has_variant_continuation then break end
+        end
+
+        if has_variant_continuation then
+          for _, variant in ipairs(variants) do
+            continuation[variant] = true
           end
         end
       end

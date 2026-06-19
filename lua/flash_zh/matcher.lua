@@ -113,7 +113,7 @@ function M.opts(config)
   local opts = {
     jump = { autojump = false },
     highlight = { matches = false },
-    labels = (config and config.labels) or "1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    labels = (config and config.labels) or "abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ",
     search = {
       multi_window = false,
       mode = "exact",
