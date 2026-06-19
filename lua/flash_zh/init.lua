@@ -9,7 +9,8 @@ local function zh_labeler()
   local matcher = require "flash_zh.matcher"
 
   return function(_, state)
-    local labeler = flash_labeler.new(state)
+    state.flash_zh_labeler = state.flash_zh_labeler or flash_labeler.new(state)
+    local labeler = state.flash_zh_labeler
     labeler:reset()
 
     if #state.pattern() < state.opts.label.min_pattern_length then return end

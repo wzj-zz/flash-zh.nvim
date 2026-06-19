@@ -80,6 +80,38 @@ local function test_smart_label_skip()
   end)
 end
 
+local function test_label_reuse_across_updates()
+  init.setup()
+  with_buffer_line("文件搜索 文件收尾", function()
+    local captured
+    local original = require("flash").jump
+    require("flash").jump = function(opts)
+      captured = opts
+      return opts
+    end
+    init.jump()
+    require("flash").jump = original
+
+    local state = require("flash.state").new(captured)
+    state:update({ pattern = "s", force = true })
+
+    local labels_by_pos = {}
+    for _, match in ipairs(state.results) do
+      labels_by_pos[table.concat(match.pos, ":")] = match.label
+    end
+
+    state:update({ pattern = "so", force = true })
+    for _, match in ipairs(state.results) do
+      local key = table.concat(match.pos, ":")
+      if labels_by_pos[key] then
+        assert_equal(match.label, labels_by_pos[key], "labels should stay stable for surviving matches")
+      end
+    end
+
+    state:hide()
+  end)
+end
+
 local function test_remote_opts()
   init.setup()
   local calls = {}
@@ -153,6 +185,7 @@ local tests = {
   test_matcher_ascii_and_space,
   test_has_matches,
   test_smart_label_skip,
+  test_label_reuse_across_updates,
   test_remote_opts,
   test_matcher_opts_preserve_config,
   test_label_order_default,
