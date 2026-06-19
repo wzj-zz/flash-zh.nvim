@@ -3,7 +3,7 @@ local pinyin = require "flash_zh.pinyin"
 local M = {}
 
 local function normalize(pattern)
-  return pattern:lower():gsub("[%s%-%_']+", "")
+  return pattern:lower()
 end
 
 local function is_cjk(codepoint)
@@ -12,13 +12,13 @@ local function is_cjk(codepoint)
     or (codepoint >= 0xF900 and codepoint <= 0xFAFF)
 end
 
-local function is_ascii_word(char)
-  return char:match("[A-Za-z0-9_%-]") ~= nil
+local function is_visible_ascii(codepoint)
+  return codepoint >= 0x20 and codepoint <= 0x7E
 end
 
 local function is_searchable_char(char)
   local codepoint = vim.fn.char2nr(char, true)
-  return is_cjk(codepoint) or is_ascii_word(char)
+  return is_cjk(codepoint) or is_visible_ascii(codepoint)
 end
 
 local function char_at(line, index)
@@ -62,15 +62,19 @@ local function split_chars(text)
 end
 
 local function normalize_text(text)
-  return text:lower():gsub("[%s%-%_']+", "")
+  return text:lower()
 end
 
 local function match_positions(segment_text, pattern)
   local positions = {}
   local chars = split_chars(segment_text)
+  local pinyin_pattern = pattern:gsub("[%s%-%_']+", "")
   for char_index = 1, #chars do
     local candidate = table.concat(chars, "", char_index)
-    if normalize_text(candidate):find(pattern, 1, true) == 1 or pinyin.match_prefix(candidate, pattern) then
+    if
+      normalize_text(candidate):find(pattern, 1, true) == 1
+      or (pinyin_pattern ~= "" and pinyin.match_prefix(candidate, pinyin_pattern))
+    then
       positions[#positions + 1] = char_index
     end
   end
@@ -106,7 +110,7 @@ local function visible_matches(win, pattern)
 end
 
 function M.opts(config)
-  return {
+  local opts = {
     jump = { autojump = false },
     highlight = { matches = false },
     labels = (config and config.labels) or "1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ",
@@ -124,6 +128,8 @@ function M.opts(config)
       return visible_matches(win, state.pattern())
     end,
   }
+
+  return vim.tbl_deep_extend("force", {}, opts, config or {})
 end
 
 return M

@@ -75,4 +75,15 @@ function M.jump(opts)
   return require("flash").jump(flash_opts)
 end
 
+function M.remote(opts)
+  local config = vim.tbl_deep_extend("force", {}, M.config or defaults, opts or {})
+  return M.jump(vim.tbl_deep_extend("force", {}, config, {
+    mode = "remote",
+    remote_op = {
+      restore = true,
+      motion = true,
+    },
+  }))
+end
+
 return M

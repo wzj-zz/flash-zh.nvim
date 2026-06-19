@@ -16,6 +16,10 @@
 
 ### `lazy.nvim`
 
+如果你之前没有单独给 `flash.nvim` 配过 `s` / `r`，直接照下面的配置抄就可以开箱即用。
+
+如果你已经在自己的 `flash.nvim` 配置里保留了原生 `s` / `r` 映射，那想让 `flash-zh.nvim` 接管这两个键时，就需要移除或覆盖原来的同名映射。
+
 ```lua
 return {
   {
@@ -27,10 +31,16 @@ return {
     end,
     keys = {
       {
-        "gh",
+        "s",
         mode = { "n", "x" },
         function() require("flash_zh").jump() end,
-        desc = "Flash Pinyin Jump",
+        desc = "Flash Zh",
+      },
+      {
+        "r",
+        mode = "o",
+        function() require("flash_zh").remote() end,
+        desc = "Remote Flash Zh",
       },
     },
   },
@@ -43,6 +53,7 @@ return {
 - 支持中文拼音、首字母、英文/数字混合搜索
 - 不自动跳转
 - 使用数字和大写字母标签选择结果
+- 可选用 `require("flash_zh").remote()` 作为 operator-pending 的远程拼音跳转入口
 
 ## 数据
 
