@@ -91,6 +91,16 @@ local function separator_continuations(matches, pattern)
     if label:match "%w" then
       reserve(win, label)
     end
+
+    if pattern_len <= 2 then
+      local suffix_index = index
+      while suffix_index <= #after_pattern do
+        local char = after_pattern:sub(suffix_index, suffix_index)
+        if not char:match "%w" then break end
+        reserve(win, char)
+        suffix_index = suffix_index + 1
+      end
+    end
   end
 
   return reserved

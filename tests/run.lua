@@ -496,6 +496,72 @@ local function test_label_reuse_recyles_disappeared_matches()
   end)
 end
 
+local function test_short_ascii_prefix_reserves_word_tail()
+  init.setup()
+  with_buffer_line("class LinkAPIMonitor:", function()
+    local captured
+    local original = require("flash").jump
+    require("flash").jump = function(opts)
+      captured = opts
+      return opts
+    end
+
+    init.jump()
+
+    require("flash").jump = original
+
+    local state = require("flash.state").new(captured)
+
+    state:update({ pattern = "l", force = true })
+    local labels_l = {}
+    for _, match in ipairs(state.results) do
+      labels_l[table.concat(match.pos, ":")] = match.label
+    end
+
+    state:update({ pattern = "li", force = true })
+    local labels_li = {}
+    for _, match in ipairs(state.results) do
+      labels_li[table.concat(match.pos, ":")] = match.label
+    end
+
+    state:update({ pattern = "lin", force = true })
+    local labels_lin = {}
+    for _, match in ipairs(state.results) do
+      labels_lin[table.concat(match.pos, ":")] = match.label
+    end
+
+    assert_truthy(next(labels_l) ~= nil, "l should produce labels")
+    assert_truthy(next(labels_li) ~= nil, "li should produce labels")
+    assert_truthy(next(labels_lin) ~= nil, "lin should produce labels")
+
+    for pos, label in pairs(labels_l) do
+      if labels_li[pos] then
+        assert_equal(labels_li[pos], label, "stable labels should remain stable from l to li")
+      end
+    end
+
+    local li_has_reserved_tail = false
+    for _, label in pairs(labels_li) do
+      if label == "n" then
+        li_has_reserved_tail = true
+        break
+      end
+    end
+    assert_equal(li_has_reserved_tail, false, "li should not keep tail label n available")
+
+    local lin_has_reserved_tail = false
+    for _, label in pairs(labels_lin) do
+      if label == "n" then
+        lin_has_reserved_tail = true
+        break
+      end
+    end
+    assert_equal(lin_has_reserved_tail, false, "lin should not keep tail label n available")
+
+    state:hide()
+  end)
+end
+
 local function test_jump_action_injection()
   init.setup()
   local calls = {}
@@ -534,6 +600,7 @@ local tests = {
   test_matcher_opts_preserve_config,
   test_label_order_default,
   test_label_reuse_recyles_disappeared_matches,
+  test_short_ascii_prefix_reserves_word_tail,
   test_jump_action_injection,
 }
 
