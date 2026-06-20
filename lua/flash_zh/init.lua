@@ -108,12 +108,23 @@ local function zh_labeler()
     if #state.pattern() < state.opts.label.min_pattern_length then return end
 
     local matches = labeler:filter()
+    local current_match_ids = {}
     local continuation = {}
     local full_labels = vim.deepcopy(labeler.labels)
     local label_index = {}
     local pattern = state.pattern()
     local has_match_cache = {}
     local separator_reserved = separator_continuations(matches, pattern)
+
+    for _, match in ipairs(matches) do
+      current_match_ids[match.pos:id(match.win)] = true
+    end
+
+    for id in pairs(labeler.used) do
+      if not current_match_ids[id] then
+        labeler.used[id] = nil
+      end
+    end
 
     for index, label in ipairs(full_labels) do
       label_index[label] = index

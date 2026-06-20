@@ -430,6 +430,72 @@ local function test_label_order_default()
   assert_equal(opts.label.uppercase, false, "explicit mixed-case labels should not rely on uppercase expansion")
 end
 
+local function test_label_reuse_recyles_disappeared_matches()
+  init.setup()
+  with_buffer_line("class LinkAPIMonitor:", function()
+    vim.api.nvim_buf_set_lines(0, 1, 1, false, {
+      "class LinkAPIMonitor:",
+      "class LinkAPIMonitor:",
+      "class LinkAPIMonitor:",
+    })
+
+    local captured
+    local original = require("flash").jump
+    require("flash").jump = function(opts)
+      captured = opts
+      return opts
+    end
+
+    init.jump()
+
+    require("flash").jump = original
+
+    local state = require("flash.state").new(captured)
+    state:update({ pattern = "l", force = true })
+
+    local labels_l = {}
+    for _, match in ipairs(state.results) do
+      labels_l[table.concat(match.pos, ":")] = match.label
+    end
+
+    state:update({ pattern = "li", force = true })
+    local labels_li = {}
+    for _, match in ipairs(state.results) do
+      labels_li[table.concat(match.pos, ":")] = match.label
+    end
+
+    state:update({ pattern = "lin", force = true })
+    local labels_lin = {}
+    for _, match in ipairs(state.results) do
+      labels_lin[table.concat(match.pos, ":")] = match.label
+    end
+
+    assert_truthy(next(labels_l) ~= nil, "l should produce labels")
+    assert_truthy(next(labels_li) ~= nil, "li should produce labels")
+    assert_truthy(next(labels_lin) ~= nil, "lin should produce labels")
+
+    local reused = false
+    for pos, label in pairs(labels_li) do
+      if labels_l[pos] == label then
+        reused = true
+        break
+      end
+    end
+    assert_truthy(reused, "surviving matches should keep stable labels")
+
+    local recycled = true
+    for pos, label in pairs(labels_lin) do
+      if labels_li[pos] == nil and label == nil then
+        recycled = false
+        break
+      end
+    end
+    assert_truthy(recycled, "new surviving matches should not be left unlabeled after recycle")
+
+    state:hide()
+  end)
+end
+
 local function test_jump_action_injection()
   init.setup()
   local calls = {}
@@ -467,6 +533,7 @@ local tests = {
   test_remote_opts,
   test_matcher_opts_preserve_config,
   test_label_order_default,
+  test_label_reuse_recyles_disappeared_matches,
   test_jump_action_injection,
 }
 
