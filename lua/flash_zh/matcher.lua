@@ -120,6 +120,7 @@ local function prepared_segment(segment_text)
     pinyin_segment = table.concat(pinyin_chars),
     pinyin_offsets = pinyin_offsets,
     pinyin_matchable = pinyin_matchable,
+    matches = {},
   }
   segment_cache[segment_text] = cached
   return cached
@@ -178,12 +179,16 @@ end
 local function match_positions(segment_text, pattern, pinyin_pattern)
   local positions = {}
   local segment = prepared_segment(segment_text)
+  local cache_key = pattern .. "\0" .. pinyin_pattern
+  local cached = segment.matches[cache_key]
+  if cached then return cached end
 
   for char_index = 1, #segment.chars do
     if match_at(segment_text, char_index, pattern, pinyin_pattern) then
       positions[#positions + 1] = char_index
     end
   end
+  segment.matches[cache_key] = positions
   return positions
 end
 

@@ -52,6 +52,7 @@ local function case_variants(label)
 end
 
 local function separator_continuations(matches, pattern)
+  local pinyin = require "flash_zh.pinyin"
   local reserved = {}
   if pattern:find("[%z\128-\255]") then return reserved end
 
@@ -92,14 +93,9 @@ local function separator_continuations(matches, pattern)
       reserve(win, label)
     end
 
-    if pattern_len <= 2 then
-      local suffix_index = index
-      while suffix_index <= #after_pattern do
-        local char = after_pattern:sub(suffix_index, suffix_index)
-        if not char:match "%w" then break end
-        reserve(win, char)
-        suffix_index = suffix_index + 1
-      end
+    local leading = pinyin.next_labels(after_pattern:sub(index), "")
+    for label_key in pairs(leading) do
+      reserve(win, label_key)
     end
   end
 
@@ -108,22 +104,7 @@ end
 
 local function zh_labeler()
   local flash_labeler = require "flash.labeler"
-  local matcher = require "flash_zh.matcher"
-
-  local function continuation_snapshot(wins)
-    local parts = {}
-    for _, win in ipairs(wins) do
-      if vim.api.nvim_win_is_valid(win) then
-        local info = vim.fn.getwininfo(win)[1]
-        if info then
-          local buf = vim.api.nvim_win_get_buf(win)
-          local changedtick = vim.api.nvim_buf_get_changedtick(buf)
-          parts[#parts + 1] = table.concat({ win, buf, changedtick, info.topline, info.botline }, ":")
-        end
-      end
-    end
-    return table.concat(parts, "|")
-  end
+  local pinyin = require "flash_zh.pinyin"
 
   return function(_, state)
     state.flash_zh_labeler = state.flash_zh_labeler or flash_labeler.new(state)
@@ -132,29 +113,16 @@ local function zh_labeler()
 
     if #state.pattern() < state.opts.label.min_pattern_length then return end
 
+    local all_matches = state.results
     local matches = labeler:filter()
     local current_match_ids = {}
-    local match_windows = {}
-    local match_window_set = {}
-    local continuation = {}
     local full_labels = labeler.labels
     local label_index = {}
     local pattern = state.pattern()
-    local snapshot = continuation_snapshot(state.wins)
-    local continuation_cache = state.flash_zh_continuation_cache
-    if not continuation_cache or continuation_cache.snapshot ~= snapshot then
-      continuation_cache = { snapshot = snapshot, false_patterns = {} }
-      state.flash_zh_continuation_cache = continuation_cache
-    end
-    local separator_reserved = separator_continuations(matches, pattern)
-    local continuation_result_cache = {}
+    local separator_reserved = separator_continuations(all_matches, pattern)
 
     for _, match in ipairs(matches) do
       current_match_ids[match.pos:id(match.win)] = true
-      if not match_window_set[match.win] then
-        match_window_set[match.win] = true
-        match_windows[#match_windows + 1] = match.win
-      end
     end
 
     for id in pairs(labeler.used) do
@@ -167,55 +135,36 @@ local function zh_labeler()
       label_index[label] = index
     end
 
-    local function has_continuation(win, label)
-      local reserved = separator_reserved[win]
-      if reserved and reserved[label] then
-        return true
+    local continuation = {}
+    for _, reserved in pairs(separator_reserved) do
+      for label in pairs(reserved) do
+        continuation[label] = true
       end
-
-      local cache_key = win .. "\0" .. label
-      local cached_result = continuation_result_cache[cache_key]
-      if cached_result ~= nil then
-        return cached_result
-      end
-
-      local cached_pattern = continuation_cache.false_patterns[cache_key]
-      if cached_pattern and pattern:sub(1, #cached_pattern) == cached_pattern then
-        continuation_result_cache[cache_key] = false
-        return false
-      end
-
-      local has_match = matcher.has_matches(win, pattern .. label)
-      continuation_result_cache[cache_key] = has_match
-      if not has_match then
-        local current = continuation_cache.false_patterns[cache_key]
-        if not current or #pattern > #current then
-          continuation_cache.false_patterns[cache_key] = pattern
-        end
-      end
-      return has_match
     end
 
-    for _, label in ipairs(labeler.labels) do
-      if label:match "%a" then
-        local variants = case_variants(label)
-        local has_variant_continuation = false
+    local continuation_by_window = {}
+    for _, match in ipairs(all_matches) do
+      local win = match.win
+      local win_reserved = continuation_by_window[win]
+      if not win_reserved then
+        win_reserved = {}
+        continuation_by_window[win] = win_reserved
+      end
 
-        for _, win in ipairs(match_windows) do
-          for _, variant in ipairs(variants) do
-            if has_continuation(win, variant) then
-              has_variant_continuation = true
-              break
-            end
-          end
-          if has_variant_continuation then break end
+      local win_info = vim.fn.getwininfo(win)[1]
+      if win_info then
+        local line = vim.api.nvim_buf_get_lines(vim.api.nvim_win_get_buf(win), match.pos[1] - 1, match.pos[1], false)[1] or ""
+        local suffix = line:sub(match.pos[2] + 1)
+        local labels = pinyin.next_labels(suffix, pattern)
+        for label in pairs(labels) do
+          win_reserved[label] = true
         end
+      end
+    end
 
-        if has_variant_continuation then
-          for _, variant in ipairs(variants) do
-            continuation[variant] = true
-          end
-        end
+    for _, reserved in pairs(continuation_by_window) do
+      for label in pairs(reserved) do
+        continuation[label] = true
       end
     end
 

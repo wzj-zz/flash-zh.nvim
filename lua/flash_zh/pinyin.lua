@@ -7,12 +7,59 @@ local phrase_dir = vim.fs.joinpath(vim.fn.fnamemodify(source, ":p:h"), "data", "
 local reading_cache = {}
 local primary_cache = {}
 local match_cache = {}
+local leading_labels_cache = {}
+local next_labels_cache = {}
 local warmup_done = false
 
 local function is_cjk(codepoint)
   return (codepoint >= 0x3400 and codepoint <= 0x4DBF)
     or (codepoint >= 0x4E00 and codepoint <= 0x9FFF)
     or (codepoint >= 0xF900 and codepoint <= 0xFAFF)
+end
+
+local function is_visible_ascii(codepoint)
+  return codepoint >= 0x20 and codepoint <= 0x7E
+end
+
+local function is_pinyin_separator(char)
+  return char == " " or char == "\t" or char == "-" or char == "_" or char == "'"
+end
+
+local punctuation_aliases = {
+  ["　"] = " ",
+  ["、"] = "/",
+  ["。"] = ".",
+  ["“"] = '"',
+  ["”"] = '"',
+  ["‘"] = "'",
+  ["’"] = "'",
+  ["《"] = "<",
+  ["〈"] = "<",
+  ["》"] = ">",
+  ["〉"] = ">",
+  ["【"] = "[",
+  ["「"] = "[",
+  ["『"] = "[",
+  ["】"] = "]",
+  ["」"] = "]",
+  ["』"] = "]",
+  ["—"] = "-",
+  ["–"] = "-",
+  ["…"] = ".",
+  ["·"] = ".",
+  ["￥"] = "$",
+}
+
+local function punctuation_alias(char)
+  local alias = punctuation_aliases[char]
+  if alias then return alias end
+
+  if char:byte(1) ~= 0xEF then return end
+
+  local codepoint = vim.fn.char2nr(char, true)
+  if codepoint >= 0xFF01 and codepoint <= 0xFF5E then
+    return string.char(codepoint - 0xFEE0)
+  end
 end
 
 local function to_chars(str)
@@ -149,6 +196,51 @@ local function branch_matches(branch, remaining)
   return nil, false
 end
 
+local function add_label(labels, label)
+  if label and label ~= "" then
+    labels[label] = true
+  end
+end
+
+local leading_cache = {}
+local next_labels_cache = {}
+
+local function normalize_match_text(text)
+  local chars = {}
+  for char in (text or ""):gmatch(".[\128-\191]*") do
+    local alias = punctuation_alias(char)
+    local normalized = alias or char:lower()
+    if not is_pinyin_separator(normalized) then
+      chars[#chars + 1] = normalized
+    end
+  end
+  return table.concat(chars)
+end
+
+local function leading_labels_from_chars(char_list, start_index, labels)
+  local first_char = char_list[start_index]
+  if not first_char then return labels end
+
+  local alias = punctuation_alias(first_char)
+  if alias then
+    add_label(labels, alias)
+    return labels
+  end
+
+  local codepoint = vim.fn.char2nr(first_char, true)
+  if is_visible_ascii(codepoint) then
+    add_label(labels, first_char:lower())
+    return labels
+  end
+
+  for _, branch in ipairs(reading_branches(char_list, start_index)) do
+    add_label(labels, branch.full:sub(1, 1):lower())
+    add_label(labels, branch.abbr:sub(1, 1):lower())
+  end
+
+  return labels
+end
+
 function M.match_prefix(chars, pattern)
   local cache_key = chars .. "\0" .. pattern
   if match_cache[cache_key] ~= nil then return match_cache[cache_key] end
@@ -179,6 +271,70 @@ function M.match_prefix(chars, pattern)
   local matched = dfs(1, 1)
   match_cache[cache_key] = matched
   return matched
+end
+
+function M.leading_labels(text)
+  local cached = leading_cache[text]
+  if cached then return cached end
+
+  local labels = {}
+  if not text or text == "" then
+    leading_cache[text] = labels
+    return labels
+  end
+
+  local char_list = to_chars(text)
+  local start_index = 1
+  while start_index <= #char_list do
+    local char = char_list[start_index]
+    local alias = punctuation_alias(char)
+    if is_pinyin_separator(char) then
+      start_index = start_index + 1
+    elseif alias and not alias:match "%w" then
+      start_index = start_index + 1
+    else
+      break
+    end
+  end
+
+  if start_index > #char_list then
+    leading_cache[text] = labels
+    return labels
+  end
+
+  leading_cache[text] = leading_labels_from_chars(char_list, start_index, labels)
+  return leading_cache[text]
+end
+
+function M.next_labels(text, pattern)
+  local cache_key = normalize_match_text(text) .. "\0" .. normalize_match_text(pattern)
+  local cached = next_labels_cache[cache_key]
+  if cached then return cached end
+
+  local labels = {}
+  if not text or text == "" or not pattern or pattern == "" then
+    next_labels_cache[cache_key] = labels
+    return labels
+  end
+
+  local normalized_text = normalize_match_text(text)
+  local normalized_pattern = normalize_match_text(pattern)
+  local candidate_labels = {}
+  for label in ("abcdefghijklmnopqrstuvwxyz1234567890"):gmatch "." do
+    candidate_labels[#candidate_labels + 1] = label
+  end
+
+  local seen = {}
+  for _, label in ipairs(candidate_labels) do
+    local query = normalized_pattern .. label
+    if not seen[query] and M.match_prefix(normalized_text, query) then
+      labels[label] = true
+      seen[query] = true
+    end
+  end
+
+  next_labels_cache[cache_key] = labels
+  return labels
 end
 
 function M.warmup(opts)

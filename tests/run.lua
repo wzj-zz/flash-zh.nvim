@@ -417,52 +417,15 @@ local function test_incremental_pattern_filtering()
   end)
 end
 
-local function test_continuation_false_cache_survives_growth_only()
-  init.setup()
-  with_buffer_line("文件搜索 文件收尾 文件书法", function()
-    local captured
-    local original = require("flash").jump
-    require("flash").jump = function(opts)
-      captured = opts
-      return opts
-    end
-    init.jump()
-    require("flash").jump = original
+local function test_visible_matches_shrink_incrementally()
+  local opts = matcher.opts({})
+  with_buffer_line("文件搜索 文件收尾 文件书法", function(win)
+    local a = #opts.matcher(win, { pattern = function() return "s" end })
+    local b = #opts.matcher(win, { pattern = function() return "so" end })
+    local c = #opts.matcher(win, { pattern = function() return "sou" end })
 
-    local state = require("flash.state").new(captured)
-    state:update({ pattern = "s", force = true })
-    state:update({ pattern = "so", force = true })
-    state:update({ pattern = "sou", force = true })
-
-    assert_truthy(state.flash_zh_continuation_cache ~= nil, "continuation cache should be created")
-    assert_truthy(next(state.flash_zh_continuation_cache.false_patterns) ~= nil, "false results should be cached")
-
-    state:hide()
-  end)
-end
-
-local function test_label_case_group_continuation_reuses_result()
-  init.setup()
-  with_buffer_line("M-a M-A M-b M-B", function()
-    local captured
-    local original = require("flash").jump
-    require("flash").jump = function(opts)
-      captured = opts
-      return opts
-    end
-    init.jump()
-    require("flash").jump = original
-
-    local state = require("flash.state").new(captured)
-    state:update({ pattern = "M-", force = true })
-
-    local labels = {}
-    for _, match in ipairs(state.results) do
-      labels[#labels + 1] = match.label
-    end
-
-    assert_truthy(#labels > 0, "continuation test should produce labels")
-    state:hide()
+    assert_truthy(a >= b, "matches should not increase when pattern grows")
+    assert_truthy(b >= c, "matches should not increase when pattern grows again")
   end)
 end
 
@@ -497,6 +460,160 @@ local function test_continuation_prunes_unmatched_windows()
     assert_truthy(#state.results > 0, "matched window should still produce results")
     state:hide()
   end)
+end
+
+local function test_complex_pinyin_sequence_does_not_grab_labels()
+  init.setup()
+  with_buffer_line("搜索 搜索词 收尾 响应 行星", function()
+    local state = require("flash.state").new(require("flash_zh.matcher").opts(init.config))
+
+    state:update({ pattern = "s", force = true })
+    local labels_s = extract_labels(state)
+
+    state:update({ pattern = "so", force = true })
+    local labels_so = extract_labels(state)
+
+    state:update({ pattern = "sou", force = true })
+    local labels_sou = extract_labels(state)
+
+    assert_truthy(#labels_s > 0, "s should produce labels")
+    assert_truthy(#labels_so > 0, "so should produce labels")
+    assert_truthy(#labels_sou > 0, "sou should produce labels")
+
+    for _, label in ipairs({ "o", "u" }) do
+      assert_equal(vim.tbl_contains(labels_s, label), false, "s should not leave continuation label " .. label .. " available")
+    end
+
+    for _, label in ipairs({ "u" }) do
+      assert_equal(vim.tbl_contains(labels_so, label), false, "so should not leave continuation label " .. label .. " available")
+    end
+
+    state:hide()
+  end)
+end
+
+local function test_mixed_ascii_cjk_sequence_stays_stable()
+  init.setup()
+  with_buffer_line("API 响 应 xjlx 你好 世界", function()
+    local state = require("flash.state").new(require("flash_zh.matcher").opts(init.config))
+
+    state:update({ pattern = "a", force = true })
+    local labels_a = extract_labels(state)
+
+    state:update({ pattern = "ap", force = true })
+    local labels_ap = extract_labels(state)
+
+    state:update({ pattern = "api", force = true })
+    local labels_api = extract_labels(state)
+
+    assert_truthy(#labels_a > 0, "a should produce labels")
+    assert_truthy(#labels_ap > 0, "ap should produce labels")
+    assert_truthy(#labels_api > 0, "api should produce labels")
+
+    for _, label in ipairs({ "p", "i" }) do
+      assert_equal(vim.tbl_contains(labels_a, label), false, "a should not leave continuation label " .. label .. " available")
+    end
+
+    assert_equal(vim.tbl_contains(labels_ap, "i"), false, "ap should not leave continuation label i available")
+
+    state:hide()
+  end)
+end
+
+local function test_zh_sequence_does_not_grab_followup_labels()
+  init.setup()
+  with_buffer_line("至少 之后 之上 直线 支持 只好", function()
+    local state = require("flash.state").new(require("flash_zh.matcher").opts(init.config))
+
+    state:update({ pattern = "z", force = true })
+    local labels_z = extract_labels(state)
+
+    state:update({ pattern = "zh", force = true })
+    local labels_zh = extract_labels(state)
+
+    state:update({ pattern = "zhi", force = true })
+    local labels_zhi = extract_labels(state)
+
+    assert_truthy(#labels_z > 0, "z should produce labels")
+    assert_truthy(#labels_zh > 0, "zh should produce labels")
+    assert_truthy(#labels_zhi > 0, "zhi should produce labels")
+
+    for _, label in ipairs({ "h", "i" }) do
+      assert_equal(vim.tbl_contains(labels_z, label), false, "z should not leave continuation label " .. label .. " available")
+    end
+
+    for _, label in ipairs({ "i" }) do
+      assert_equal(vim.tbl_contains(labels_zh, label), false, "zh should not leave continuation label " .. label .. " available")
+    end
+
+    state:hide()
+  end)
+end
+
+local function test_multi_stage_pinyin_continuation_stays_reserved()
+  init.setup()
+  with_buffer_line("搜索 搜索词 收尾 上升 至少 之后", function()
+    local state = require("flash.state").new(require("flash_zh.matcher").opts(init.config))
+
+    local patterns = { "s", "so", "sou", "zh", "zhi" }
+    local seen = {}
+
+    for _, pattern in ipairs(patterns) do
+      state:update({ pattern = pattern, force = true })
+      local labels = extract_labels(state)
+      seen[pattern] = labels
+      assert_truthy(#labels > 0, pattern .. " should produce labels")
+    end
+
+    assert_equal(vim.tbl_contains(seen["s"], "o"), false, "s should not leave continuation label o available")
+    assert_equal(vim.tbl_contains(seen["so"], "u"), false, "so should not leave continuation label u available")
+    assert_equal(vim.tbl_contains(seen["zh"], "i"), false, "zh should not leave continuation label i available")
+
+    state:hide()
+  end)
+end
+
+local function test_kaiguan_sequence_does_not_grab_labels()
+  init.setup()
+  with_buffer_line(
+    "开关 开关机 开始 开口 说明 相关 配置",
+    function()
+      local captured
+      local original = require("flash").jump
+      require("flash").jump = function(opts)
+        captured = opts
+        return opts
+      end
+
+      init.jump()
+
+      require("flash").jump = original
+
+      local state = require("flash.state").new(captured)
+
+      state:update({ pattern = "k", force = true })
+      local labels_k = extract_labels(state)
+      local reserved_k = vim.tbl_contains(labels_k, "a")
+
+      state:update({ pattern = "ka", force = true })
+      local labels_ka = extract_labels(state)
+      local reserved_ka = vim.tbl_contains(labels_ka, "i")
+
+      state:update({ pattern = "kai", force = true })
+      local labels_kai = extract_labels(state)
+      local reserved_kai = vim.tbl_contains(labels_kai, "g")
+
+      assert_truthy(#labels_k > 0, "k should produce labels")
+      assert_truthy(#labels_ka > 0, "ka should produce labels")
+      assert_truthy(#labels_kai > 0, "kai should produce labels")
+
+      assert_equal(reserved_k, false, "k should not leave continuation label a available")
+      assert_equal(reserved_ka, false, "ka should not leave continuation label i available")
+      assert_equal(reserved_kai, false, "kai should not leave continuation label g available")
+
+      state:hide()
+    end
+  )
 end
 
 local function test_letter_reuse_mode_is_all()
@@ -720,9 +837,13 @@ local tests = {
   test_ascii_literal_continuation_variants,
   test_label_reuse_across_updates,
   test_incremental_pattern_filtering,
-  test_continuation_false_cache_survives_growth_only,
-  test_label_case_group_continuation_reuses_result,
+  test_visible_matches_shrink_incrementally,
   test_continuation_prunes_unmatched_windows,
+  test_complex_pinyin_sequence_does_not_grab_labels,
+  test_mixed_ascii_cjk_sequence_stays_stable,
+  test_zh_sequence_does_not_grab_followup_labels,
+  test_multi_stage_pinyin_continuation_stays_reserved,
+  test_kaiguan_sequence_does_not_grab_labels,
   test_letter_reuse_mode_is_all,
   test_remote_opts,
   test_matcher_opts_preserve_config,
