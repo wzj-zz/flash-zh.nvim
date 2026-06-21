@@ -402,6 +402,103 @@ local function test_label_reuse_across_updates()
   end)
 end
 
+local function test_incremental_pattern_filtering()
+  local opts = matcher.opts({})
+  with_buffer_line("文件搜索 文件收尾 文件书法", function(win)
+    local first = #opts.matcher(win, { pattern = function() return "s" end })
+    local second = #opts.matcher(win, { pattern = function() return "so" end })
+    local third = #opts.matcher(win, { pattern = function() return "sou" end })
+
+    assert_truthy(first > 0, "single character pattern should match candidates")
+    assert_truthy(second > 0, "longer pattern should still match candidates")
+    assert_truthy(third > 0, "further extension should still match candidates")
+    assert_truthy(first >= second, "longer pattern should not increase matches")
+    assert_truthy(second >= third, "further extension should not increase matches")
+  end)
+end
+
+local function test_continuation_false_cache_survives_growth_only()
+  init.setup()
+  with_buffer_line("文件搜索 文件收尾 文件书法", function()
+    local captured
+    local original = require("flash").jump
+    require("flash").jump = function(opts)
+      captured = opts
+      return opts
+    end
+    init.jump()
+    require("flash").jump = original
+
+    local state = require("flash.state").new(captured)
+    state:update({ pattern = "s", force = true })
+    state:update({ pattern = "so", force = true })
+    state:update({ pattern = "sou", force = true })
+
+    assert_truthy(state.flash_zh_continuation_cache ~= nil, "continuation cache should be created")
+    assert_truthy(next(state.flash_zh_continuation_cache.false_patterns) ~= nil, "false results should be cached")
+
+    state:hide()
+  end)
+end
+
+local function test_label_case_group_continuation_reuses_result()
+  init.setup()
+  with_buffer_line("M-a M-A M-b M-B", function()
+    local captured
+    local original = require("flash").jump
+    require("flash").jump = function(opts)
+      captured = opts
+      return opts
+    end
+    init.jump()
+    require("flash").jump = original
+
+    local state = require("flash.state").new(captured)
+    state:update({ pattern = "M-", force = true })
+
+    local labels = {}
+    for _, match in ipairs(state.results) do
+      labels[#labels + 1] = match.label
+    end
+
+    assert_truthy(#labels > 0, "continuation test should produce labels")
+    state:hide()
+  end)
+end
+
+local function test_continuation_prunes_unmatched_windows()
+  init.setup()
+  with_buffer_line("文件搜索", function()
+    local other = vim.api.nvim_create_buf(false, true)
+    vim.api.nvim_buf_set_lines(other, 0, -1, false, { "completely unrelated content" })
+    vim.api.nvim_open_win(other, false, {
+      relative = "editor",
+      width = 20,
+      height = 1,
+      row = 0,
+      col = 0,
+      style = "minimal",
+    })
+
+    local captured
+    local original = require("flash").jump
+    require("flash").jump = function(opts)
+      captured = opts
+      return opts
+    end
+
+    init.jump()
+
+    require("flash").jump = original
+
+    local state = require("flash.state").new(captured)
+    state:update({ pattern = "so", force = true })
+
+    assert_truthy(#state.results > 0, "matched window should still produce results")
+    state:hide()
+  end)
+end
+
 local function test_letter_reuse_mode_is_all()
   local opts = matcher.opts({})
   assert_equal(opts.label.reuse, "all", "labels should reuse across case groups")
@@ -622,6 +719,10 @@ local tests = {
   test_m_prefix_reserves_separator_continuations,
   test_ascii_literal_continuation_variants,
   test_label_reuse_across_updates,
+  test_incremental_pattern_filtering,
+  test_continuation_false_cache_survives_growth_only,
+  test_label_case_group_continuation_reuses_result,
+  test_continuation_prunes_unmatched_windows,
   test_letter_reuse_mode_is_all,
   test_remote_opts,
   test_matcher_opts_preserve_config,

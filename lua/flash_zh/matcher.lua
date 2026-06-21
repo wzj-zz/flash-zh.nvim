@@ -72,6 +72,68 @@ local function char_at(line, index)
   return vim.fn.strcharpart(line, index, 1)
 end
 
+local function split_chars(text)
+  local chars = {}
+  for char in text:gmatch(".[\128-\191]*") do
+    chars[#chars + 1] = char
+  end
+  return chars
+end
+
+local segment_cache = {}
+local window_cache = {}
+
+local function prepared_segment(segment_text)
+  local cached = segment_cache[segment_text]
+  if cached then return cached end
+
+  local chars = split_chars(segment_text)
+  local normalized_chars = {}
+  local normalized_offsets = {}
+  local normalized_offset = 1
+  local pinyin_chars = {}
+  local pinyin_offsets = {}
+  local pinyin_matchable = {}
+  local pinyin_offset = 1
+
+  for index, char in ipairs(chars) do
+    local normalized_char = punctuation_alias(char) or char:lower()
+    normalized_chars[index] = normalized_char
+    normalized_offsets[index] = normalized_offset
+    normalized_offset = normalized_offset + #normalized_char
+
+    pinyin_offsets[index] = pinyin_offset
+    if is_pinyin_separator(normalized_char) then
+      pinyin_chars[index] = ""
+      pinyin_matchable[index] = false
+    else
+      pinyin_chars[index] = normalized_char
+      pinyin_matchable[index] = true
+      pinyin_offset = pinyin_offset + #normalized_char
+    end
+  end
+
+  cached = {
+    chars = chars,
+    normalized_segment = table.concat(normalized_chars),
+    normalized_offsets = normalized_offsets,
+    pinyin_segment = table.concat(pinyin_chars),
+    pinyin_offsets = pinyin_offsets,
+    pinyin_matchable = pinyin_matchable,
+  }
+  segment_cache[segment_text] = cached
+  return cached
+end
+
+local function snapshot_key(win)
+  local info = vim.fn.getwininfo(win)[1]
+  if not info then return end
+
+  local buf = vim.api.nvim_win_get_buf(win)
+  local changedtick = vim.api.nvim_buf_get_changedtick(buf)
+  return table.concat({ buf, changedtick, info.topline, info.botline }, ":"), info
+end
+
 local function searchable_segments(line)
   local segments = {}
   local count = vim.fn.strchars(line)
@@ -100,52 +162,25 @@ local function searchable_segments(line)
   return segments
 end
 
-local function split_chars(text)
-  local chars = {}
-  for char in text:gmatch(".[\128-\191]*") do
-    chars[#chars + 1] = char
-  end
-  return chars
+local function match_at(segment_text, char_index, pattern, pinyin_pattern)
+  local segment = prepared_segment(segment_text)
+  local normalized_index = segment.normalized_offsets[char_index]
+  local pinyin_index = segment.pinyin_offsets[char_index]
+
+  return segment.normalized_segment:find(pattern, normalized_index, true) == normalized_index
+    or (
+      segment.pinyin_matchable[char_index]
+      and pinyin_pattern ~= ""
+      and pinyin.match_prefix(segment.pinyin_segment:sub(pinyin_index), pinyin_pattern)
+    )
 end
 
-local function match_positions(segment_text, pattern)
+local function match_positions(segment_text, pattern, pinyin_pattern)
   local positions = {}
-  local chars = split_chars(segment_text)
-  local normalized_chars = {}
-  local normalized_offsets = {}
-  local normalized_offset = 1
-  local pinyin_chars = {}
-  local pinyin_offsets = {}
-  local pinyin_offset = 1
-  local pinyin_pattern = pattern:gsub("[%s%-%_']+", "")
+  local segment = prepared_segment(segment_text)
 
-  for index, char in ipairs(chars) do
-    local normalized_char = punctuation_alias(char) or char:lower()
-    normalized_chars[index] = normalized_char
-    normalized_offsets[index] = normalized_offset
-    normalized_offset = normalized_offset + #normalized_char
-
-    pinyin_offsets[index] = pinyin_offset
-    if is_pinyin_separator(normalized_char) then
-      pinyin_chars[index] = ""
-    else
-      pinyin_chars[index] = normalized_char
-      pinyin_offset = pinyin_offset + #normalized_char
-    end
-  end
-
-  local normalized_segment = table.concat(normalized_chars)
-  local pinyin_segment = table.concat(pinyin_chars)
-
-  for char_index = 1, #chars do
-    local normalized_index = normalized_offsets[char_index]
-    local pinyin_index = pinyin_offsets[char_index]
-    local pinyin_candidate = pinyin_segment:sub(pinyin_index)
-    local can_match_pinyin = pinyin_chars[char_index] ~= ""
-    if
-      normalized_segment:find(pattern, normalized_index, true) == normalized_index
-      or (can_match_pinyin and pinyin_pattern ~= "" and pinyin.match_prefix(pinyin_candidate, pinyin_pattern))
-    then
+  for char_index = 1, #segment.chars do
+    if match_at(segment_text, char_index, pattern, pinyin_pattern) then
       positions[#positions + 1] = char_index
     end
   end
@@ -154,27 +189,57 @@ end
 
 local function visible_matches(win, pattern)
   local matches = {}
-  local info = vim.fn.getwininfo(win)[1]
+  local snapshot, info = snapshot_key(win)
   if not info or not pattern or pattern == "" then return matches end
 
   local normalized = normalize(pattern)
   if normalized == "" then return matches end
+  local pinyin_pattern = normalized:gsub("[%s%-%_']+", "")
 
-  local buf = vim.api.nvim_win_get_buf(win)
-  local lines = vim.api.nvim_buf_get_lines(buf, info.topline - 1, info.botline, false)
+  local cached = window_cache[win]
+  local candidates
 
-  for offset, line in ipairs(lines) do
-    local lnum = info.topline + offset - 1
-    for _, segment in ipairs(searchable_segments(line)) do
-      for _, char_index in ipairs(match_positions(segment.text, normalized)) do
-        local start_byte = vim.str_byteindex(line, segment.start_index + char_index - 1)
-        matches[#matches + 1] = {
-          win = win,
-          pos = { lnum, start_byte },
-          end_pos = { lnum, start_byte },
-        }
+  if cached and cached.snapshot == snapshot and normalized:sub(1, #cached.pattern) == cached.pattern then
+    candidates = {}
+    for _, candidate in ipairs(cached.candidates) do
+      if match_at(candidate.segment_text, candidate.char_index, normalized, pinyin_pattern) then
+        candidates[#candidates + 1] = candidate
       end
     end
+  else
+    candidates = {}
+    local buf = vim.api.nvim_win_get_buf(win)
+    local lines = vim.api.nvim_buf_get_lines(buf, info.topline - 1, info.botline, false)
+
+    for offset, line in ipairs(lines) do
+      local lnum = info.topline + offset - 1
+      for _, segment in ipairs(searchable_segments(line)) do
+        for _, char_index in ipairs(match_positions(segment.text, normalized, pinyin_pattern)) do
+          local start_byte = vim.str_byteindex(line, segment.start_index + char_index - 1)
+          candidates[#candidates + 1] = {
+            win = win,
+            pos = { lnum, start_byte },
+            end_pos = { lnum, start_byte },
+            segment_text = segment.text,
+            char_index = char_index,
+          }
+        end
+      end
+    end
+  end
+
+  window_cache[win] = {
+    snapshot = snapshot,
+    pattern = normalized,
+    candidates = candidates,
+  }
+
+  for _, candidate in ipairs(candidates) do
+    matches[#matches + 1] = {
+      win = candidate.win,
+      pos = candidate.pos,
+      end_pos = candidate.end_pos,
+    }
   end
 
   return matches
