@@ -173,7 +173,7 @@ local function zh_labeler()
         return true
       end
 
-      local cache_key = win .. "\0" .. label:lower()
+      local cache_key = win .. "\0" .. label
       local cached_result = continuation_result_cache[cache_key]
       if cached_result ~= nil then
         return cached_result
