@@ -278,10 +278,12 @@ end
 
 function M.setup(opts)
   M.config = vim.tbl_deep_extend("force", {}, defaults, opts or {})
+  require("flash_zh.pinyin").warmup({ wins = vim.api.nvim_list_wins() })
 end
 
 function M.jump(opts)
   local config = vim.tbl_deep_extend("force", {}, M.config or defaults, opts or {})
+  require("flash_zh.pinyin").warmup({ wins = vim.api.nvim_list_wins() })
   local flash_opts = require("flash_zh.matcher").opts(config)
   local mode = vim.fn.mode(true)
   flash_opts.labeler = zh_labeler()

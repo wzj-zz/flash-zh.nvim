@@ -116,6 +116,30 @@ local function test_matcher_pinyin_across_separators()
   end)
 end
 
+local function test_pinyin_warmup_is_idempotent()
+  local pinyin = require "flash_zh.pinyin"
+  assert_truthy(pcall(function()
+    pinyin.warmup({ wins = {} })
+    pinyin.warmup({ wins = {} })
+  end), "warmup should be idempotent")
+end
+
+local function test_warmup_does_not_change_matching()
+  init.setup()
+  with_buffer_line("宇 宙", function(win)
+    local opts = matcher.opts({})
+    assert_equal(#opts.matcher(win, { pattern = function() return "yu zhou" end }), 1, "warmup should not change pinyin matching")
+    assert_equal(#opts.matcher(win, { pattern = function() return "yz" end }), 1, "warmup should not change initials matching")
+  end)
+end
+
+local function test_warmup_skips_without_cjk()
+  local pinyin = require "flash_zh.pinyin"
+  assert_truthy(pcall(function()
+    pinyin.warmup({ wins = { vim.api.nvim_get_current_win() } })
+  end), "warmup should skip safely without cjk content")
+end
+
 local function test_has_matches()
   with_buffer_line("代码跳转", function(win)
     assert_truthy(matcher.has_matches(win, "dm"), "dm should match 代码")
@@ -588,6 +612,9 @@ local tests = {
   test_matcher_ascii_and_space,
   test_matcher_punctuation_aliases,
   test_matcher_pinyin_across_separators,
+  test_pinyin_warmup_is_idempotent,
+  test_warmup_does_not_change_matching,
+  test_warmup_skips_without_cjk,
   test_has_matches,
   test_smart_label_skip,
   test_ascii_separator_continuation_skips_case_pair,

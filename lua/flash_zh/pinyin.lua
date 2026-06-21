@@ -7,6 +7,13 @@ local phrase_dir = vim.fs.joinpath(vim.fn.fnamemodify(source, ":p:h"), "data", "
 local reading_cache = {}
 local primary_cache = {}
 local match_cache = {}
+local warmup_done = false
+
+local function is_cjk(codepoint)
+  return (codepoint >= 0x3400 and codepoint <= 0x4DBF)
+    or (codepoint >= 0x4E00 and codepoint <= 0x9FFF)
+    or (codepoint >= 0xF900 and codepoint <= 0xFAFF)
+end
 
 local function to_chars(str)
   local chars = {}
@@ -172,6 +179,45 @@ function M.match_prefix(chars, pattern)
   local matched = dfs(1, 1)
   match_cache[cache_key] = matched
   return matched
+end
+
+function M.warmup(opts)
+  if warmup_done then return end
+
+  opts = opts or {}
+  local wins = opts.wins or vim.api.nvim_list_wins()
+  local limit = opts.limit or 24
+  local seen = {}
+  local chars = {}
+
+  for _, win in ipairs(wins) do
+    if vim.api.nvim_win_is_valid(win) then
+      local info = vim.fn.getwininfo(win)[1]
+      if info then
+        local lines = vim.api.nvim_buf_get_lines(vim.api.nvim_win_get_buf(win), info.topline - 1, math.min(info.botline, info.topline + 2), false)
+        for _, line in ipairs(lines) do
+          for char in line:gmatch(".[\128-\191]*") do
+            if #chars >= limit then break end
+            local codepoint = vim.fn.char2nr(char, true)
+            if is_cjk(codepoint) and not seen[char] then
+              seen[char] = true
+              chars[#chars + 1] = char
+            end
+          end
+          if #chars >= limit then break end
+        end
+      end
+    end
+    if #chars >= limit then break end
+  end
+
+  if #chars == 0 then return end
+
+  for _, char in ipairs(chars) do
+    primary(char, " ")
+  end
+
+  warmup_done = true
 end
 
 local function pinyin(chars, isString, separator)
